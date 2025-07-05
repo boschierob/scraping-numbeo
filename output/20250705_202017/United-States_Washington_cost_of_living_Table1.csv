@@ -1,0 +1,65 @@
+Restaurants,Edit,Range
+"Meal, Inexpensive Restaurant",18.00 $,12.00-30.00
+"Meal for 2 People, Mid-range Restaurant, Three-course",45.00 $,45.00-80.00
+McMeal at McDonalds (or Equivalent Combo Meal),9.00 $,8.50-10.00
+Domestic Beer (0.5 liter draught),4.00 $,3.00-6.00
+Imported Beer (0.33 liter bottle),6.50 $,5.00-14.00
+Cappuccino (regular),5.42 $,3.00-10.00
+Coke/Pepsi (0.33 liter bottle),2.00 $,1.50-3.00
+Water (0.33 liter bottle),1.96 $,1.25-3.00
+Markets,Edit,
+"Milk (regular), (1 liter)",0.73 $,0.60-1.26
+Loaf of Fresh White Bread (500g),3.06 $,2.19-5.51
+"Rice (white), (1kg)",4.33 $,3.95-4.41
+Eggs (regular) (12),1.50 $,1.50-6.50
+Local Cheese (1kg),9.75 $,6.61-15.43
+Chicken Fillets (1kg),12.12 $,5.89-16.53
+Beef Round (1kg) (or Equivalent Back Leg Red Meat),20.12 $,14.33-22.49
+Apples (1kg),4.38 $,1.30-5.49
+Banana (1kg),1.51 $,0.99-4.41
+Oranges (1kg),3.44 $,1.96-5.00
+Tomato (1kg),4.00 $,1.96-10.00
+Potato (1kg),4.04 $,1.74-5.00
+Onion (1kg),4.91 $,2.20-6.61
+Lettuce (1 head),2.58 $,1.89-3.50
+Water (1.5 liter bottle),2.00 $,1.50-3.79
+Bottle of Wine (Mid-Range),14.99 $,8.99-15.00
+Domestic Beer (0.5 liter bottle),1.98 $,1.73-2.86
+Imported Beer (0.33 liter bottle),3.06 $,1.90-7.00
+Cigarettes 20 Pack (Marlboro),9.88 $,6.00-11.99
+Transportation,Edit,
+One-way Ticket (Local Transport),?,
+Monthly Pass (Regular Price),?,
+Taxi Start (Normal Tariff),2.75 $,2.75-5.70
+Taxi 1km (Normal Tariff),1.40 $,1.40-3.11
+Taxi 1hour Waiting (Normal Tariff),25.80 $,25.80-25.80
+Gasoline (1 liter),0.79 $,0.74-0.95
+Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"35,000.00 $","25,000.00-36,111.63"
+Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"26,015.62 $","24,868.00-26,427.25"
+Utilities (Monthly),Edit,
+"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment",310.82 $,180.00-500.00
+Mobile Phone Monthly Plan with Calls and 10GB+ Data,51.82 $,25.00-100.00
+"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",62.95 $,49.99-105.00
+Sports And Leisure,Edit,
+"Fitness Club, Monthly Fee for 1 Adult",50.00 $,
+Tennis Court Rent (1 Hour on Weekend),?,
+"Cinema, International Release, 1 Seat",10.00 $,10.00-20.00
+Childcare,Edit,
+"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","1,009.00 $","911.25-1,400.00"
+"International Primary School, Yearly for 1 Child","18,780.00 $","18,780.00-18,780.00"
+Clothing And Shoes,Edit,
+1 Pair of Jeans (Levis 501 Or Similar),55.50 $,35.00-90.00
+"1 Summer Dress in a Chain Store (Zara, H&M, ...)",45.83 $,30.00-65.00
+1 Pair of Nike Running Shoes (Mid-Range),112.00 $,60.00-140.00
+1 Pair of Men Leather Business Shoes,141.00 $,100.00-250.00
+Rent Per Month,Edit,
+Apartment (1 bedroom) in City Centre,?,
+Apartment (1 bedroom) Outside of Centre,?,
+Apartment (3 bedrooms) in City Centre,?,
+Apartment (3 bedrooms) Outside of Centre,?,
+Buy Apartment Price,Edit,
+Price per Square Meter to Buy Apartment in City Centre,?,
+Price per Square Meter to Buy Apartment Outside of Centre,?,
+Salaries And Financing,Edit,
+Average Monthly Net Salary (After Tax),"6,000.00 $",
+"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",6.49,6.00-7.40

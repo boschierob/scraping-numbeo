@@ -47,6 +47,199 @@ def build_numbeo_url(city):
     url = f"{BASE_URL}/quality-of-life/in/{quote(city_part)}"
     return url
 
+def build_numbeo_url_city_country(city, country):
+    city_part = city.replace(" ", "-")
+    country_part = country.replace(" ", "-")
+    url = f"{BASE_URL}/quality-of-life/in/{quote(city_part)}-{quote(country_part)}"
+    return url
+
+def build_numbeo_url_city_state_country(city, state, country):
+    city_part = city.replace(" ", "-")
+    state_part = state.replace(" ", "-")
+    country_part = country.replace(" ", "-")
+    url = f"{BASE_URL}/quality-of-life/in/{quote(city_part)}-{quote(state_part)}-{quote(country_part)}"
+    return url
+
+# --- MODULE: Trouver la première URL valide pour une ville ---
+def find_valid_city_url(city, country, state=None):
+    """
+    Logique robuste pour trouver l'URL Numbeo correcte :
+    1. Tester /in/Ville
+    2. Vérifier correspondance avec données CSV
+    3. Adapter l'URL si nécessaire (pays, puis état)
+    4. Arrêter avec erreur si rien ne correspond
+    """
+    
+    # 1. Tester d'abord l'URL simple /in/Ville
+    url_simple = build_numbeo_url(city)
+    print(f"[DEBUG] Test 1: {url_simple}")
+    
+    try:
+        resp = requests.get(url_simple, headers=HEADERS, timeout=10)
+        if resp.status_code == 200:
+            soup = BeautifulSoup(resp.content, "html.parser")
+            
+            # Vérifier s'il y a des données (tableau ou info)
+            if soup.find("table") or soup.find("h1"):
+                # Vérifier la correspondance avec les données CSV
+                match_result = _check_city_match(soup, city, country, state)
+                
+                if match_result == "EXACT_MATCH":
+                    print(f"[DEBUG] ✅ Correspondance exacte trouvée avec {url_simple}")
+                    return url_simple
+                elif match_result == "CITY_MATCH_ONLY":
+                    print(f"[DEBUG] ⚠️ Ville trouvée mais pays/état différent, on continue...")
+                    # On continue vers les tests suivants
+                else:
+                    print(f"[DEBUG] ❌ Aucune correspondance avec {url_simple}")
+            else:
+                print(f"[DEBUG] ❌ Pas de données trouvées dans {url_simple}")
+    except Exception as e:
+        print(f"[DEBUG] Erreur lors du test 1: {e}")
+    
+    # 2. Si pas de correspondance exacte, tester /in/Ville-Pays
+    url_country = build_numbeo_url_city_country(city, country)
+    print(f"[DEBUG] Test 2: {url_country}")
+    
+    try:
+        resp = requests.get(url_country, headers=HEADERS, timeout=10)
+        if resp.status_code == 200:
+            soup = BeautifulSoup(resp.content, "html.parser")
+            
+            if soup.find("table") or soup.find("h1"):
+                match_result = _check_city_match(soup, city, country, state)
+                
+                if match_result == "EXACT_MATCH":
+                    print(f"[DEBUG] ✅ Correspondance exacte trouvée avec {url_country}")
+                    return url_country
+                elif match_result == "CITY_MATCH_ONLY":
+                    print(f"[DEBUG] ⚠️ Ville trouvée mais pays/état différent, on continue...")
+                else:
+                    print(f"[DEBUG] ❌ Aucune correspondance avec {url_country}")
+            else:
+                print(f"[DEBUG] ❌ Pas de données trouvées dans {url_country}")
+    except Exception as e:
+        print(f"[DEBUG] Erreur lors du test 2: {e}")
+    
+    # 3. Si state est renseigné, tester /in/Ville-Etat-Pays
+    if state and isinstance(state, str) and state.strip():
+        url_state = build_numbeo_url_city_state_country(city, state, country)
+        print(f"[DEBUG] Test 3: {url_state}")
+        
+        try:
+            resp = requests.get(url_state, headers=HEADERS, timeout=10)
+            if resp.status_code == 200:
+                soup = BeautifulSoup(resp.content, "html.parser")
+                
+                if soup.find("table") or soup.find("h1"):
+                    match_result = _check_city_match(soup, city, country, state)
+                    
+                    if match_result == "EXACT_MATCH":
+                        print(f"[DEBUG] ✅ Correspondance exacte trouvée avec {url_state}")
+                        return url_state
+                    else:
+                        print(f"[DEBUG] ❌ Aucune correspondance avec {url_state}")
+                else:
+                    print(f"[DEBUG] ❌ Pas de données trouvées dans {url_state}")
+        except Exception as e:
+            print(f"[DEBUG] Erreur lors du test 3: {e}")
+    
+    # 4. Aucune URL valide trouvée
+    print(f"[DEBUG] ❌ ERREUR: Aucune URL valide trouvée pour {city}, {country}{' ('+state+')' if state else ''}")
+    return None
+
+def _check_city_match(soup, city, country, state=None):
+    """
+    Vérifie la correspondance entre les données CSV et ce que Numbeo renvoie.
+    Retourne: "EXACT_MATCH", "CITY_MATCH_ONLY", ou "NO_MATCH"
+    """
+    try:
+        # Extraire les informations de la page Numbeo
+        page_city, page_country, page_state = _extract_location_info(soup)
+        
+        if not page_city or not page_country:
+            return "NO_MATCH"
+        
+        # Normaliser les noms pour la comparaison
+        def normalize_name(name):
+            """Normalise un nom en minuscules et remplace les tirets par des espaces"""
+            return name.lower().replace('-', ' ')
+        
+        # Vérifier la correspondance de la ville
+        if normalize_name(page_city) != normalize_name(city):
+            print(f"[DEBUG] Ville ne correspond pas: CSV='{city}' vs Numbeo='{page_city}'")
+            return "NO_MATCH"
+        
+        # Vérifier la correspondance du pays
+        if normalize_name(page_country) != normalize_name(country):
+            print(f"[DEBUG] Pays ne correspond pas: CSV='{country}' vs Numbeo='{page_country}'")
+            return "CITY_MATCH_ONLY"
+        
+        # Vérifier la correspondance de l'état (si renseigné)
+        if state and state.strip():
+            if page_state and normalize_name(state) != normalize_name(page_state):
+                print(f"[DEBUG] État ne correspond pas: CSV='{state}' vs Numbeo='{page_state}'")
+                return "CITY_MATCH_ONLY"
+        
+        return "EXACT_MATCH"
+        
+    except Exception as e:
+        print(f"[DEBUG] Erreur lors de la vérification de correspondance: {e}")
+        return "NO_MATCH"
+
+def _extract_location_info(soup):
+    """
+    Extrait les informations de localisation depuis la page Numbeo.
+    Retourne un tuple (ville, pays, état) ou (None, None, None) si pas trouvé.
+    """
+    # 1. Essayer d'extraire depuis le breadcrumb
+    breadcrumb = soup.find('nav', class_='breadcrumb')
+    if breadcrumb:
+        breadcrumb_links = breadcrumb.find_all('a', class_='breadcrumb_link')
+        if len(breadcrumb_links) >= 3:
+            # Ordre Numbeo : catégorie > pays > ville
+            country = breadcrumb_links[1].get_text(strip=True)  # 2ème élément = pays
+            city_full = breadcrumb_links[2].get_text(strip=True)     # 3ème élément = ville
+            
+            # Nettoyer le nom de la ville (retirer la partie après la virgule)
+            city = city_full.split(',')[0].strip()
+            
+            # Extraire l'état si présent dans le nom de la ville
+            state = None
+            if ',' in city_full:
+                state_part = city_full.split(',')[1].strip()
+                # Si ce n'est pas le pays, c'est l'état
+                if state_part.lower() != country.lower():
+                    state = state_part
+            
+            return city, country, state
+    
+    # 2. Essayer d'extraire depuis le titre h1
+    h1 = soup.find('h1')
+    if h1:
+        title_text = h1.get_text(strip=True)
+        # Format: "Quality of Life in Paris, France" ou "Quality of Life in Washington, DC, United States"
+        if ' in ' in title_text:
+            location_part = title_text.split(' in ')[1]
+            parts = [p.strip() for p in location_part.split(',')]
+            
+            if len(parts) >= 2:
+                city = parts[0]  # Première partie = ville
+                country = parts[-1]  # Dernier élément = pays
+                state = parts[1] if len(parts) > 2 else None  # État au milieu si présent
+                return city, country, state
+    
+    # 3. Essayer d'extraire depuis les champs cachés du formulaire
+    city_input = soup.find('input', {'id': 'city'})
+    country_input = soup.find('input', {'id': 'country'})
+    
+    if city_input and country_input:
+        city = city_input.get('value', '').strip()
+        country = country_input.get('value', '').strip()
+        return city, country, None
+    
+    return None, None, None
+
 # --- MODULE: Extraction des liens de catégories ---
 def extract_category_links(city_url):
     response = requests.get(city_url, headers=HEADERS)
@@ -107,18 +300,21 @@ def scrape_selected_tables(page_url):
             print(f"Erreur lors de la conversion d'une table en DataFrame: {e}")
     return dataframes, sheet_names
 
-# --- MODULE: Sauvegarde des données dans un fichier Excel ---
-def save_city_data_excel(country_name, city_name, category, tables_and_names):
+# --- MODULE: Sauvegarde des données dans un fichier CSV ---
+def save_city_data_csv(country_name, city_name, category, tables_and_names):
     tables, sheet_names = tables_and_names
     if not tables:
         return
     safe_country = country_name.replace(" ", "_")
     safe_city = city_name.replace(" ", "_")
-    filename = f"{TIMESTAMPED_OUTPUT_DIR}/{safe_country}_{safe_city}_{category}.xlsx"
-    with pd.ExcelWriter(filename, engine='xlsxwriter') as writer:
-        for table, sheet_name in zip(tables, sheet_names):
-            table.to_excel(writer, sheet_name=sheet_name, index=False)
-    print(f"✅ Données sauvegardées dans {filename}")
+    
+    # Pour chaque table, créer un fichier CSV séparé
+    for i, (table, sheet_name) in enumerate(zip(tables, sheet_names)):
+        # Nettoyer le nom de fichier pour CSV
+        safe_sheet_name = re.sub(r'[\\/*?:\[\]]', '', sheet_name)
+        filename = f"{TIMESTAMPED_OUTPUT_DIR}/{safe_country}_{safe_city}_{category}_{safe_sheet_name}.csv"
+        table.to_csv(filename, index=False, encoding='utf-8')
+        print(f"✅ Données sauvegardées dans {filename}")
 
 # --- MODULE: Scraping du tableau principal de la page Quality of Life ---
 def scrape_quality_of_life_summary(page_url):
@@ -314,16 +510,19 @@ def main():
         print(f'Ville: {row.get("city")}, Pays: {row.get("country")}')
         city = row['city']
         country = row['country']
-        city_url = build_numbeo_url(city)
+        state = row.get('state', None)
+        city_url = find_valid_city_url(city, country, state)
+        if not city_url:
+            print(f"❌ Aucune page Numbeo trouvée pour {city}, {country}, {state}")
+            continue
         print(f"Scraping {city} → {city_url}")
         # Scrape and save the main summary table from the Quality of Life page
         summary_df, summary_caption = scrape_quality_of_life_summary(city_url)
         if summary_df is not None:
             safe_country = country.replace(" ", "_")
             safe_city = city.replace(" ", "_")
-            filename = f"{TIMESTAMPED_OUTPUT_DIR}/{safe_country}_{safe_city}_quality_of_life_summary.xlsx"
-            with pd.ExcelWriter(filename, engine='xlsxwriter') as writer:
-                summary_df.to_excel(writer, sheet_name=summary_caption, index=False)
+            filename = f"{TIMESTAMPED_OUTPUT_DIR}/{safe_country}_{safe_city}_quality_of_life_summary.csv"
+            summary_df.to_csv(filename, index=False, encoding='utf-8')
             print(f"✅ Tableau principal sauvegardé dans {filename}")
         # Continue with category links as before
         category_links = extract_category_links(city_url)
@@ -339,7 +538,7 @@ def main():
                 tables_and_names = scrape_climate_tables(url)
             else:
                 tables_and_names = scrape_selected_tables(url)
-            save_city_data_excel(country, city, category, tables_and_names)
+            save_city_data_csv(country, city, category, tables_and_names)
             sleep_time = random.uniform(20, 40)
             print(f"    ⏳ Pause de {sleep_time:.2f} secondes...")
             time.sleep(sleep_time)
