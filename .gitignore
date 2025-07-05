@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+*.sqlite3
+.DS_Store
+# Fichiers sensibles utilisateurs
+datas/users.json
