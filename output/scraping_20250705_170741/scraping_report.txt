@@ -1,0 +1,26 @@
+NUMBEO SCRAPING REPORT
+==================================================
+
+Session Duration: 8.7 seconds
+Start Time: 2025-07-05T17:07:41.047738
+End Time: 2025-07-05T17:07:49.704378
+
+SUMMARY STATISTICS
+--------------------
+Cities Processed: 2
+Cities Successful: 2
+Cities Failed: 0
+Categories Successful: 16
+Categories Failed: 0
+Tables Found: 44
+Tables Successful: 44
+Files Created: 44
+Total Requests: 0
+Blocked Requests: 0
+
+SUCCESS RATES
+---------------
+Cities: 100.0%
+Categories: 100.0%
+Tables: 100.0%
+

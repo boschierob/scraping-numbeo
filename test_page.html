@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="https://www.numbeo.com/quality-of-life/in/Paris" hreflang="en" rel="alternate"/>
+<link href="https://de.numbeo.com/lebensqualit%C3%A4t/stadt/Paris" hreflang="de" rel="alternate"/>
+<link href="https://pt.numbeo.com/qualidade-de-vida/cidade/Paris" hreflang="pt" rel="alternate"/>
+<link href="https://it.numbeo.com/qualit%C3%A0-della-vita/citt%C3%A0/Parigi" hreflang="it" rel="alternate"/>
+<link href="https://fr.numbeo.com/qualit%C3%A9-de-vie/ville/Paris" hreflang="fr" rel="alternate"/>
+<link href="https://es.numbeo.com/calidad-de-vida/ciudad/Paris" hreflang="es" rel="alternate"/>
+<script defer="" src="https://www.numbeo.com/common/numbeo_standard.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/themes/redmond/jquery-ui.min.css" rel="Stylesheet"/>
+<link href="https://www.numbeo.com/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<link href="https://www.numbeo.com/images/apple-touch-icon.png" rel="apple-touch-icon"/>
+<script>
+  if (typeof whenDocReady === "function") {
+    // already declared, do nothing
+  } else {
+    function whenDocReady(fn) {
+      // see if DOM is already available
+      if (document.readyState === "complete" || document.readyState === "interactive") {
+        // call on next available tick
+        setTimeout(fn, 1);
+      } else {
+        document.addEventListener("DOMContentLoaded", fn);
+      }
+    }
+  }
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HXEZG0C6Q2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+gtag('config', 'G-HXEZG0C6Q2');
+</script>
+<link href="https://www.numbeo.com/common/style_desktop.css" rel="stylesheet">
+<title>Quality of Life in Paris</title>
+</link></head>
+<body>
+<nav>
+<div class="logo-and-upper-ad">
+<div class="innerWidth" id="content_and_logo">
+<table style="width: 100%;">
+<tr>
+<td style="padding-top: 12px; padding-bottom: 12px; vertical-align: bottom; max-width: fit-content">
+<a href="https://www.numbeo.com/cost-of-living/" style="border: 0; text-decoration:none;">
+<img alt="" src="https://www.numbeo.com/images/numbeo_1B3B6F.svg" style="height: 60px; padding: 0px 0px; vertical-align: bottom; border: 0;"/></a>
+</td>
+<td style="padding-left:40px; padding-top: 5px; padding-bottom: 0px; vertical-align: middle; min-width: 440px; text-align: left;">
+<div style="display: inline-block; width: 100%; margin-top: 10px; margin-bottom: 10px; text-align: left; vertical-align: bottom">
+<nav style="display: inline-block; vertical-align: middle;">
+<div class="standard_margin_inlineblock"> <form action="https://www.numbeo.com/common/dispatcher.jsp" id="menu_dispatch_form" method="get" style="display: inline; padding: 0; margin:0;">
+<input name="where" style="display: inline; padding:0; margin:0;" type="hidden" value="https://www.numbeo.com/quality-of-life/in/"/>
+<input class="city-selector-menu" id="city_selector_menu_city_id" name="city_selector_menu_city_id" placeholder="Select City" size="27" type="text"/>
+<input id="menu_city_id" name="city_id" type="hidden"/>
+<input id="name_menu_city_id" name="name_city_id" type="hidden"/>
+</form>
+</div>
+<script>
+whenDocReady(function() {
+  	jQuery('#city_selector_menu_city_id').autocomplete({
+  	  source: 'https://www.numbeo.com/common/CitySearchJson',
+     minLength: 1,
+     delay: 3,
+     autoFocus: true,
+     select: function(event, ui) {
+         event.preventDefault();
+         $('#name_menu_city_id').val(ui.item.label);
+         $('#city_selector_menu_city_id').val(ui.item.label);
+         $('#menu_city_id').val(ui.item.value);
+jQuery('#menu_dispatch_form').submit();     },
+     focus: function(event, ui) {
+         event.preventDefault();
+     }
+	  })   .keydown(function(e){
+	    if (e.keyCode === 13){
+      if ($('#menu_city_id').val() == '') { 
+        e.preventDefault();
+      }
+      var val = $('#city_selector_menu_city_id').val();
+		   $('#name_menu_city_id').val(val);
+	   }
+  }); // end autocompleter definition
+$('#city_selector_menu_city_id').toggleClass('city-selector-menu');
+$('#city_selector_menu_city_id').toggleClass('city-selector-menu');
+ }); // end document ready 
+</script>
+</nav>
+</div>
+</td>
+<td style="vertical-align: middle; width: 468px; text-align: right;">
+</td>
+</tr>
+</table>
+</div> <!-- innerWidth in header -->
+</div> <!-- logo-and-upper-ad -->
+</nav>
+<div class="innerWidth">
+<div class="dropdown-outer">
+<nav class="before-nav">
+<ul class="nav" id="nav-one">
+<li class="dir">
+<a href="https://www.numbeo.com/cost-of-living/">Cost Of Living</a>
+<ul>
+<li><a href="https://www.numbeo.com/cost-of-living/">Cost Of Living</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/comparison.jsp">Cost of Living Comparison</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/calculator.jsp">Cost of Living Calculator</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/rankings_current.jsp">Cost Of Living Index (Current)</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/rankings.jsp">Cost Of Living Index</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/rankings_by_country.jsp">Cost Of Living Index By Country</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/estimator_main">Cost of Living Estimator</a></li>
+<li><a href="https://www.numbeo.com/food-prices/">Food Prices</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/prices_by_city.jsp">Prices By City</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/prices_by_country.jsp">Prices By Country</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/basket_of_goods.jsp">Basket of Goods and Services</a></li>
+<li><a href="https://www.numbeo.com/taxi-fare/">Taxi Fare Calculator</a></li>
+<li><a href="https://www.numbeo.com/gas-prices/">Gas Prices Calculator</a></li>
+<li><a href="https://www.numbeo.com/common/motivation_and_methodology.jsp">Methodology and Motivation</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/contribute.jsp">Update Data for Your City</a></li>
+</ul></li>
+<li class="dir">
+<a href="https://www.numbeo.com/property-investment/">Property Prices</a>
+<ul>
+<li><a href="https://www.numbeo.com/property-investment/">Property Prices</a></li>
+<li><a href="https://www.numbeo.com/property-investment/comparison.jsp">Property Prices Comparison</a></li>
+<li><a href="https://www.numbeo.com/property-investment/rankings_current.jsp">Property Price Index (Current)</a></li>
+<li><a href="https://www.numbeo.com/property-investment/rankings.jsp">Property Price Index</a></li>
+<li><a href="https://www.numbeo.com/property-investment/rankings_by_country.jsp">Property Price Index By Country</a></li>
+</ul></li>
+<li class="dir">
+<a href="https://www.numbeo.com/quality-of-life/">Quality Of Life</a>
+<ul>
+<li><a href="https://www.numbeo.com/quality-of-life/">Quality of Life</a></li>
+<li><a href="https://www.numbeo.com/quality-of-life/comparison.jsp">Quality of Life Comparisons</a></li>
+<li><a href="https://www.numbeo.com/quality-of-life/rankings_current.jsp">Quality of Life Index (Current)</a></li>
+<li><a href="https://www.numbeo.com/quality-of-life/rankings.jsp">Quality of Life Index</a></li>
+<li><a href="https://www.numbeo.com/quality-of-life/rankings_by_country.jsp">Quality of Life Index by Country</a></li>
+<li><a href="https://www.numbeo.com/crime/">Crime</a></li>
+<li><a href="https://www.numbeo.com/crime/rankings_current.jsp">Crime Index (Current)</a></li>
+<li><a href="https://www.numbeo.com/crime/rankings.jsp">Crime Index</a></li>
+<li><a href="https://www.numbeo.com/crime/rankings_by_country.jsp">Crime Index by Country</a></li>
+<li><a href="https://www.numbeo.com/health-care/">Health Care</a></li>
+<li><a href="https://www.numbeo.com/health-care/rankings_current.jsp">Health Care Index (Current)</a></li>
+<li><a href="https://www.numbeo.com/health-care/rankings.jsp">Health Care Index</a></li>
+<li><a href="https://www.numbeo.com/health-care/rankings_by_country.jsp">Health Care Index by Country</a></li>
+<li><a href="https://www.numbeo.com/pollution/">Pollution</a></li>
+<li><a href="https://www.numbeo.com/pollution/rankings_current.jsp">Pollution Index (Current)</a></li>
+<li><a href="https://www.numbeo.com/pollution/rankings.jsp">Pollution Index</a></li>
+<li><a href="https://www.numbeo.com/pollution/rankings_by_country.jsp">Pollution Index by Country</a></li>
+<li><a href="https://www.numbeo.com/traffic/">Traffic</a></li>
+<li><a href="https://www.numbeo.com/traffic/rankings_current.jsp">Traffic Index (Current)</a></li>
+<li><a href="https://www.numbeo.com/traffic/rankings.jsp">Traffic Index</a></li>
+<li><a href="https://www.numbeo.com/traffic/rankings_by_country.jsp">Traffic Index by Country</a></li>
+</ul></li>
+<li class="dir">
+<a href="https://www.numbeo.com/premium/index">Premium</a>
+<ul>
+<li><a href="https://www.numbeo.com/common/api.jsp">API</a></li>
+<li><a href="https://www.numbeo.com/premium/commercial-license">Commercial License</a></li>
+<li><a href="https://www.numbeo.com/premium/download-data">Download Data</a></li>
+<li><a href="https://www.numbeo.com/cost-of-living/historical-data-analysis">Historical Data</a></li>
+<li><a href="https://www.numbeo.com/premium/">Insights</a></li>
+</ul></li>
+</ul>
+<br style="clear: both"/>
+</nav>
+</div> <!-- dropdown-outer -->
+</div> <!-- innerWidth -->
+<div class="innerWidth">
+<div class="right-ads-and-info">
+<div class="right-ads">
+</div>
+</div>
+<p>
+<nav class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+<a class="discreet_link" href="https://www.numbeo.com/common/"><svg class="image_without_border hide_smaller_than_600" height="16" style="vertical-align: text-bottom" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8z" fill="#1B3B6F"></path></svg></a><span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+<a class="breadcrumb_link" href="https://www.numbeo.com/quality-of-life/" itemprop="item"><span itemprop="name">Quality of Life</span></a><meta content="1" itemprop="position">
+</meta></span> <span style="font-size: 75%; display: inline-block;">&gt;</span> <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+<a class="breadcrumb_link" href="https://www.numbeo.com/quality-of-life/country_result.jsp?country=France" itemprop="item"><span itemprop="name">France</span></a><meta content="2" itemprop="position"/>
+</span> <span style="font-size: 75%; display: inline-block;">&gt;</span> <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+<a class="breadcrumb_link" href="https://www.numbeo.com/quality-of-life/in/Paris" itemprop="item">
+<span itemprop="name">Paris</span></a><meta content="3" itemprop="position"/>
+</span></nav>
+<h1> Quality of Life in Paris, France</h1>
+<!-- Column 1 start -->
+<nav class="comparison_nav" id="comparison_nav">
+<div class="standard_margin standard_margin_left_right">
+<div class="offerMembershipModal" id="dispatchComparisonModal" title="Compare Paris with Another City">
+<form action="https://www.numbeo.com/common/dispatcher.jsp" class="dispatch_form" id="dispatch_form" method="get">
+<input name="where" style="display: inline; padding:0; margin:0;" type="hidden" value="https://www.numbeo.com/quality-of-life/compare_cities.jsp"/>
+<input id="city_id2" name="city_id2" type="hidden" value="5426"/>
+ Compare Paris  with: <input autocomplete="off" id="city_selector_city_id1" placeholder="Type and Pick City" size="26" type="text"/>
+<input id="city_id1" name="city_id1" type="hidden"/>
+<input id="name_city_id1" name="name_city_id1" type="hidden"/>
+<input name="tracking" type="hidden" value="getDispatchComparison"/>
+</form>
+</div>
+<span class="like_link" id="dispatchComparisonSpan">Compare Paris with Another City</span>
+<script>
+whenDocReady(function() {
+  jQuery('#dispatchComparisonSpan').on('click',function(event){
+    jQuery('#dispatchComparisonModal').dialog({ modal: true });
+  	jQuery('#city_selector_city_id1').autocomplete({
+  	  source: 'https://www.numbeo.com/common/CitySearchJson',
+     minLength: 1,
+     delay: 3,
+     autoFocus: true,
+     select: function(event, ui) {
+         event.preventDefault();
+         $('#name_city_id1').val(ui.item.label);
+         $('#city_selector_city_id1').val(ui.item.label);
+         $('#city_id1').val(ui.item.value);
+jQuery('#dispatch_form').submit();     },
+     focus: function(event, ui) {
+         event.preventDefault();
+     }
+	  })   .keydown(function(e){
+	    if (e.keyCode === 13){
+      if ($('#city_id1').val() == '') { 
+        e.preventDefault();
+      }
+      var val = $('#city_selector_city_id1').val();
+		   $('#name_city_id1').val(val);
+	   }
+  }); // end autocompleter definition
+   });
+});
+</script>
+</div>
+</nav>
+<aside>
+<table class="table_indices">
+<tr><th>Index</th><th><a href="https://www.numbeo.com/quality-of-life/indices_explained.jsp" title="About these indices"><img alt="Info" class="image_help" src="https://www.numbeo.com/images/information.png"/></a></th></tr>
+<tr><td>Quality of Life Index: </td>
+<td style="text-align: right">
+140.91</td>
+</tr>
+</table>
+</aside>
+<div class="gauge_1" id="gauge_div" style="display: block;"></div>
+<script>
+      google.load('visualization', '1', {packages:['gauge']});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Label');
+        data.addColumn('number', 'Value');
+        data.addRows([
+          ['Quality', 140.91],
+        ]);
+
+        var calcHeight = $(window).width() / 3.5;
+        if (calcHeight > 140) {
+          calcHeight = 140;
+        }
+        if (calcHeight < 85) {
+          calcHeight = 85;
+        }
+        var options = {
+          width: 10 + (calcHeight + 5) * 1,
+          height: calcHeight,
+          redFrom: 0, redTo: 79.00,
+          yellowFrom:79.00, yellowTo: 158.00,
+          greenFrom:158.00, greenTo: 240.00,
+          max: 240.00, 
+          minorTicks: 5
+        };
+
+        var chart = new google.visualization.Gauge(document.getElementById('gauge_div'));
+        chart.draw(data, options);
+      }
+    </script>
+<table>
+<tr><td><a class="discreet_link" href="https://www.numbeo.com/cost-of-living/in/Paris">Purchasing Power Index</a>
+</td><td style="text-align: right">117.95</td>
+<td style="text-align: center; font-weight: 600"> <span class="green_small">
+Very High</span></td></tr>
+<tr><td><a class="discreet_link" href="https://www.numbeo.com/crime/in/Paris">Safety Index</a>
+</td><td style="text-align: right">41.91</td>
+<td style="text-align: center; font-weight: 600"> <span class="yellow_neutral_small">
+Moderate</span></td></tr>
+<tr><td><a class="discreet_link" href="https://www.numbeo.com/health-care/in/Paris">Health Care Index</a>
+</td><td style="text-align: right">76.93</td>
+<td style="text-align: center; font-weight: 600"> <span class="green_light_small">
+High</span></td></tr>
+<tr><td><a class="discreet_link" href="https://www.numbeo.com/climate/in/Paris">Climate Index</a>
+</td><td style="text-align: right">88.39</td>
+<td style="text-align: center; font-weight: 600"> <span class="green_small">
+Very High</span></td></tr>
+<tr><td><a class="discreet_link" href="https://www.numbeo.com/cost-of-living/in/Paris">Cost of Living Index</a>
+</td><td style="text-align: right">77.57</td>
+<td style="text-align: center; font-weight: 600"> <span class="red_light_small">
+High</span></td></tr>
+<tr><td><a class="discreet_link" href="https://www.numbeo.com/property-investment/in/Paris">Property Price to Income Ratio</a>
+</td><td style="text-align: right">16.60</td>
+<td style="text-align: center; font-weight: 600"> <span class="red_small">
+Very High</span></td></tr>
+<tr><td><a class="discreet_link" href="https://www.numbeo.com/traffic/in/Paris">Traffic Commute Time Index</a>
+</td><td style="text-align: right">41.19</td>
+<td style="text-align: center; font-weight: 600"> <span class="red_light_small">
+High</span></td></tr>
+<tr><td><a class="discreet_link" href="https://www.numbeo.com/pollution/in/Paris">Pollution Index</a>
+</td><td style="text-align: right">63.77</td>
+<td style="text-align: center; font-weight: 600"> <span class="red_light_small">
+High</span></td></tr>
+<tr><td colspan="3" style="border-top: 1px solid black; padding-top: 3px; padding-bottom: 3px; width: 5px;"></td></tr>
+<tr><td><a class="discreet_link hide_smaller_than_600" href="https://www.numbeo.com/quality-of-life/indices_explained.jsp" style="font-size: 110%; min-width: 16px; display: inline-block;">ƒ</a> Quality of Life Index: </td>
+<td style="text-align: right">
+140.91</td>
+
+<td style="text-align: center">
+ <span class="yellow_neutral_small">
+Moderate</span></td>
+</tr></table>
+<p><span class="reportees">Minimum contributors for an underlying section: 157</span></p>
+<p><span class="reportees">Maximum contributors for an underlying section: 1248</span></p>
+<p><span class="reportees">Last update: 3 July 2025</span></p>
+<div class="flex_for_limit_ad_start_container" style="display: flex; justify-content: space-between; width: 100%;"><div class="limit_size_ad_right flex_left_limit_size_ad_right" style="margin-right: 20px; ">
+<div class="standard_margin">
+<div class="nearby_city_info limit_size_ad_right"><span class="section_title_container"><img alt="" src="https://www.numbeo.com/images/baseline-near-me.svg" title=""/><span class="section_title">Nearby Cities:</span></span><div class="inside_box_section_content">
+<table class="close_city_info">
+<tr><td><a class="likenormal" href="https://www.numbeo.com/quality-of-life/in/Montrouge-France"><span>Quality of Life in </span><span class="like_a">Montrouge</span></a></td><td style="padding-left: 5px; text-align: right; white-space: nowrap">6.20 km</td></tr><tr><td><a class="likenormal" href="https://www.numbeo.com/quality-of-life/in/Malakoff-France"><span>Quality of Life in </span><span class="like_a">Malakoff</span></a></td><td style="padding-left: 5px; text-align: right; white-space: nowrap">6.94 km</td></tr><tr><td><a class="likenormal" href="https://www.numbeo.com/quality-of-life/in/Chaville-France"><span>Quality of Life in </span><span class="like_a">Chaville</span></a></td><td style="padding-left: 5px; text-align: right; white-space: nowrap">15.39 km</td></tr><tr><td><a class="likenormal" href="https://www.numbeo.com/quality-of-life/in/Guyancourt-France"><span>Quality of Life in </span><span class="like_a">Guyancourt</span></a></td><td style="padding-left: 5px; text-align: right; white-space: nowrap">28.01 km</td></tr><tr><td><a class="likenormal" href="https://www.numbeo.com/quality-of-life/in/Chartres-France"><span>Quality of Life in </span><span class="like_a">Chartres</span></a></td><td style="padding-left: 5px; text-align: right; white-space: nowrap">90.54 km</td></tr><tr><td><a class="likenormal" href="https://www.numbeo.com/quality-of-life/in/Rouen-France"><span>Quality of Life in </span><span class="like_a">Rouen</span></a></td><td style="padding-left: 5px; text-align: right; white-space: nowrap">131.62 km</td></tr><tr><td><a class="likenormal" href="https://www.numbeo.com/quality-of-life/in/Orleans-France"><span>Quality of Life in </span><span class="like_a">Orleans</span></a></td><td style="padding-left: 5px; text-align: right; white-space: nowrap">132.62 km</td></tr><tr><td><a class="likenormal" href="https://www.numbeo.com/quality-of-life/in/Amiens-France"><span>Quality of Life in </span><span class="like_a">Amiens</span></a></td><td style="padding-left: 5px; text-align: right; white-space: nowrap">139.87 km</td></tr><tr><td><a class="likenormal" href="https://www.numbeo.com/quality-of-life/in/Reims-France"><span>Quality of Life in </span><span class="like_a">Reims</span></a></td><td style="padding-left: 5px; text-align: right; white-space: nowrap">143.76 km</td></tr><tr><td><a class="likenormal" href="https://www.numbeo.com/quality-of-life/in/Saint-Quentin-France"><span>Quality of Life in </span><span class="like_a">Saint-Quentin</span></a></td><td style="padding-left: 5px; text-align: right; white-space: nowrap">174.47 km</td></tr></table>
+</div>
+</div>
+</div>
+<div class="green_box green_box_smaller_desktop_i18n this_page_in_other_languages"><span class="section_title_container"><img alt="" src="https://www.numbeo.com/images/baseline-language.svg" title=""/><span class="section_title">This Page in Other Languages:</span></span><div class="inside_box_section_content"><table class="languages_ref_table">
+<tr><td><span class="pre_language_icon"></span>
+<img alt="" class="icon_for_country" src="https://www.numbeo.com/images/flags/4x3/de.svg" style="height: 16px; padding-right: 10px; "/><span class="other_lang">Deutsch</span><span class="align_next_to_lang_icon"><a href="https://de.numbeo.com/lebensqualit%C3%A4t/stadt/Paris">Lebensqualität in Paris</a>
+</span>
+</td></tr>
+<tr><td><span class="pre_language_icon"></span>
+<img alt="" class="icon_for_country" src="https://www.numbeo.com/images/flags/4x3/pt.svg" style="height: 16px; padding-right: 10px; "/><span class="other_lang">Português</span><span class="align_next_to_lang_icon"><a href="https://pt.numbeo.com/qualidade-de-vida/cidade/Paris">Qualidade de Vida em Paris</a>
+</span>
+</td></tr>
+<tr><td><span class="pre_language_icon"></span>
+<img alt="" class="icon_for_country" src="https://www.numbeo.com/images/flags/4x3/it.svg" style="height: 16px; padding-right: 10px; "/><span class="other_lang">Italiano</span><span class="align_next_to_lang_icon"><a href="https://it.numbeo.com/qualit%C3%A0-della-vita/citt%C3%A0/Parigi">Qualità della Vita a Parigi</a>
+</span>
+</td></tr>
+<tr><td><span class="pre_language_icon"></span>
+<img alt="" class="icon_for_country" src="https://www.numbeo.com/images/flags/4x3/fr.svg" style="height: 16px; padding-right: 10px; "/><span class="other_lang">Français</span><span class="align_next_to_lang_icon"><a href="https://fr.numbeo.com/qualit%C3%A9-de-vie/ville/Paris">Qualité de Vie à Paris</a>
+</span>
+</td></tr>
+<tr><td><span class="pre_language_icon"></span>
+<img alt="" class="icon_for_country" src="https://www.numbeo.com/images/flags/4x3/es.svg" style="height: 16px; padding-right: 10px; "/><span class="other_lang">Español</span><span class="align_next_to_lang_icon"><a href="https://es.numbeo.com/calidad-de-vida/ciudad/Paris">Calidad de Vida en París</a>
+</span>
+</td></tr>
+</table></div>
+</div>
+</div><div style="min-width: 300px; padding-top: 12px; align-self: stretch"><div style="display: flex; flex-direction: column; height: 100%; justify-content: space-between; ">
+</div>
+</div>
+</div>
+<div class="comments_box">
+<!-- post a comment -->
+<div class="leave_a_comment_text"><img alt="" src="https://www.numbeo.com/images/baseline-comment.svg" style="margin-right: 8px; vertical-align: top;"/>Leave a comment:</div>
+<div class="inside_box_section_content">
+<form accept-charset="UTF-8" action="https://www.numbeo.com/common/SaveComment" method="post">
+<input id="city" name="city" type="hidden" value="Paris"/>
+<input id="checking" name="checking" type="hidden" value="notchecked"/>
+<input id="country" name="country" type="hidden" value="France"/>
+<input id="afterSaveCommentUrl" name="afterSaveCommentUrl" type="hidden" value="https://www.numbeo.com/quality-of-life/in/Paris"/>
+<input id="appModul" name="appModul" type="hidden" value="12"/>
+<p>Your name: <input id="yourname" name="yourname" type="text"/> <a class="small_font" href="https://www.numbeo.com/common/signIn?returnUrl=https%3A%2F%2Fwww.numbeo.com%2Fquality-of-life%2Fin%2FParis">Sign In</a> <br/>
+<p>Your email address (optional): <input id="email_address" name="email_address" type="text"/>
+<p>Your comment (no HTML): <br/>
+<textarea class="comment_text_area" id="commentText" name="commentText"></textarea>
+<p><input type="submit" value="Post comment"/>
+</p></p></p></p></form>
+<!-- existing comments -->
+<div class="comments_size">2 Comments so far </div><div class="comment_even">
+<span class="comment_author">Anonymous</span>
+<span class="comment_date">on Feb 15, 2024</span>: 
+<div class="comment_body">
+Cost of living is high.<br/>
+Property price to income ratio is very high.<br/>
+Traffic commute time is high.<br/>
+Pollution is high.</div>
+</div>
+<div class="comment_odd">
+<span class="comment_author">Rob Ramsey </span>
+<span class="comment_date">on Jun 15, 2023</span>: 
+<div class="comment_body">
+I plan to move to Paris from USA at end of year or next spring. I lived there in 1999 for six months. Are there many English speaking Catholic priests?<br/>
+<br/>
+Thank you.</div>
+</div>
+</div>
+</div>
+<script>
+whenDocReady(function() {
+  jQuery('#checking').val('secret');
+});
+</script>
+<div class="footer_content">
+<a href="https://www.numbeo.com/common/about.jsp">About</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/in_the_news.jsp">Numbeo in the News</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/join_community.jsp">Newsletter</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/api.jsp" rel="nofollow">API</a><p>
+<span style="font-style: italic">
+Copyright © 2009-2025 Numbeo. Your use of this service is subject to our 
+<a href="https://www.numbeo.com/common/terms_of_use.jsp">Terms of Use</a> and 
+<a href="https://www.numbeo.com/common/privacy.jsp">Privacy Policy</a>
+</span></p>
+</div>
+</p></div> <!-- end of innerWidth -->
+</body>
+</html>

@@ -1,0 +1,65 @@
+Restaurants,Edit,Range,table_caption,category
+"Meal, Inexpensive Restaurant",15.00 £,12.00-20.00,Table1,cost_of_living
+"Meal for 2 People, Mid-range Restaurant, Three-course",60.00 £,50.00-120.00,Table1,cost_of_living
+McMeal at McDonalds (or Equivalent Combo Meal),7.50 £,7.00-8.00,Table1,cost_of_living
+Domestic Beer (0.5 liter draught),5.00 £,4.00-8.00,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),4.75 £,3.50-6.50,Table1,cost_of_living
+Cappuccino (regular),3.46 £,3.00-4.50,Table1,cost_of_living
+Coke/Pepsi (0.33 liter bottle),1.89 £,1.40-3.20,Table1,cost_of_living
+Water (0.33 liter bottle),1.32 £,0.80-2.00,Table1,cost_of_living
+Markets,Edit,nan,Table1,cost_of_living
+"Milk (regular), (1 liter)",1.54 £,1.00-2.00,Table1,cost_of_living
+Loaf of Fresh White Bread (500g),1.25 £,0.81-4.30,Table1,cost_of_living
+"Rice (white), (1kg)",2.12 £,1.50-2.50,Table1,cost_of_living
+Eggs (regular) (12),3.59 £,1.20-4.60,Table1,cost_of_living
+Local Cheese (1kg),8.08 £,6.72-15.00,Table1,cost_of_living
+Chicken Fillets (1kg),6.01 £,4.99-7.00,Table1,cost_of_living
+Beef Round (1kg) (or Equivalent Back Leg Red Meat),7.00 £,4.50-21.99,Table1,cost_of_living
+Apples (1kg),2.08 £,1.00-3.85,Table1,cost_of_living
+Banana (1kg),1.20 £,1.00-1.70,Table1,cost_of_living
+Oranges (1kg),2.43 £,1.00-6.00,Table1,cost_of_living
+Tomato (1kg),4.19 £,2.00-6.00,Table1,cost_of_living
+Potato (1kg),1.28 £,0.50-2.00,Table1,cost_of_living
+Onion (1kg),1.11 £,0.65-2.00,Table1,cost_of_living
+Lettuce (1 head),0.86 £,0.45-1.50,Table1,cost_of_living
+Water (1.5 liter bottle),1.25 £,0.80-2.08,Table1,cost_of_living
+Bottle of Wine (Mid-Range),7.00 £,5.00-19.00,Table1,cost_of_living
+Domestic Beer (0.5 liter bottle),2.37 £,1.60-3.00,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),2.62 £,1.00-5.00,Table1,cost_of_living
+Cigarettes 20 Pack (Marlboro),14.75 £,12.00-18.00,Table1,cost_of_living
+Transportation,Edit,nan,Table1,cost_of_living
+One-way Ticket (Local Transport),2.30 £,2.00-3.00,Table1,cost_of_living
+Monthly Pass (Regular Price),58.00 £,55.00-150.00,Table1,cost_of_living
+Taxi Start (Normal Tariff),3.50 £,3.50-5.00,Table1,cost_of_living
+Taxi 1km (Normal Tariff),1.28 £,1.28-2.00,Table1,cost_of_living
+Taxi 1hour Waiting (Normal Tariff),27.00 £,27.00-27.00,Table1,cost_of_living
+Gasoline (1 liter),1.42 £,1.36-1.98,Table1,cost_of_living
+Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"28,285.00 £","28,285.00-28,285.00",Table1,cost_of_living
+Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"40,752.50 £","30,505.00-40,000.00",Table1,cost_of_living
+Utilities (Monthly),Edit,nan,Table1,cost_of_living
+"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment",212.31 £,114.37-317.00,Table1,cost_of_living
+Mobile Phone Monthly Plan with Calls and 10GB+ Data,23.83 £,10.00-45.00,Table1,cost_of_living
+"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",30.67 £,25.00-42.00,Table1,cost_of_living
+Sports And Leisure,Edit,nan,Table1,cost_of_living
+"Fitness Club, Monthly Fee for 1 Adult",32.17 £,18.00-45.00,Table1,cost_of_living
+Tennis Court Rent (1 Hour on Weekend),6.20 £,5.00-8.00,Table1,cost_of_living
+"Cinema, International Release, 1 Seat",7.00 £,5.00-15.00,Table1,cost_of_living
+Childcare,Edit,nan,Table1,cost_of_living
+"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","1,458.33 £","1,200.00-2,083.33",Table1,cost_of_living
+"International Primary School, Yearly for 1 Child","24,500.00 £","24,000.00-25,000.00",Table1,cost_of_living
+Clothing And Shoes,Edit,nan,Table1,cost_of_living
+1 Pair of Jeans (Levis 501 Or Similar),52.00 £,18.00-100.00,Table1,cost_of_living
+"1 Summer Dress in a Chain Store (Zara, H&M, ...)",31.33 £,15.00-43.00,Table1,cost_of_living
+1 Pair of Nike Running Shoes (Mid-Range),54.00 £,44.65-89.00,Table1,cost_of_living
+1 Pair of Men Leather Business Shoes,49.00 £,30.00-108.00,Table1,cost_of_living
+Rent Per Month,Edit,nan,Table1,cost_of_living
+Apartment (1 bedroom) in City Centre,"1,004.17 £","750.00-1,245.00",Table1,cost_of_living
+Apartment (1 bedroom) Outside of Centre,858.33 £,"700.00-1,000.00",Table1,cost_of_living
+Apartment (3 bedrooms) in City Centre,"1,933.33 £","1,500.00-2,500.00",Table1,cost_of_living
+Apartment (3 bedrooms) Outside of Centre,"1,250.00 £","1,200.00-2,000.00",Table1,cost_of_living
+Buy Apartment Price,Edit,nan,Table1,cost_of_living
+Price per Square Meter to Buy Apartment in City Centre,"3,940.00 £","2,500.00-4,300.00",Table1,cost_of_living
+Price per Square Meter to Buy Apartment Outside of Centre,"2,700.00 £","2,700.00-2,700.00",Table1,cost_of_living
+Salaries And Financing,Edit,nan,Table1,cost_of_living
+Average Monthly Net Salary (After Tax),"2,176.08 £",nan,Table1,cost_of_living
+"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",6.00,5.90-6.50,Table1,cost_of_living

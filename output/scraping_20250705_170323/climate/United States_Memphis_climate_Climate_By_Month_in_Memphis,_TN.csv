@@ -1,0 +1,13 @@
+Month,ClimateScore,Weather Conditions Outline,table_caption,category,data_type
+Jan,55.14,Chance of cloudy day 45%,"Climate By Month in Memphis, TN",climate,table
+Feb,72.49,Chance of cloudy day 57%Chance of rainy day 43%,"Climate By Month in Memphis, TN",climate,table
+Mar,86.66,Chance of cloudy day 52%Chance of rainy day 47%,"Climate By Month in Memphis, TN",climate,table
+Apr,96.67,Chance of cloudy day 48%,"Climate By Month in Memphis, TN",climate,table
+May,100.00,Chance of cloudy day 44%Chance of rainy day 46%,"Climate By Month in Memphis, TN",climate,table
+Jun,86.88,Chance of humid day 97%Chance of rainy day 43%,"Climate By Month in Memphis, TN",climate,table
+Jul,74.96,High avg 33℃Chance of humid day 98%,"Climate By Month in Memphis, TN",climate,table
+Aug,81.89,Chance of humid day 97%,"Climate By Month in Memphis, TN",climate,table
+Sep,96.17,,"Climate By Month in Memphis, TN",climate,table
+Oct,99.37,,"Climate By Month in Memphis, TN",climate,table
+Nov,87.85,,"Climate By Month in Memphis, TN",climate,table
+Dec,74.98,Chance of cloudy day 57%,"Climate By Month in Memphis, TN",climate,table

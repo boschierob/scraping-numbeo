@@ -1,0 +1,13 @@
+Month,ClimateScore,Weather Conditions Outline,table_caption,category,data_type
+Jan,82.58,Chance of cloudy day 79%Chance of fog day 40%Chance of rainy day 65%,Climate By Month in Bordeaux,climate,table
+Feb,77.39,Chance of cloudy day 81%Chance of rainy day 67%,Climate By Month in Bordeaux,climate,table
+Mar,90.14,Chance of cloudy day 73%Chance of rainy day 57%,Climate By Month in Bordeaux,climate,table
+Apr,94.58,Chance of cloudy day 65%Chance of rainy day 47%,Climate By Month in Bordeaux,climate,table
+May,97.64,Chance of cloudy day 69%Chance of rainy day 53%,Climate By Month in Bordeaux,climate,table
+Jun,100.00,Chance of cloudy day 56%,Climate By Month in Bordeaux,climate,table
+Jul,99.71,Chance of cloudy day 51%Chance of fog day 31%Chance of humid day 84%,Climate By Month in Bordeaux,climate,table
+Aug,100.00,Chance of cloudy day 51%Chance of fog day 36%,Climate By Month in Bordeaux,climate,table
+Sep,100.00,Chance of cloudy day 56%Chance of fog day 45%,Climate By Month in Bordeaux,climate,table
+Oct,99.37,Chance of cloudy day 55%Chance of fog day 55%,Climate By Month in Bordeaux,climate,table
+Nov,94.50,Chance of cloudy day 78%Chance of fog day 46%Chance of rainy day 60%,Climate By Month in Bordeaux,climate,table
+Dec,83.72,Chance of cloudy day 72%Chance of fog day 51%Chance of rainy day 45%,Climate By Month in Bordeaux,climate,table
