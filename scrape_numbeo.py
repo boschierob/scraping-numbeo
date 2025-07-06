@@ -7,6 +7,16 @@ import pandas as pd
 import random
 from urllib.parse import quote
 import re
+import logging
+import sys
+
+# Configuration du logging (DEBUG)
+logging.basicConfig(
+    filename='logs/scraping.log',
+    level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 BASE_URL = "https://www.numbeo.com"
 CITY_LIST_URL = f"{BASE_URL}/quality-of-life/"
@@ -45,12 +55,14 @@ def load_cities():
 def build_numbeo_url(city):
     city_part = city.replace(" ", "-")
     url = f"{BASE_URL}/quality-of-life/in/{quote(city_part)}"
+    logger.debug(f"URL simple générée: {url}")
     return url
 
 def build_numbeo_url_city_country(city, country):
     city_part = city.replace(" ", "-")
     country_part = country.replace(" ", "-")
     url = f"{BASE_URL}/quality-of-life/in/{quote(city_part)}-{quote(country_part)}"
+    logger.debug(f"URL Ville-Pays générée: {url}")
     return url
 
 def build_numbeo_url_city_state_country(city, state, country):
@@ -58,6 +70,7 @@ def build_numbeo_url_city_state_country(city, state, country):
     state_part = state.replace(" ", "-")
     country_part = country.replace(" ", "-")
     url = f"{BASE_URL}/quality-of-life/in/{quote(city_part)}-{quote(state_part)}-{quote(country_part)}"
+    logger.debug(f"URL Ville-Etat-Pays générée: {url}")
     return url
 
 # --- MODULE: Trouver la première URL valide pour une ville ---
@@ -72,10 +85,11 @@ def find_valid_city_url(city, country, state=None):
     
     # 1. Tester d'abord l'URL simple /in/Ville
     url_simple = build_numbeo_url(city)
-    print(f"[DEBUG] Test 1: {url_simple}")
+    logger.debug(f"Test de l'URL simple: {url_simple}")
     
     try:
         resp = requests.get(url_simple, headers=HEADERS, timeout=10)
+        logger.debug(f"Réponse HTTP {resp.status_code} pour {url_simple}")
         if resp.status_code == 200:
             soup = BeautifulSoup(resp.content, "html.parser")
             
@@ -95,14 +109,15 @@ def find_valid_city_url(city, country, state=None):
             else:
                 print(f"[DEBUG] ❌ Pas de données trouvées dans {url_simple}")
     except Exception as e:
-        print(f"[DEBUG] Erreur lors du test 1: {e}")
+        logger.debug(f"Exception lors de la requête {url_simple}: {e}")
     
     # 2. Si pas de correspondance exacte, tester /in/Ville-Pays
     url_country = build_numbeo_url_city_country(city, country)
-    print(f"[DEBUG] Test 2: {url_country}")
+    logger.debug(f"Test 2: {url_country}")
     
     try:
         resp = requests.get(url_country, headers=HEADERS, timeout=10)
+        logger.debug(f"Réponse HTTP {resp.status_code} pour {url_country}")
         if resp.status_code == 200:
             soup = BeautifulSoup(resp.content, "html.parser")
             
@@ -119,15 +134,16 @@ def find_valid_city_url(city, country, state=None):
             else:
                 print(f"[DEBUG] ❌ Pas de données trouvées dans {url_country}")
     except Exception as e:
-        print(f"[DEBUG] Erreur lors du test 2: {e}")
+        logger.debug(f"Erreur lors du test 2: {e}")
     
     # 3. Si state est renseigné, tester /in/Ville-Etat-Pays
     if state and isinstance(state, str) and state.strip():
         url_state = build_numbeo_url_city_state_country(city, state, country)
-        print(f"[DEBUG] Test 3: {url_state}")
+        logger.debug(f"Test 3: {url_state}")
         
         try:
             resp = requests.get(url_state, headers=HEADERS, timeout=10)
+            logger.debug(f"Réponse HTTP {resp.status_code} pour {url_state}")
             if resp.status_code == 200:
                 soup = BeautifulSoup(resp.content, "html.parser")
                 
@@ -142,7 +158,7 @@ def find_valid_city_url(city, country, state=None):
                 else:
                     print(f"[DEBUG] ❌ Pas de données trouvées dans {url_state}")
         except Exception as e:
-            print(f"[DEBUG] Erreur lors du test 3: {e}")
+            logger.debug(f"Erreur lors du test 3: {e}")
     
     # 4. Aucune URL valide trouvée
     print(f"[DEBUG] ❌ ERREUR: Aucune URL valide trouvée pour {city}, {country}{' ('+state+')' if state else ''}")
@@ -242,7 +258,9 @@ def _extract_location_info(soup):
 
 # --- MODULE: Extraction des liens de catégories ---
 def extract_category_links(city_url):
+    logger.debug(f"Extraction des liens de catégories depuis {city_url}")
     response = requests.get(city_url, headers=HEADERS)
+    logger.debug(f"Réponse HTTP {response.status_code} pour {city_url}")
     soup = BeautifulSoup(response.content, "html.parser")
     categories = {
         "quality_of_life": "quality-of-life",
@@ -272,9 +290,12 @@ def extract_category_links(city_url):
 
 # --- MODULE: Scraping des tables avec la classe spécifique ---
 def scrape_selected_tables(page_url):
+    logger.debug(f"Scraping tables sur {page_url}")
     response = requests.get(page_url, headers=HEADERS)
+    logger.debug(f"Réponse HTTP {response.status_code} pour {page_url}")
     soup = BeautifulSoup(response.content, "html.parser")
     tables = soup.find_all("table", class_="table_builder_with_value_explanation")
+    logger.debug(f"{len(tables)} tables trouvées sur {page_url}")
     dataframes = []
     sheet_names = []
     for idx, table in enumerate(tables):
@@ -292,6 +313,7 @@ def scrape_selected_tables(page_url):
             caption = f"Table{idx+1}"
         # Clean caption for Excel sheet name
         safe_caption = re.sub(r'[\\/*?:\[\]]', '', caption)[:31]
+        logger.debug(f"Extraction de la table {idx+1} (caption: {caption})")
         try:
             df = pd.read_html(str(table))[0]
             dataframes.append(df)
@@ -304,6 +326,7 @@ def scrape_selected_tables(page_url):
 def save_city_data_csv(country_name, city_name, category, tables_and_names):
     tables, sheet_names = tables_and_names
     if not tables:
+        logger.debug(f"Aucune table à sauvegarder pour {country_name}, {city_name}, {category}")
         return
     safe_country = country_name.replace(" ", "_")
     safe_city = city_name.replace(" ", "_")
@@ -313,8 +336,9 @@ def save_city_data_csv(country_name, city_name, category, tables_and_names):
         # Nettoyer le nom de fichier pour CSV
         safe_sheet_name = re.sub(r'[\\/*?:\[\]]', '', sheet_name)
         filename = f"{TIMESTAMPED_OUTPUT_DIR}/{safe_country}_{safe_city}_{category}_{safe_sheet_name}.csv"
+        logger.debug(f"Sauvegarde du DataFrame dans {filename}")
         table.to_csv(filename, index=False, encoding='utf-8')
-        print(f"✅ Données sauvegardées dans {filename}")
+        logger.info(f"✅ Données sauvegardées dans {filename}")
 
 # --- MODULE: Scraping du tableau principal de la page Quality of Life ---
 def scrape_quality_of_life_summary(page_url):
@@ -330,8 +354,10 @@ def scrape_quality_of_life_summary(page_url):
                 break
     if not main_table:
         print(f'[DEBUG] Aucun tableau trouvé pour {page_url}')
-        with open(f'output/debug_Lyon.html', 'w', encoding='utf-8') as f:
+        debug_filename = f'output/debug_Lyon.html'
+        with open(debug_filename, 'w', encoding='utf-8') as f:
             f.write(str(soup))
+        logger.warning(f"Dump HTML sauvegardé dans {debug_filename} pour analyse (aucun tableau trouvé pour {page_url})")
         return None, None
     try:
         df = pd.read_html(str(main_table))[0]
@@ -502,6 +528,24 @@ def scrape_climate_tables(page_url):
 
 # --- MAIN ---
 def main():
+    # --- SÉCURITÉ : Vérification du fichier cities.csv ---
+    cities_path = os.path.join('datas', 'cities.csv')
+    if not os.path.isfile(cities_path):
+        logger.error("Le fichier 'datas/cities.csv' est introuvable. Merci de fournir ce fichier avant de lancer le script.")
+        print("[ERREUR] Le fichier 'datas/cities.csv' est introuvable. Merci de fournir ce fichier avant de lancer le script.")
+        return
+    try:
+        cities_df = pd.read_csv(cities_path)
+        if cities_df.empty or len(cities_df.dropna(how='all')) == 0:
+            logger.error("Le fichier 'datas/cities.csv' est vide. Merci de le remplir avant de lancer le script.")
+            print("[ERREUR] Le fichier 'datas/cities.csv' est vide. Merci de le remplir avant de lancer le script.")
+            return
+    except Exception as e:
+        logger.error(f"Impossible de lire 'datas/cities.csv' : {e}")
+        print(f"[ERREUR] Impossible de lire 'datas/cities.csv' : {e}")
+        return
+    # --- Suite du process normal ---
+    logger.info(f"Nombre de villes chargées : {len(cities_df)}")
     cities_df = load_cities()
     cities_df = cities_df.dropna(subset=['city', 'country'])
     cities_df = cities_df[cities_df['city'].str.strip() != '']
@@ -546,6 +590,10 @@ def main():
         city_sleep = random.uniform(30, 60)
         print(f"⏳ Pause de {city_sleep:.2f} secondes avant la prochaine ville...")
         time.sleep(city_sleep)
+    # --- Fin du process ---
+    print("Mission terminée : le process s'arrête automatiquement avec succès.")
+    logger.info("Mission terminée : le process s'arrête automatiquement avec succès.")
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()
