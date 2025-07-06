@@ -1,0 +1,65 @@
+Restaurants,Edit,Range,table_caption,category
+"Meal, Inexpensive Restaurant","1,250.00 Дин","820.50-2,000.00",Table1,cost_of_living
+"Meal for 2 People, Mid-range Restaurant, Three-course","5,000.00 Дин","3,750.83-9,000.00",Table1,cost_of_living
+McMeal at McDonalds (or Equivalent Combo Meal),"1,186.07 Дин","1,000.00-1,400.00",Table1,cost_of_living
+Domestic Beer (0.5 liter draught),350.00 Дин,250.00-468.85,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),400.00 Дин,300.00-586.07,Table1,cost_of_living
+Cappuccino (regular),280.38 Дин,180.00-400.00,Table1,cost_of_living
+Coke/Pepsi (0.33 liter bottle),278.02 Дин,210.98-350.00,Table1,cost_of_living
+Water (0.33 liter bottle),216.66 Дин,200.00-300.00,Table1,cost_of_living
+Markets,Edit,nan,Table1,cost_of_living
+"Milk (regular), (1 liter)",149.50 Дин,110.00-180.00,Table1,cost_of_living
+Loaf of Fresh White Bread (500g),90.01 Дин,59.00-180.00,Table1,cost_of_living
+"Rice (white), (1kg)",320.91 Дин,150.00-559.00,Table1,cost_of_living
+Eggs (regular) (12),292.55 Дин,192.00-360.00,Table1,cost_of_living
+Local Cheese (1kg),"1,207.23 Дин","600.00-2,000.00",Table1,cost_of_living
+Chicken Fillets (1kg),768.70 Дин,"400.00-1,000.00",Table1,cost_of_living
+Beef Round (1kg) (or Equivalent Back Leg Red Meat),"1,337.71 Дин","1,000.00-2,000.00",Table1,cost_of_living
+Apples (1kg),144.98 Дин,90.00-230.00,Table1,cost_of_living
+Banana (1kg),194.23 Дин,150.00-250.00,Table1,cost_of_living
+Oranges (1kg),198.70 Дин,130.00-300.00,Table1,cost_of_living
+Tomato (1kg),279.97 Дин,170.00-350.00,Table1,cost_of_living
+Potato (1kg),107.48 Дин,75.00-170.00,Table1,cost_of_living
+Onion (1kg),78.72 Дин,50.00-117.21,Table1,cost_of_living
+Lettuce (1 head),90.92 Дин,50.00-150.00,Table1,cost_of_living
+Water (1.5 liter bottle),77.38 Дин,50.00-117.21,Table1,cost_of_living
+Bottle of Wine (Mid-Range),800.00 Дин,"586.07-1,500.00",Table1,cost_of_living
+Domestic Beer (0.5 liter bottle),88.04 Дин,73.99-120.00,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),167.81 Дин,100.00-287.99,Table1,cost_of_living
+Cigarettes 20 Pack (Marlboro),460.00 Дин,420.00-500.00,Table1,cost_of_living
+Transportation,Edit,nan,Table1,cost_of_living
+One-way Ticket (Local Transport),0.00 Дин,0.00-0.00,Table1,cost_of_living
+Monthly Pass (Regular Price),0.00 Дин,"0.00-2,000.00",Table1,cost_of_living
+Taxi Start (Normal Tariff),320.00 Дин,270.00-351.64,Table1,cost_of_living
+Taxi 1km (Normal Tariff),105.00 Дин,105.00-150.00,Table1,cost_of_living
+Taxi 1hour Waiting (Normal Tariff),"1,800.00 Дин","1,200.00-1,800.00",Table1,cost_of_living
+Gasoline (1 liter),187.02 Дин,179.00-200.00,Table1,cost_of_living
+Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"3,106,042.76 Дин","3,000,000.00-3,364,029.86",Table1,cost_of_living
+Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"2,702,883.22 Дин","2,577,526.71-2,800,000.00",Table1,cost_of_living
+Utilities (Monthly),Edit,nan,Table1,cost_of_living
+"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment","21,360.60 Дин","15,000.00-32,000.00",Table1,cost_of_living
+Mobile Phone Monthly Plan with Calls and 10GB+ Data,"2,305.49 Дин","1,000.00-3,500.00",Table1,cost_of_living
+"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)","3,334.99 Дин","2,200.00-4,600.00",Table1,cost_of_living
+Sports And Leisure,Edit,nan,Table1,cost_of_living
+"Fitness Club, Monthly Fee for 1 Adult","4,054.24 Дин","3,000.00-5,000.00",Table1,cost_of_living
+Tennis Court Rent (1 Hour on Weekend),"2,178.22 Дин","1,000.00-3,400.00",Table1,cost_of_living
+"Cinema, International Release, 1 Seat",800.00 Дин,"600.00-1,000.00",Table1,cost_of_living
+Childcare,Edit,nan,Table1,cost_of_living
+"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","45,429.58 Дин","35,000.00-60,000.00",Table1,cost_of_living
+"International Primary School, Yearly for 1 Child","954,051.58 Дин","644,674.71-1,500,000.00",Table1,cost_of_living
+Clothing And Shoes,Edit,nan,Table1,cost_of_living
+1 Pair of Jeans (Levis 501 Or Similar),"10,179.03 Дин","4,000.00-15,000.00",Table1,cost_of_living
+"1 Summer Dress in a Chain Store (Zara, H&M, ...)","4,284.58 Дин","3,000.00-6,000.00",Table1,cost_of_living
+1 Pair of Nike Running Shoes (Mid-Range),"11,120.41 Дин","7,000.00-15,000.00",Table1,cost_of_living
+1 Pair of Men Leather Business Shoes,"12,326.42 Дин","6,000.00-20,000.00",Table1,cost_of_living
+Rent Per Month,Edit,nan,Table1,cost_of_living
+Apartment (1 bedroom) in City Centre,"89,417.03 Дин","70,000.00-130,000.00",Table1,cost_of_living
+Apartment (1 bedroom) Outside of Centre,"57,849.15 Дин","46,885.43-82,049.51",Table1,cost_of_living
+Apartment (3 bedrooms) in City Centre,"163,104.20 Дин","120,000.00-234,427.17",Table1,cost_of_living
+Apartment (3 bedrooms) Outside of Centre,"104,860.37 Дин","80,000.00-140,656.30",Table1,cost_of_living
+Buy Apartment Price,Edit,nan,Table1,cost_of_living
+Price per Square Meter to Buy Apartment in City Centre,"468,787.89 Дин","363,362.11-586,067.92",Table1,cost_of_living
+Price per Square Meter to Buy Apartment Outside of Centre,"291,968.99 Дин","234,427.17-384,000.00",Table1,cost_of_living
+Salaries And Financing,Edit,nan,Table1,cost_of_living
+Average Monthly Net Salary (After Tax),"111,843.46 Дин",nan,Table1,cost_of_living
+"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",5.58,4.50-8.00,Table1,cost_of_living

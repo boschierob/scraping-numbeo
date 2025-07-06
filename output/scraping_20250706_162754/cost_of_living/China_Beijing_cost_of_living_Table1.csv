@@ -1,0 +1,65 @@
+Restaurants,Edit,Range,table_caption,category
+"Meal, Inexpensive Restaurant",30.00 ¥,20.00-50.00,Table1,cost_of_living
+"Meal for 2 People, Mid-range Restaurant, Three-course",200.00 ¥,140.00-300.00,Table1,cost_of_living
+McMeal at McDonalds (or Equivalent Combo Meal),40.00 ¥,30.00-40.00,Table1,cost_of_living
+Domestic Beer (0.5 liter draught),8.00 ¥,5.00-15.00,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),15.00 ¥,10.00-25.00,Table1,cost_of_living
+Cappuccino (regular),22.53 ¥,12.00-35.00,Table1,cost_of_living
+Coke/Pepsi (0.33 liter bottle),3.29 ¥,3.00-6.00,Table1,cost_of_living
+Water (0.33 liter bottle),2.15 ¥,1.50-3.10,Table1,cost_of_living
+Markets,Edit,nan,Table1,cost_of_living
+"Milk (regular), (1 liter)",12.00 ¥,10.00-15.00,Table1,cost_of_living
+Loaf of Fresh White Bread (500g),11.21 ¥,6.00-25.00,Table1,cost_of_living
+"Rice (white), (1kg)",8.19 ¥,5.00-14.00,Table1,cost_of_living
+Eggs (regular) (12),12.32 ¥,7.20-18.00,Table1,cost_of_living
+Local Cheese (1kg),115.01 ¥,60.00-200.00,Table1,cost_of_living
+Chicken Fillets (1kg),23.02 ¥,15.00-30.00,Table1,cost_of_living
+Beef Round (1kg) (or Equivalent Back Leg Red Meat),71.95 ¥,50.00-100.00,Table1,cost_of_living
+Apples (1kg),15.41 ¥,8.00-20.00,Table1,cost_of_living
+Banana (1kg),11.83 ¥,8.00-20.00,Table1,cost_of_living
+Oranges (1kg),12.83 ¥,7.00-20.00,Table1,cost_of_living
+Tomato (1kg),9.42 ¥,4.00-12.00,Table1,cost_of_living
+Potato (1kg),5.78 ¥,3.00-9.00,Table1,cost_of_living
+Onion (1kg),6.78 ¥,4.00-15.00,Table1,cost_of_living
+Lettuce (1 head),4.86 ¥,2.00-8.00,Table1,cost_of_living
+Water (1.5 liter bottle),3.90 ¥,2.90-6.00,Table1,cost_of_living
+Bottle of Wine (Mid-Range),69.00 ¥,40.00-120.00,Table1,cost_of_living
+Domestic Beer (0.5 liter bottle),6.02 ¥,4.00-10.00,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),12.70 ¥,8.00-19.00,Table1,cost_of_living
+Cigarettes 20 Pack (Marlboro),25.00 ¥,20.00-40.00,Table1,cost_of_living
+Transportation,Edit,nan,Table1,cost_of_living
+One-way Ticket (Local Transport),4.50 ¥,3.00-5.00,Table1,cost_of_living
+Monthly Pass (Regular Price),225.00 ¥,150.00-391.30,Table1,cost_of_living
+Taxi Start (Normal Tariff),13.00 ¥,13.00-15.00,Table1,cost_of_living
+Taxi 1km (Normal Tariff),2.50 ¥,2.30-3.20,Table1,cost_of_living
+Taxi 1hour Waiting (Normal Tariff),75.00 ¥,48.00-100.00,Table1,cost_of_living
+Gasoline (1 liter),7.99 ¥,7.50-8.50,Table1,cost_of_living
+Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"133,000.00 ¥","129,800.00-160,000.00",Table1,cost_of_living
+Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"112,011.76 ¥","100,000.00-130,000.00",Table1,cost_of_living
+Utilities (Monthly),Edit,nan,Table1,cost_of_living
+"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment",380.21 ¥,231.20-653.85,Table1,cost_of_living
+Mobile Phone Monthly Plan with Calls and 10GB+ Data,66.67 ¥,35.00-100.00,Table1,cost_of_living
+"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",91.91 ¥,50.00-139.00,Table1,cost_of_living
+Sports And Leisure,Edit,nan,Table1,cost_of_living
+"Fitness Club, Monthly Fee for 1 Adult",360.61 ¥,"150.00-1,000.00",Table1,cost_of_living
+Tennis Court Rent (1 Hour on Weekend),132.50 ¥,80.00-200.00,Table1,cost_of_living
+"Cinema, International Release, 1 Seat",60.00 ¥,50.00-75.00,Table1,cost_of_living
+Childcare,Edit,nan,Table1,cost_of_living
+"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","4,988.97 ¥","2,000.00-10,666.67",Table1,cost_of_living
+"International Primary School, Yearly for 1 Child","174,250.00 ¥","100,000.00-250,000.00",Table1,cost_of_living
+Clothing And Shoes,Edit,nan,Table1,cost_of_living
+1 Pair of Jeans (Levis 501 Or Similar),436.12 ¥,150.00-900.00,Table1,cost_of_living
+"1 Summer Dress in a Chain Store (Zara, H&M, ...)",255.87 ¥,100.00-399.00,Table1,cost_of_living
+1 Pair of Nike Running Shoes (Mid-Range),554.02 ¥,369.00-800.00,Table1,cost_of_living
+1 Pair of Men Leather Business Shoes,736.44 ¥,"350.00-1,200.00",Table1,cost_of_living
+Rent Per Month,Edit,nan,Table1,cost_of_living
+Apartment (1 bedroom) in City Centre,"6,395.65 ¥","5,000.00-12,000.00",Table1,cost_of_living
+Apartment (1 bedroom) Outside of Centre,"3,273.81 ¥","2,500.00-5,000.00",Table1,cost_of_living
+Apartment (3 bedrooms) in City Centre,"14,195.24 ¥","10,000.00-18,000.00",Table1,cost_of_living
+Apartment (3 bedrooms) Outside of Centre,"7,715.38 ¥","6,000.00-11,000.00",Table1,cost_of_living
+Buy Apartment Price,Edit,nan,Table1,cost_of_living
+Price per Square Meter to Buy Apartment in City Centre,"108,336.76 ¥","80,000.00-150,000.00",Table1,cost_of_living
+Price per Square Meter to Buy Apartment Outside of Centre,"47,095.65 ¥","39,200.00-65,000.00",Table1,cost_of_living
+Salaries And Financing,Edit,nan,Table1,cost_of_living
+Average Monthly Net Salary (After Tax),"10,411.91 ¥",nan,Table1,cost_of_living
+"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",3.64,2.85-4.50,Table1,cost_of_living

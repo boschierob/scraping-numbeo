@@ -5,6 +5,8 @@ Main entry point for Numbeo scraping application
 import logging
 import sys
 from pathlib import Path
+import argparse
+from urllib.parse import urlparse
 
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent / "src"))
@@ -29,6 +31,68 @@ def setup_logging():
             logging.StreamHandler(sys.stdout)
         ]
     )
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Numbeo Scraper")
+    parser.add_argument('--urls', nargs='+', type=str, help="Scrape one or more city/category URLs (separated by space)")
+    parser.add_argument('--category', type=str, help="Category to use with the URLs (optional)")
+    return parser.parse_args()
+
+def extract_slug(url):
+    # Extrait le slug après /in/ dans l'URL
+    path = urlparse(url).path
+    if '/in/' in path:
+        return path.split('/in/')[1]
+    return None
+
+def scrape_from_url(url, category=None):
+    setup_logging()
+    logger = logging.getLogger(__name__)
+    logger.info(f"Scraping direct URL: {url} (category: {category})")
+    print(f"\033[1;34m🔎 Scraping direct URL:\033[0m {url} (category: {category})")
+
+    slug = extract_slug(url)
+    if not slug:
+        logger.error(f"Could not extract slug from URL: {url}")
+        print(f"\033[1;31m❌ Could not extract slug from URL:\033[0m {url}")
+        return
+
+    # Liste des catégories à scraper
+    categories = [
+        "quality-of-life",
+        "crime",
+        "cost-of-living",
+        "health-care",
+        "climate",
+        "property-investment",
+        "traffic",
+        "pollution"
+    ]
+
+    # Si une catégorie est précisée, ne scraper que celle-ci
+    if category:
+        categories = [category]
+
+    scraper_factory = ScraperFactory()
+    file_saver = FileSaver()
+
+    for cat in categories:
+        cat_url = f"https://www.numbeo.com/{cat}/in/{slug}"
+        logger.info(f"Scraping category '{cat}' at URL: {cat_url}")
+        print(f"\033[1;36m➡️  Scraping category:\033[0m {cat} | URL: {cat_url}")
+        scraper = scraper_factory.get_scraper(cat.replace('-', '_'))
+        try:
+            tables = scraper.scrape_category(cat_url, city_name=slug, country_name="DirectURL")
+            if tables:
+                file_saver.save_category_data(slug, "DirectURL", cat, tables)
+                logger.info(f"Scraping and saving completed for {cat_url}.")
+                print(f"\033[1;32m✅ Success:\033[0m Data saved for {cat_url}")
+            else:
+                logger.warning(f"No tables found at {cat_url}.")
+                print(f"\033[1;33m⚠️  Warning:\033[0m No tables found at {cat_url}")
+        except Exception as e:
+            logger.error(f"Error scraping {cat_url}: {e}")
+            print(f"\033[1;31m❌ Error:\033[0m scraping {cat_url}: {e}")
 
 def main():
     """Main scraping function"""
@@ -141,5 +205,11 @@ def main():
             base_scraper.cleanup()
 
 if __name__ == "__main__":
-    success = main()
-    sys.exit(0 if success else 1) 
+    args = parse_args()
+    if args.urls:
+        for url in args.urls:
+            scrape_from_url(url, args.category)
+        sys.exit(0)
+    else:
+        success = main()
+        sys.exit(0 if success else 1) 

@@ -1,0 +1,9 @@
+section,sub_section,Value,price_min,price_max,table_caption,category
+Rent Per Month,Apartment (1 bedroom) in City Centre,"6,872.10 ¥","4,500.00","10,000.00",Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (1 bedroom) Outside of Centre,"3,967.86 ¥","2,500.00","6,000.00",Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (3 bedrooms) in City Centre,"17,277.78 ¥","11,000.00","25,000.00",Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (3 bedrooms) Outside of Centre,"8,557.69 ¥","6,000.00","12,000.00",Property Investment Details Table 1,property_investment
+Buy Apartment Price,Price per Square Meter to Buy Apartment in City Centre,"105,883.38 ¥","80,000.00","150,000.00",Property Investment Details Table 1,property_investment
+Buy Apartment Price,Price per Square Meter to Buy Apartment Outside of Centre,"54,400.00 ¥","45,000.00","75,000.00",Property Investment Details Table 1,property_investment
+Salaries And Financing,Average Monthly Net Salary (After Tax),"11,014.59 ¥",,,Property Investment Details Table 1,property_investment
+Salaries And Financing,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",3.58,2.50,4.00,Property Investment Details Table 1,property_investment

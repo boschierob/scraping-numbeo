@@ -1376,3 +1376,251 @@
 2025-07-05 17:07:49,705 - src.monitoring.stats_tracker - INFO - Scraping report generated: D:\Numbeo-scraping\output\scraping_20250705_170741\scraping_report.json
 2025-07-05 17:07:49,705 - __main__ - INFO - Scraping completed. Report saved to: D:\Numbeo-scraping\output\scraping_20250705_170741\scraping_report.json
 2025-07-05 17:07:49,706 - __main__ - INFO - Scraping session was successful
+2025-07-06 16:27:54,970 - __main__ - INFO - Starting Numbeo scraping application
+2025-07-06 16:27:54,981 - src.monitoring.stats_tracker - INFO - Scraping session started
+2025-07-06 16:27:54,985 - src.data.city_loader - INFO - Loaded 3 cities from D:\Numbeo-scraping\datas\cities.csv
+2025-07-06 16:27:55,002 - __main__ - INFO - Loaded 3 cities
+2025-07-06 16:27:55,002 - __main__ - INFO - Processing city: Chiang Mai, Thailand
+2025-07-06 16:27:55,002 - __main__ - INFO -   Scraping category: quality_of_life
+2025-07-06 16:27:55,003 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Chiang Mai, Thailand
+2025-07-06 16:27:55,537 - src.scrapers.quality_of_life_scraper - WARNING - No tables found for Chiang Mai Quality of Life
+2025-07-06 16:27:55,538 - __main__ - INFO -   Scraping category: crime
+2025-07-06 16:27:55,538 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Chiang Mai, Thailand
+2025-07-06 16:27:55,994 - src.scrapers.crime_scraper - INFO - Found 0 tables with class 'data_wide_table'
+2025-07-06 16:27:55,994 - src.scrapers.crime_scraper - WARNING - No tables found for Chiang Mai Safety/Crime
+2025-07-06 16:27:55,995 - __main__ - INFO -   Scraping category: cost_of_living
+2025-07-06 16:27:55,995 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Chiang Mai, Thailand
+2025-07-06 16:27:56,451 - src.scrapers.cost_of_living_scraper - WARNING - No tables found for Chiang Mai Cost of Living
+2025-07-06 16:27:56,452 - __main__ - INFO -   Scraping category: health_care
+2025-07-06 16:27:56,452 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Chiang Mai, Thailand
+2025-07-06 16:27:56,903 - src.scrapers.health_care_scraper - WARNING - No tables found for Chiang Mai Health Care
+2025-07-06 16:27:56,904 - __main__ - INFO -   Scraping category: climate
+2025-07-06 16:27:56,904 - src.scrapers.climate_scraper - INFO - Scraping Climate for Chiang Mai, Thailand
+2025-07-06 16:27:57,374 - src.scrapers.climate_scraper - WARNING - No tables found for Chiang Mai Climate. Saving debug HTML.
+2025-07-06 16:27:57,377 - src.scrapers.base_scraper - INFO - Saved debug HTML: debug\no_tables_Chiang Mai_climate.html
+2025-07-06 16:27:57,377 - __main__ - INFO -   Scraping category: property_investment
+2025-07-06 16:27:57,378 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Chiang Mai, Thailand
+2025-07-06 16:27:57,834 - __main__ - INFO -   Scraping category: traffic
+2025-07-06 16:27:57,835 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Chiang Mai, Thailand
+2025-07-06 16:27:58,309 - src.scrapers.traffic_scraper - WARNING - No tables found for Chiang Mai Traffic
+2025-07-06 16:27:58,309 - __main__ - INFO -   Scraping category: pollution
+2025-07-06 16:27:58,309 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Chiang Mai, Thailand
+2025-07-06 16:27:58,785 - src.scrapers.pollution_scraper - WARNING - No tables found for Chiang Mai Pollution
+2025-07-06 16:27:58,785 - __main__ - INFO - Processing city: Shanghai, China
+2025-07-06 16:27:58,785 - __main__ - INFO -   Scraping category: quality_of_life
+2025-07-06 16:27:58,786 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Shanghai, China
+2025-07-06 16:27:59,249 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Shanghai Quality of Life
+2025-07-06 16:27:59,274 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\quality_of_life\China_Shanghai_quality_of_life_Quality_of_Life_Indices.csv
+2025-07-06 16:27:59,275 - __main__ - INFO -   Scraping category: crime
+2025-07-06 16:27:59,275 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Shanghai, China
+2025-07-06 16:27:59,870 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-06 16:27:59,872 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-06 16:27:59,873 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-06 16:27:59,874 - src.scrapers.crime_scraper - INFO - Found 3 tables for Shanghai Safety/Crime
+2025-07-06 16:27:59,875 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\crime\China_Shanghai_crime_Crime_Indices.csv
+2025-07-06 16:27:59,876 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\crime\China_Shanghai_crime_Crime_Details_Table_1.csv
+2025-07-06 16:27:59,877 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\crime\China_Shanghai_crime_Crime_Details_Table_2.csv
+2025-07-06 16:27:59,878 - __main__ - INFO -   Scraping category: cost_of_living
+2025-07-06 16:27:59,878 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Shanghai, China
+2025-07-06 16:28:00,827 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Shanghai Cost of Living
+2025-07-06 16:28:00,829 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\cost_of_living\China_Shanghai_cost_of_living_Table1.csv
+2025-07-06 16:28:00,829 - __main__ - INFO -   Scraping category: health_care
+2025-07-06 16:28:00,829 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Shanghai, China
+2025-07-06 16:28:01,330 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Shanghai Health Care
+2025-07-06 16:28:01,332 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\health_care\China_Shanghai_health_care_Health_Care_Indices.csv
+2025-07-06 16:28:01,334 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\health_care\China_Shanghai_health_care_Health_Care_Details_Table_1.csv
+2025-07-06 16:28:01,334 - __main__ - INFO -   Scraping category: climate
+2025-07-06 16:28:01,335 - src.scrapers.climate_scraper - INFO - Scraping Climate for Shanghai, China
+2025-07-06 16:28:01,828 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\climate\China_Shanghai_climate_Climate_By_Month_in_Shanghai.csv
+2025-07-06 16:28:01,829 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\climate\China_Shanghai_climate_Best_Months_To_Visit_Shanghai.csv
+2025-07-06 16:28:01,830 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\climate\China_Shanghai_climate_Temperatures_(table).csv
+2025-07-06 16:28:01,830 - __main__ - INFO -   Scraping category: property_investment
+2025-07-06 16:28:01,831 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Shanghai, China
+2025-07-06 16:28:02,345 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\property_investment\China_Shanghai_property_investment_Property_Investment_Indices.csv
+2025-07-06 16:28:02,347 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\property_investment\China_Shanghai_property_investment_Property_Investment_Details_Table_1.csv
+2025-07-06 16:28:02,347 - __main__ - INFO -   Scraping category: traffic
+2025-07-06 16:28:02,347 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Shanghai, China
+2025-07-06 16:28:02,905 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Shanghai Traffic
+2025-07-06 16:28:02,908 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Shanghai_traffic_Traffic_Indices.csv
+2025-07-06 16:28:02,910 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Shanghai_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-06 16:28:02,911 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Shanghai_traffic_Average_when_primarily_using_Walking.csv
+2025-07-06 16:28:02,916 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Shanghai_traffic_Average_when_primarily_using_Car.csv
+2025-07-06 16:28:02,917 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Shanghai_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-06 16:28:02,918 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Shanghai_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-06 16:28:02,920 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Shanghai_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-06 16:28:02,921 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Shanghai_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-06 16:28:02,922 - __main__ - INFO -   Scraping category: pollution
+2025-07-06 16:28:02,922 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Shanghai, China
+2025-07-06 16:28:03,414 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Shanghai Pollution
+2025-07-06 16:28:03,416 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\pollution\China_Shanghai_pollution_Pollution_Indices.csv
+2025-07-06 16:28:03,417 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\pollution\China_Shanghai_pollution_Pollution_Details_Table_1.csv
+2025-07-06 16:28:03,418 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\pollution\China_Shanghai_pollution_Pollution_Details_Table_2.csv
+2025-07-06 16:28:03,418 - __main__ - INFO - Processing city: Beijing, China
+2025-07-06 16:28:03,418 - __main__ - INFO -   Scraping category: quality_of_life
+2025-07-06 16:28:03,419 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Beijing, China
+2025-07-06 16:28:03,907 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Beijing Quality of Life
+2025-07-06 16:28:03,909 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\quality_of_life\China_Beijing_quality_of_life_Quality_of_Life_Indices.csv
+2025-07-06 16:28:03,909 - __main__ - INFO -   Scraping category: crime
+2025-07-06 16:28:03,910 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Beijing, China
+2025-07-06 16:28:04,383 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-06 16:28:04,385 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-06 16:28:04,386 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-06 16:28:04,386 - src.scrapers.crime_scraper - INFO - Found 3 tables for Beijing Safety/Crime
+2025-07-06 16:28:04,388 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\crime\China_Beijing_crime_Crime_Indices.csv
+2025-07-06 16:28:04,390 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\crime\China_Beijing_crime_Crime_Details_Table_1.csv
+2025-07-06 16:28:04,391 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\crime\China_Beijing_crime_Crime_Details_Table_2.csv
+2025-07-06 16:28:04,391 - __main__ - INFO -   Scraping category: cost_of_living
+2025-07-06 16:28:04,391 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Beijing, China
+2025-07-06 16:28:05,058 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Beijing Cost of Living
+2025-07-06 16:28:05,060 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\cost_of_living\China_Beijing_cost_of_living_Table1.csv
+2025-07-06 16:28:05,060 - __main__ - INFO -   Scraping category: health_care
+2025-07-06 16:28:05,060 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Beijing, China
+2025-07-06 16:28:05,670 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Beijing Health Care
+2025-07-06 16:28:05,671 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\health_care\China_Beijing_health_care_Health_Care_Indices.csv
+2025-07-06 16:28:05,673 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\health_care\China_Beijing_health_care_Health_Care_Details_Table_1.csv
+2025-07-06 16:28:05,673 - __main__ - INFO -   Scraping category: climate
+2025-07-06 16:28:05,674 - src.scrapers.climate_scraper - INFO - Scraping Climate for Beijing, China
+2025-07-06 16:28:06,165 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\climate\China_Beijing_climate_Climate_By_Month_in_Beijing.csv
+2025-07-06 16:28:06,167 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\climate\China_Beijing_climate_Best_Months_To_Visit_Beijing.csv
+2025-07-06 16:28:06,168 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\climate\China_Beijing_climate_Temperatures_(table).csv
+2025-07-06 16:28:06,168 - __main__ - INFO -   Scraping category: property_investment
+2025-07-06 16:28:06,169 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Beijing, China
+2025-07-06 16:28:06,663 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\property_investment\China_Beijing_property_investment_Property_Investment_Indices.csv
+2025-07-06 16:28:06,665 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\property_investment\China_Beijing_property_investment_Property_Investment_Details_Table_1.csv
+2025-07-06 16:28:06,665 - __main__ - INFO -   Scraping category: traffic
+2025-07-06 16:28:06,666 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Beijing, China
+2025-07-06 16:28:07,216 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Beijing Traffic
+2025-07-06 16:28:07,217 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Beijing_traffic_Traffic_Indices.csv
+2025-07-06 16:28:07,218 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Beijing_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-06 16:28:07,219 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Beijing_traffic_Average_when_primarily_using_Walking.csv
+2025-07-06 16:28:07,220 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Beijing_traffic_Average_when_primarily_using_Car.csv
+2025-07-06 16:28:07,221 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Beijing_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-06 16:28:07,223 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Beijing_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-06 16:28:07,224 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Beijing_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-06 16:28:07,227 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\traffic\China_Beijing_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-06 16:28:07,227 - __main__ - INFO -   Scraping category: pollution
+2025-07-06 16:28:07,228 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Beijing, China
+2025-07-06 16:28:07,713 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Beijing Pollution
+2025-07-06 16:28:07,715 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\pollution\China_Beijing_pollution_Pollution_Indices.csv
+2025-07-06 16:28:07,716 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\pollution\China_Beijing_pollution_Pollution_Details_Table_1.csv
+2025-07-06 16:28:07,717 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_162754\pollution\China_Beijing_pollution_Pollution_Details_Table_2.csv
+2025-07-06 16:28:07,718 - src.monitoring.stats_tracker - INFO - Scraping session ended
+2025-07-06 16:28:07,719 - src.monitoring.stats_tracker - INFO - Scraping report generated: D:\Numbeo-scraping\output\scraping_20250706_162754\scraping_report.json
+2025-07-06 16:28:07,719 - __main__ - INFO - Scraping completed. Report saved to: D:\Numbeo-scraping\output\scraping_20250706_162754\scraping_report.json
+2025-07-06 16:28:07,719 - __main__ - INFO - Scraping session was successful
+2025-07-06 16:47:24,596 - __main__ - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Berlin (category: None)
+2025-07-06 16:47:24,600 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Berlin
+2025-07-06 16:47:24,601 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Berlin, DirectURL
+2025-07-06 16:47:25,103 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Berlin Quality of Life
+2025-07-06 16:47:25,107 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\quality-of-life\DirectURL_Berlin_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-06 16:47:25,107 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Berlin.
+2025-07-06 16:47:25,107 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Berlin
+2025-07-06 16:47:25,108 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Berlin, DirectURL
+2025-07-06 16:47:25,583 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-06 16:47:25,586 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-06 16:47:25,587 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-06 16:47:25,587 - src.scrapers.crime_scraper - INFO - Found 3 tables for Berlin Safety/Crime
+2025-07-06 16:47:25,589 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\crime\DirectURL_Berlin_crime_Crime_Indices.csv
+2025-07-06 16:47:25,590 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\crime\DirectURL_Berlin_crime_Crime_Details_Table_1.csv
+2025-07-06 16:47:25,591 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\crime\DirectURL_Berlin_crime_Crime_Details_Table_2.csv
+2025-07-06 16:47:25,592 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Berlin.
+2025-07-06 16:47:25,592 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Berlin
+2025-07-06 16:47:25,592 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Berlin, DirectURL
+2025-07-06 16:47:26,227 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Berlin Cost of Living
+2025-07-06 16:47:26,229 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\cost-of-living\DirectURL_Berlin_cost-of-living_Table1.csv
+2025-07-06 16:47:26,229 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Berlin.
+2025-07-06 16:47:26,230 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Berlin
+2025-07-06 16:47:26,232 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Berlin, DirectURL
+2025-07-06 16:47:26,707 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Berlin Health Care
+2025-07-06 16:47:26,708 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\health-care\DirectURL_Berlin_health-care_Health_Care_Indices.csv
+2025-07-06 16:47:26,710 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\health-care\DirectURL_Berlin_health-care_Health_Care_Details_Table_1.csv
+2025-07-06 16:47:26,710 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Berlin.
+2025-07-06 16:47:26,710 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Berlin
+2025-07-06 16:47:26,711 - src.scrapers.climate_scraper - INFO - Scraping Climate for Berlin, DirectURL
+2025-07-06 16:47:27,207 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\climate\DirectURL_Berlin_climate_Climate_By_Month_in_Berlin.csv
+2025-07-06 16:47:27,208 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\climate\DirectURL_Berlin_climate_Best_Months_To_Visit_Berlin.csv
+2025-07-06 16:47:27,209 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\climate\DirectURL_Berlin_climate_Temperatures_(table).csv
+2025-07-06 16:47:27,209 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Berlin.
+2025-07-06 16:47:27,210 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Berlin
+2025-07-06 16:47:27,210 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Berlin, DirectURL
+2025-07-06 16:47:27,715 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\property-investment\DirectURL_Berlin_property-investment_Property_Investment_Indices.csv
+2025-07-06 16:47:27,717 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\property-investment\DirectURL_Berlin_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-06 16:47:27,717 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Berlin.
+2025-07-06 16:47:27,717 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Berlin
+2025-07-06 16:47:27,718 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Berlin, DirectURL
+2025-07-06 16:47:28,289 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Berlin Traffic
+2025-07-06 16:47:28,291 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\traffic\DirectURL_Berlin_traffic_Traffic_Indices.csv
+2025-07-06 16:47:28,295 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\traffic\DirectURL_Berlin_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-06 16:47:28,297 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\traffic\DirectURL_Berlin_traffic_Average_when_primarily_using_Walking.csv
+2025-07-06 16:47:28,298 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\traffic\DirectURL_Berlin_traffic_Average_when_primarily_using_Car.csv
+2025-07-06 16:47:28,299 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\traffic\DirectURL_Berlin_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-06 16:47:28,301 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\traffic\DirectURL_Berlin_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-06 16:47:28,303 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\traffic\DirectURL_Berlin_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-06 16:47:28,304 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\traffic\DirectURL_Berlin_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-06 16:47:28,305 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Berlin.
+2025-07-06 16:47:28,305 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Berlin
+2025-07-06 16:47:28,305 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Berlin, DirectURL
+2025-07-06 16:47:28,787 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Berlin Pollution
+2025-07-06 16:47:28,789 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\pollution\DirectURL_Berlin_pollution_Pollution_Indices.csv
+2025-07-06 16:47:28,790 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\pollution\DirectURL_Berlin_pollution_Pollution_Details_Table_1.csv
+2025-07-06 16:47:28,791 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164724\pollution\DirectURL_Berlin_pollution_Pollution_Details_Table_2.csv
+2025-07-06 16:47:28,791 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Berlin.
+2025-07-06 16:47:28,797 - __main__ - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Belgrade (category: None)
+2025-07-06 16:47:28,798 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Belgrade
+2025-07-06 16:47:28,798 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Belgrade, DirectURL
+2025-07-06 16:47:29,259 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Belgrade Quality of Life
+2025-07-06 16:47:29,260 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\quality-of-life\DirectURL_Belgrade_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-06 16:47:29,261 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Belgrade.
+2025-07-06 16:47:29,261 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Belgrade
+2025-07-06 16:47:29,261 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Belgrade, DirectURL
+2025-07-06 16:47:29,755 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-06 16:47:29,757 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-06 16:47:29,758 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-06 16:47:29,758 - src.scrapers.crime_scraper - INFO - Found 3 tables for Belgrade Safety/Crime
+2025-07-06 16:47:29,759 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\crime\DirectURL_Belgrade_crime_Crime_Indices.csv
+2025-07-06 16:47:29,760 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\crime\DirectURL_Belgrade_crime_Crime_Details_Table_1.csv
+2025-07-06 16:47:29,761 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\crime\DirectURL_Belgrade_crime_Crime_Details_Table_2.csv
+2025-07-06 16:47:29,762 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Belgrade.
+2025-07-06 16:47:29,762 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Belgrade
+2025-07-06 16:47:29,762 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Belgrade, DirectURL
+2025-07-06 16:47:30,454 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Belgrade Cost of Living
+2025-07-06 16:47:30,455 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\cost-of-living\DirectURL_Belgrade_cost-of-living_Table1.csv
+2025-07-06 16:47:30,456 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Belgrade.
+2025-07-06 16:47:30,456 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Belgrade
+2025-07-06 16:47:30,456 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Belgrade, DirectURL
+2025-07-06 16:47:30,944 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Belgrade Health Care
+2025-07-06 16:47:30,946 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\health-care\DirectURL_Belgrade_health-care_Health_Care_Indices.csv
+2025-07-06 16:47:30,947 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\health-care\DirectURL_Belgrade_health-care_Health_Care_Details_Table_1.csv
+2025-07-06 16:47:30,949 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\health-care\DirectURL_Belgrade_health-care_Health_Care_Details_Table_2.csv
+2025-07-06 16:47:30,950 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\health-care\DirectURL_Belgrade_health-care_Health_Care_Details_Table_3.csv
+2025-07-06 16:47:30,951 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Belgrade.
+2025-07-06 16:47:30,951 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Belgrade
+2025-07-06 16:47:30,951 - src.scrapers.climate_scraper - INFO - Scraping Climate for Belgrade, DirectURL
+2025-07-06 16:47:31,415 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\climate\DirectURL_Belgrade_climate_Climate_By_Month_in_Belgrade.csv
+2025-07-06 16:47:31,417 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\climate\DirectURL_Belgrade_climate_Best_Months_To_Visit_Belgrade.csv
+2025-07-06 16:47:31,418 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\climate\DirectURL_Belgrade_climate_Temperatures_(table).csv
+2025-07-06 16:47:31,418 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Belgrade.
+2025-07-06 16:47:31,418 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Belgrade
+2025-07-06 16:47:31,419 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Belgrade, DirectURL
+2025-07-06 16:47:31,915 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\property-investment\DirectURL_Belgrade_property-investment_Property_Investment_Indices.csv
+2025-07-06 16:47:31,916 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\property-investment\DirectURL_Belgrade_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-06 16:47:31,916 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Belgrade.
+2025-07-06 16:47:31,917 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Belgrade
+2025-07-06 16:47:31,917 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Belgrade, DirectURL
+2025-07-06 16:47:32,441 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Belgrade Traffic
+2025-07-06 16:47:32,446 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\traffic\DirectURL_Belgrade_traffic_Traffic_Indices.csv
+2025-07-06 16:47:32,447 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\traffic\DirectURL_Belgrade_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-06 16:47:32,448 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\traffic\DirectURL_Belgrade_traffic_Average_when_primarily_using_Walking.csv
+2025-07-06 16:47:32,450 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\traffic\DirectURL_Belgrade_traffic_Average_when_primarily_using_Car.csv
+2025-07-06 16:47:32,451 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\traffic\DirectURL_Belgrade_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-06 16:47:32,452 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\traffic\DirectURL_Belgrade_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-06 16:47:32,453 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\traffic\DirectURL_Belgrade_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-06 16:47:32,454 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\traffic\DirectURL_Belgrade_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-06 16:47:32,455 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Belgrade.
+2025-07-06 16:47:32,455 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Belgrade
+2025-07-06 16:47:32,456 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Belgrade, DirectURL
+2025-07-06 16:47:32,937 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Belgrade Pollution
+2025-07-06 16:47:32,939 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\pollution\DirectURL_Belgrade_pollution_Pollution_Indices.csv
+2025-07-06 16:47:32,941 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\pollution\DirectURL_Belgrade_pollution_Pollution_Details_Table_1.csv
+2025-07-06 16:47:32,942 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\pollution\DirectURL_Belgrade_pollution_Pollution_Details_Table_2.csv
+2025-07-06 16:47:32,942 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Belgrade.

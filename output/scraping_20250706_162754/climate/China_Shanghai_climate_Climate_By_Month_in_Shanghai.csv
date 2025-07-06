@@ -1,0 +1,13 @@
+Month,ClimateScore,Weather Conditions Outline,table_caption,category,data_type
+Jan,72.49,Chance of cloudy day 53%,Climate By Month in Shanghai,climate,table
+Feb,73.75,Chance of cloudy day 56%Chance of rainy day 43%,Climate By Month in Shanghai,climate,table
+Mar,92.34,Chance of cloudy day 42%Chance of rainy day 42%,Climate By Month in Shanghai,climate,table
+Apr,96.67,Chance of cloudy day 46%Chance of rainy day 41%,Climate By Month in Shanghai,climate,table
+May,100.00,Chance of cloudy day 42%Chance of rainy day 42%,Climate By Month in Shanghai,climate,table
+Jun,93.55,Chance of humid day 100%Chance of rainy day 63%,Climate By Month in Shanghai,climate,table
+Jul,48.65,High avg 34℃Chance of humid day 100%Chance of rainy day 43%,Climate By Month in Shanghai,climate,table
+Aug,57.37,High avg 33℃Chance of humid day 100%Chance of rainy day 45%,Climate By Month in Shanghai,climate,table
+Sep,96.68,Chance of humid day 98%Chance of rainy day 46%,Climate By Month in Shanghai,climate,table
+Oct,100.00,,Climate By Month in Shanghai,climate,table
+Nov,95.64,Chance of cloudy day 41%Chance of rainy day 41%,Climate By Month in Shanghai,climate,table
+Dec,76.53,,Climate By Month in Shanghai,climate,table

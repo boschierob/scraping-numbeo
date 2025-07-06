@@ -1,0 +1,13 @@
+Month,ClimateScore,Weather Conditions Outline,table_caption,category,data_type
+Jan,44.62,Low avg -2℃Chance of cloudy day 45%Chance of snow day 26%,Climate By Month in Belgrade,climate,table
+Feb,65.54,Chance of cloudy day 46%Chance of rainy day 48%,Climate By Month in Belgrade,climate,table
+Mar,76.20,Chance of rainy day 48%,Climate By Month in Belgrade,climate,table
+Apr,94.58,Chance of rainy day 41%,Climate By Month in Belgrade,climate,table
+May,99.37,Chance of rainy day 50%,Climate By Month in Belgrade,climate,table
+Jun,100.00,,Climate By Month in Belgrade,climate,table
+Jul,98.87,,Climate By Month in Belgrade,climate,table
+Aug,98.04,,Climate By Month in Belgrade,climate,table
+Sep,100.00,Chance of rainy day 43%,Climate By Month in Belgrade,climate,table
+Oct,96.67,,Climate By Month in Belgrade,climate,table
+Nov,82.58,,Climate By Month in Belgrade,climate,table
+Dec,53.24,Low avg -1℃Chance of cloudy day 55%Chance of fog day 41%,Climate By Month in Belgrade,climate,table
