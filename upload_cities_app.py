@@ -16,7 +16,7 @@ def check_login(username, password):
         users = json.load(f)
     return username in users and users[username] == hash_password(password)
 
-st.title("Uploader un fichier CSV de villes")
+st.header("Uploader un fichier CSV de villes")
 
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
@@ -51,6 +51,37 @@ else:
                 st.success(f"Fichier sauvegardé dans {save_path}")
         else:
             st.error(f"Le fichier doit avoir 'city', 'country', puis 'region' comme trois premières colonnes. Colonnes trouvées : {list(df.columns)}")
+
+    # --- Nouvelle section : Scraper à partir d'URLs Numbeo ---
+    st.markdown("--- OU ---")
+    st.header("Scraper directement à partir d'une ou plusieurs URLs Numbeo")
+    st.caption("le systeme extraiera les villes depuis les urls que vous entrerez, puis scrapera toutes les données (coût de la vie, climat, sécurité, ...) relatives à celles-ci")
+    urls_input = st.text_area("Collez une ou plusieurs URLs Numbeo (une par ligne)")
+    if st.button("Lancer le scraping des URLs"):
+        if not urls_input.strip():
+            st.warning("Veuillez entrer au moins une URL.")
+        else:
+            # Import dynamique pour éviter les problèmes de dépendances circulaires
+            import sys
+            sys.path.insert(0, os.path.abspath("."))
+            try:
+                from main import scrape_from_url
+                urls = [u.strip() for u in urls_input.strip().splitlines() if u.strip()]
+                results = []
+                for url in urls:
+                    st.info(f"🔎 Scraping des infos la ville {url} ...")
+                    try:
+                        scrape_from_url(url)
+                        results.append((url, True, None))
+                        st.success(f"✅ Succès pour {url}")
+                    except Exception as e:
+                        results.append((url, False, str(e)))
+                        st.error(f"❌ Erreur pour {url} : {e}")
+            except ImportError as e:
+                st.error(f"Erreur d'import de la fonction de scraping : {e}")
+            except Exception as e:
+                st.error(f"Erreur inattendue : {e}")
+
     if st.button("Se déconnecter"):
         st.session_state.logged_in = False
         st.rerun() 

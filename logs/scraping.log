@@ -1624,3 +1624,114 @@
 2025-07-06 16:47:32,941 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\pollution\DirectURL_Belgrade_pollution_Pollution_Details_Table_1.csv
 2025-07-06 16:47:32,942 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_164728\pollution\DirectURL_Belgrade_pollution_Pollution_Details_Table_2.csv
 2025-07-06 16:47:32,942 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Belgrade.
+2025-07-06 17:07:57,055 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/New-York (category: None)
+2025-07-06 17:07:57,061 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/New-York
+2025-07-06 17:07:57,061 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for New-York, DirectURL
+2025-07-06 17:07:57,652 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for New-York Quality of Life
+2025-07-06 17:07:57,656 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\quality-of-life\DirectURL_New-York_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-06 17:07:57,656 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/New-York.
+2025-07-06 17:07:57,657 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/New-York
+2025-07-06 17:07:57,657 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for New-York, DirectURL
+2025-07-06 17:07:58,125 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-06 17:07:58,127 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-06 17:07:58,128 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-06 17:07:58,128 - src.scrapers.crime_scraper - INFO - Found 3 tables for New-York Safety/Crime
+2025-07-06 17:07:58,130 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\crime\DirectURL_New-York_crime_Crime_Indices.csv
+2025-07-06 17:07:58,132 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\crime\DirectURL_New-York_crime_Crime_Details_Table_1.csv
+2025-07-06 17:07:58,133 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\crime\DirectURL_New-York_crime_Crime_Details_Table_2.csv
+2025-07-06 17:07:58,133 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/New-York.
+2025-07-06 17:07:58,134 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/New-York
+2025-07-06 17:07:58,134 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for New-York, DirectURL
+2025-07-06 17:07:58,791 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for New-York Cost of Living
+2025-07-06 17:07:58,793 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\cost-of-living\DirectURL_New-York_cost-of-living_Table1.csv
+2025-07-06 17:07:58,793 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/New-York.
+2025-07-06 17:07:58,793 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/New-York
+2025-07-06 17:07:58,794 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for New-York, DirectURL
+2025-07-06 17:07:59,272 - src.scrapers.health_care_scraper - INFO - Found 4 tables for New-York Health Care
+2025-07-06 17:07:59,274 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\health-care\DirectURL_New-York_health-care_Health_Care_Indices.csv
+2025-07-06 17:07:59,275 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\health-care\DirectURL_New-York_health-care_Health_Care_Details_Table_1.csv
+2025-07-06 17:07:59,277 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\health-care\DirectURL_New-York_health-care_Health_Care_Details_Table_2.csv
+2025-07-06 17:07:59,278 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\health-care\DirectURL_New-York_health-care_Health_Care_Details_Table_3.csv
+2025-07-06 17:07:59,279 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/New-York.
+2025-07-06 17:07:59,279 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/New-York
+2025-07-06 17:07:59,280 - src.scrapers.climate_scraper - INFO - Scraping Climate for New-York, DirectURL
+2025-07-06 17:07:59,782 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\climate\DirectURL_New-York_climate_Climate_By_Month_in_New_York,_NY.csv
+2025-07-06 17:07:59,784 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\climate\DirectURL_New-York_climate_Best_Months_To_Visit_New_York,_NY.csv
+2025-07-06 17:07:59,785 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\climate\DirectURL_New-York_climate_Temperatures_(table).csv
+2025-07-06 17:07:59,786 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/New-York.
+2025-07-06 17:07:59,786 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/New-York
+2025-07-06 17:07:59,787 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for New-York, DirectURL
+2025-07-06 17:08:00,347 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\property-investment\DirectURL_New-York_property-investment_Property_Investment_Indices.csv
+2025-07-06 17:08:00,349 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\property-investment\DirectURL_New-York_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-06 17:08:00,349 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/New-York.
+2025-07-06 17:08:00,349 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/New-York
+2025-07-06 17:08:00,350 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for New-York, DirectURL
+2025-07-06 17:08:00,907 - src.scrapers.traffic_scraper - INFO - Found 7 tables for New-York Traffic
+2025-07-06 17:08:00,909 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\traffic\DirectURL_New-York_traffic_Traffic_Indices.csv
+2025-07-06 17:08:00,911 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\traffic\DirectURL_New-York_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-06 17:08:00,912 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\traffic\DirectURL_New-York_traffic_Average_when_primarily_using_Walking.csv
+2025-07-06 17:08:00,914 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\traffic\DirectURL_New-York_traffic_Average_when_primarily_using_Car.csv
+2025-07-06 17:08:00,918 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\traffic\DirectURL_New-York_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-06 17:08:00,921 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\traffic\DirectURL_New-York_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-06 17:08:00,924 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\traffic\DirectURL_New-York_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-06 17:08:00,924 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/New-York.
+2025-07-06 17:08:00,925 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/New-York
+2025-07-06 17:08:00,925 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for New-York, DirectURL
+2025-07-06 17:08:01,482 - src.scrapers.pollution_scraper - INFO - Found 3 tables for New-York Pollution
+2025-07-06 17:08:01,484 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\pollution\DirectURL_New-York_pollution_Pollution_Indices.csv
+2025-07-06 17:08:01,485 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\pollution\DirectURL_New-York_pollution_Pollution_Details_Table_1.csv
+2025-07-06 17:08:01,486 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170757\pollution\DirectURL_New-York_pollution_Pollution_Details_Table_2.csv
+2025-07-06 17:08:01,487 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/New-York.
+2025-07-06 17:08:01,489 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Valencia-Venezuela (category: None)
+2025-07-06 17:08:01,489 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Valencia-Venezuela
+2025-07-06 17:08:01,490 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Valencia-Venezuela, DirectURL
+2025-07-06 17:08:02,039 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Valencia-Venezuela Quality of Life
+2025-07-06 17:08:02,041 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\quality-of-life\DirectURL_Valencia-Venezuela_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-06 17:08:02,041 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Valencia-Venezuela.
+2025-07-06 17:08:02,042 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Valencia-Venezuela
+2025-07-06 17:08:02,044 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Valencia-Venezuela, DirectURL
+2025-07-06 17:08:02,641 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-06 17:08:02,643 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-06 17:08:02,644 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-06 17:08:02,644 - src.scrapers.crime_scraper - INFO - Found 3 tables for Valencia-Venezuela Safety/Crime
+2025-07-06 17:08:02,646 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\crime\DirectURL_Valencia-Venezuela_crime_Crime_Indices.csv
+2025-07-06 17:08:02,647 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\crime\DirectURL_Valencia-Venezuela_crime_Crime_Details_Table_1.csv
+2025-07-06 17:08:02,649 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\crime\DirectURL_Valencia-Venezuela_crime_Crime_Details_Table_2.csv
+2025-07-06 17:08:02,649 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Valencia-Venezuela.
+2025-07-06 17:08:02,650 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Valencia-Venezuela
+2025-07-06 17:08:02,650 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Valencia-Venezuela, DirectURL
+2025-07-06 17:08:03,247 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Valencia-Venezuela Cost of Living
+2025-07-06 17:08:03,249 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\cost-of-living\DirectURL_Valencia-Venezuela_cost-of-living_Table1.csv
+2025-07-06 17:08:03,250 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Valencia-Venezuela.
+2025-07-06 17:08:03,250 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Valencia-Venezuela
+2025-07-06 17:08:03,251 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Valencia-Venezuela, DirectURL
+2025-07-06 17:08:03,767 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Valencia-Venezuela Health Care
+2025-07-06 17:08:03,769 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\health-care\DirectURL_Valencia-Venezuela_health-care_Health_Care_Indices.csv
+2025-07-06 17:08:03,770 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\health-care\DirectURL_Valencia-Venezuela_health-care_Health_Care_Details_Table_1.csv
+2025-07-06 17:08:03,771 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Valencia-Venezuela.
+2025-07-06 17:08:03,771 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Valencia-Venezuela
+2025-07-06 17:08:03,772 - src.scrapers.climate_scraper - INFO - Scraping Climate for Valencia-Venezuela, DirectURL
+2025-07-06 17:08:04,372 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\climate\DirectURL_Valencia-Venezuela_climate_Climate_By_Month_in_Valencia.csv
+2025-07-06 17:08:04,374 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\climate\DirectURL_Valencia-Venezuela_climate_Best_Months_To_Visit_Valencia.csv
+2025-07-06 17:08:04,375 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\climate\DirectURL_Valencia-Venezuela_climate_Temperatures_(table).csv
+2025-07-06 17:08:04,375 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Valencia-Venezuela.
+2025-07-06 17:08:04,376 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Valencia-Venezuela
+2025-07-06 17:08:04,376 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Valencia-Venezuela, DirectURL
+2025-07-06 17:08:04,963 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\property-investment\DirectURL_Valencia-Venezuela_property-investment_Property_Investment_Indices.csv
+2025-07-06 17:08:04,965 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\property-investment\DirectURL_Valencia-Venezuela_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-06 17:08:04,965 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Valencia-Venezuela.
+2025-07-06 17:08:04,966 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Valencia-Venezuela
+2025-07-06 17:08:04,966 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Valencia-Venezuela, DirectURL
+2025-07-06 17:08:05,471 - src.scrapers.traffic_scraper - INFO - Found 4 tables for Valencia-Venezuela Traffic
+2025-07-06 17:08:05,476 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\traffic\DirectURL_Valencia-Venezuela_traffic_Traffic_Indices.csv
+2025-07-06 17:08:05,478 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\traffic\DirectURL_Valencia-Venezuela_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-06 17:08:05,480 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\traffic\DirectURL_Valencia-Venezuela_traffic_Average_when_primarily_using_Walking.csv
+2025-07-06 17:08:05,481 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\traffic\DirectURL_Valencia-Venezuela_traffic_Average_when_primarily_using_Car.csv
+2025-07-06 17:08:05,481 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Valencia-Venezuela.
+2025-07-06 17:08:05,481 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Valencia-Venezuela
+2025-07-06 17:08:05,482 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Valencia-Venezuela, DirectURL
+2025-07-06 17:08:05,978 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Valencia-Venezuela Pollution
+2025-07-06 17:08:05,980 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\pollution\DirectURL_Valencia-Venezuela_pollution_Pollution_Indices.csv
+2025-07-06 17:08:05,982 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\pollution\DirectURL_Valencia-Venezuela_pollution_Pollution_Details_Table_1.csv
+2025-07-06 17:08:05,983 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\scraping_20250706_170801\pollution\DirectURL_Valencia-Venezuela_pollution_Pollution_Details_Table_2.csv
+2025-07-06 17:08:05,983 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Valencia-Venezuela.

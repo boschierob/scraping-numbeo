@@ -1,0 +1,13 @@
+Month,TempLow Avg,TempHigh Avg,table_caption,category,data_type
+Jan,-5℃,5℃,Temperatures (table),climate,table
+Feb,-1℃,8℃,Temperatures (table),climate,table
+Mar,2℃,10℃,Temperatures (table),climate,table
+Apr,8℃,16℃,Temperatures (table),climate,table
+May,14℃,21℃,Temperatures (table),climate,table
+Jun,18℃,27℃,Temperatures (table),climate,table
+Jul,22℃,30℃,Temperatures (table),climate,table
+Aug,22℃,30℃,Temperatures (table),climate,table
+Sep,19℃,27℃,Temperatures (table),climate,table
+Oct,14℃,21℃,Temperatures (table),climate,table
+Nov,7℃,14℃,Temperatures (table),climate,table
+Dec,2℃,9℃,Temperatures (table),climate,table

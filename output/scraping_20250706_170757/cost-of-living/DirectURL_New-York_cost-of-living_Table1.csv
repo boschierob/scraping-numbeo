@@ -1,0 +1,65 @@
+Restaurants,Edit,Range,table_caption,category
+"Meal, Inexpensive Restaurant",26.00 $,12.00-50.00,Table1,cost_of_living
+"Meal for 2 People, Mid-range Restaurant, Three-course",140.00 $,95.00-210.00,Table1,cost_of_living
+McMeal at McDonalds (or Equivalent Combo Meal),12.00 $,10.00-16.00,Table1,cost_of_living
+Domestic Beer (0.5 liter draught),8.00 $,5.00-12.00,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),12.00 $,8.00-15.00,Table1,cost_of_living
+Cappuccino (regular),5.86 $,4.00-9.00,Table1,cost_of_living
+Coke/Pepsi (0.33 liter bottle),3.23 $,2.50-5.00,Table1,cost_of_living
+Water (0.33 liter bottle),2.55 $,2.00-4.00,Table1,cost_of_living
+Markets,Edit,nan,Table1,cost_of_living
+"Milk (regular), (1 liter)",1.59 $,1.06-2.64,Table1,cost_of_living
+Loaf of Fresh White Bread (500g),5.01 $,3.31-7.72,Table1,cost_of_living
+"Rice (white), (1kg)",8.27 $,2.84-14.00,Table1,cost_of_living
+Eggs (regular) (12),7.35 $,3.00-10.50,Table1,cost_of_living
+Local Cheese (1kg),17.16 $,9.20-44.00,Table1,cost_of_living
+Chicken Fillets (1kg),16.08 $,6.61-24.23,Table1,cost_of_living
+Beef Round (1kg) (or Equivalent Back Leg Red Meat),19.94 $,11.02-33.07,Table1,cost_of_living
+Apples (1kg),7.41 $,2.20-11.09,Table1,cost_of_living
+Banana (1kg),2.52 $,1.32-6.61,Table1,cost_of_living
+Oranges (1kg),5.72 $,2.20-11.02,Table1,cost_of_living
+Tomato (1kg),6.37 $,2.20-11.02,Table1,cost_of_living
+Potato (1kg),3.74 $,1.54-8.80,Table1,cost_of_living
+Onion (1kg),4.01 $,2.18-6.61,Table1,cost_of_living
+Lettuce (1 head),2.94 $,1.00-5.30,Table1,cost_of_living
+Water (1.5 liter bottle),2.49 $,1.38-3.50,Table1,cost_of_living
+Bottle of Wine (Mid-Range),18.00 $,11.00-25.00,Table1,cost_of_living
+Domestic Beer (0.5 liter bottle),3.34 $,2.14-4.29,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),3.81 $,2.00-5.60,Table1,cost_of_living
+Cigarettes 20 Pack (Marlboro),19.00 $,16.00-21.00,Table1,cost_of_living
+Transportation,Edit,nan,Table1,cost_of_living
+One-way Ticket (Local Transport),2.90 $,2.90-3.00,Table1,cost_of_living
+Monthly Pass (Regular Price),132.00 $,127.00-147.83,Table1,cost_of_living
+Taxi Start (Normal Tariff),4.99 $,3.00-8.00,Table1,cost_of_living
+Taxi 1km (Normal Tariff),2.17 $,2.17-3.73,Table1,cost_of_living
+Taxi 1hour Waiting (Normal Tariff),42.00 $,30.00-45.00,Table1,cost_of_living
+Gasoline (1 liter),0.94 $,0.79-1.20,Table1,cost_of_living
+Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"36,344.69 $","31,000.00-37,230.68",Table1,cost_of_living
+Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"27,448.36 $","25,348.15-29,800.00",Table1,cost_of_living
+Utilities (Monthly),Edit,nan,Table1,cost_of_living
+"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment",183.22 $,115.00-300.00,Table1,cost_of_living
+Mobile Phone Monthly Plan with Calls and 10GB+ Data,60.31 $,30.00-120.00,Table1,cost_of_living
+"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",63.73 $,50.00-100.00,Table1,cost_of_living
+Sports And Leisure,Edit,nan,Table1,cost_of_living
+"Fitness Club, Monthly Fee for 1 Adult",157.00 $,30.00-300.00,Table1,cost_of_living
+Tennis Court Rent (1 Hour on Weekend),65.00 $,25.00-100.00,Table1,cost_of_living
+"Cinema, International Release, 1 Seat",20.00 $,16.00-25.00,Table1,cost_of_living
+Childcare,Edit,nan,Table1,cost_of_living
+"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","3,094.72 $","2,500.00-4,166.67",Table1,cost_of_living
+"International Primary School, Yearly for 1 Child","57,250.00 $","50,000.00-65,000.00",Table1,cost_of_living
+Clothing And Shoes,Edit,nan,Table1,cost_of_living
+1 Pair of Jeans (Levis 501 Or Similar),66.98 $,40.00-100.00,Table1,cost_of_living
+"1 Summer Dress in a Chain Store (Zara, H&M, ...)",49.12 $,25.00-75.00,Table1,cost_of_living
+1 Pair of Nike Running Shoes (Mid-Range),113.00 $,80.00-150.00,Table1,cost_of_living
+1 Pair of Men Leather Business Shoes,168.18 $,90.00-250.00,Table1,cost_of_living
+Rent Per Month,Edit,nan,Table1,cost_of_living
+Apartment (1 bedroom) in City Centre,"4,094.65 $","3,000.00-5,500.00",Table1,cost_of_living
+Apartment (1 bedroom) Outside of Centre,"2,534.22 $","1,975.00-4,000.00",Table1,cost_of_living
+Apartment (3 bedrooms) in City Centre,"8,221.43 $","6,000.00-12,000.00",Table1,cost_of_living
+Apartment (3 bedrooms) Outside of Centre,"5,226.67 $","3,500.00-7,500.00",Table1,cost_of_living
+Buy Apartment Price,Edit,nan,Table1,cost_of_living
+Price per Square Meter to Buy Apartment in City Centre,"17,355.22 $","7,000.00-26,909.78",Table1,cost_of_living
+Price per Square Meter to Buy Apartment Outside of Centre,"12,176.10 $","5,683.00-20,000.00",Table1,cost_of_living
+Salaries And Financing,Edit,nan,Table1,cost_of_living
+Average Monthly Net Salary (After Tax),"5,145.25 $",nan,Table1,cost_of_living
+"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",6.44,6.00-7.00,Table1,cost_of_living

@@ -11,3 +11,5 @@ venv/
 .DS_Store
 # Fichiers sensibles utilisateurs
 datas/users.json
+logs/
+debug/

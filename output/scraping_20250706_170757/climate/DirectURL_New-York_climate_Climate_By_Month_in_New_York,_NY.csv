@@ -1,0 +1,13 @@
+Month,ClimateScore,Weather Conditions Outline,table_caption,category,data_type
+Jan,14.96,Low avg -5℃,"Climate By Month in New York, NY",climate,table
+Feb,45.43,Low avg -1℃,"Climate By Month in New York, NY",climate,table
+Mar,62.78,,"Climate By Month in New York, NY",climate,table
+Apr,88.78,,"Climate By Month in New York, NY",climate,table
+May,97.64,,"Climate By Month in New York, NY",climate,table
+Jun,100.00,,"Climate By Month in New York, NY",climate,table
+Jul,97.01,Chance of humid day 98%,"Climate By Month in New York, NY",climate,table
+Aug,96.44,Chance of humid day 97%,"Climate By Month in New York, NY",climate,table
+Sep,100.00,,"Climate By Month in New York, NY",climate,table
+Oct,98.55,,"Climate By Month in New York, NY",climate,table
+Nov,87.64,,"Climate By Month in New York, NY",climate,table
+Dec,66.71,,"Climate By Month in New York, NY",climate,table
