@@ -1,0 +1,9 @@
+section,sub_section,Value,price_min,price_max,table_caption,category
+Rent Per Month,Apartment (1 bedroom) in City Centre,657.84 $,450.00,"1,000.00",Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (1 bedroom) Outside of Centre,443.46 $,300.00,600.00,Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (3 bedrooms) in City Centre,"1,178.33 $",750.00,"1,600.00",Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (3 bedrooms) Outside of Centre,796.30 $,550.00,"1,300.00",Property Investment Details Table 1,property_investment
+Buy Apartment Price,Price per Square Meter to Buy Apartment in City Centre,"2,663.48 $","2,000.00","4,305.56",Property Investment Details Table 1,property_investment
+Buy Apartment Price,Price per Square Meter to Buy Apartment Outside of Centre,"1,952.94 $","1,500.00","3,518.00",Property Investment Details Table 1,property_investment
+Salaries And Financing,Average Monthly Net Salary (After Tax),756.25 $,,,Property Investment Details Table 1,property_investment
+Salaries And Financing,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",52.71,40.00,70.00,Property Investment Details Table 1,property_investment

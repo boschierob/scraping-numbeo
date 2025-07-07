@@ -7,6 +7,11 @@ import sys
 from pathlib import Path
 import argparse
 from urllib.parse import urlparse
+import os
+import subprocess
+
+from dotenv import load_dotenv
+load_dotenv()
 
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent / "src"))
@@ -14,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).parent / "src"))
 from src.config.settings import ensure_directories, LOG_LEVEL, LOG_FORMAT, LOG_FILE
 from src.data.city_loader import CityLoader
 from src.utils.url_builder import URLBuilder
-from src.utils.file_saver import FileSaver
+from src.utils.file_saver import FileSaver, make_city_output_folder
 from src.scrapers.base_scraper import BaseScraper
 from src.scrapers.scraper_factory import ScraperFactory
 from src.monitoring.stats_tracker import StatsTracker
@@ -73,8 +78,10 @@ def scrape_from_url(url, category=None):
     if category:
         categories = [category]
 
+    output_folder = make_city_output_folder(slug, '', 'DirectURL')
+    file_saver = FileSaver(output_folder=output_folder)
+
     scraper_factory = ScraperFactory()
-    file_saver = FileSaver()
 
     for cat in categories:
         cat_url = f"https://www.numbeo.com/{cat}/in/{slug}"
@@ -106,10 +113,8 @@ def main():
         # Initialize components
         city_loader = CityLoader()
         url_builder = URLBuilder()
-        file_saver = FileSaver()
-        base_scraper = BaseScraper()
-        stats_tracker = StatsTracker()
         scraper_factory = ScraperFactory()
+        stats_tracker = StatsTracker()
         
         # Start tracking
         stats_tracker.start_scraping()
@@ -125,10 +130,14 @@ def main():
         
         # Process each city
         for city in cities:
-            city_name = city.get('city', 'Unknown')
-            country_name = city.get('country', 'Unknown')
+            city_name = (city.get('city', '') or '').strip() or 'UnknownCity'
+            region = (city.get('region', '') or '').strip()
+            country_name = (city.get('country', '') or '').strip() or 'UnknownCountry'
             city_url = city.get('url', '')
             
+            print(f"\n\033[1;35m--- Début scraping ville : {city_name}, {country_name} ---\033[0m")
+            logger.info(f"--- Début scraping ville : {city_name}, {country_name} ---")
+
             if not city_url:
                 logger.warning(f"No URL for city {city_name}, {country_name}")
                 continue
@@ -142,11 +151,14 @@ def main():
                 
                 city_success = True
                 for category, category_url in category_urls.items():
-                    logger.info(f"  Scraping category: {category}")
+                    print(f"\033[1;36m  → Début scraping catégorie : {category} pour {city_name}\033[0m")
+                    logger.info(f"  → Début scraping catégorie : {category} pour {city_name}")
                     try:
                         logger.debug(f"    URL: {category_url}")
                         # Utiliser le ScraperFactory pour obtenir le bon scraper
                         scraper = scraper_factory.get_scraper(category)
+                        output_folder = make_city_output_folder(city_name, region, country_name)
+                        file_saver = FileSaver(output_folder=output_folder)
                         tables = scraper.scrape_category(category_url, city_name, country_name)
                         files_created = 0
                         tables_found = len(tables)
@@ -163,6 +175,8 @@ def main():
                             tables_successful=tables_successful,
                             files_created=files_created
                         )
+                        print(f"\033[1;32m  ✅ Fin scraping catégorie : {category} pour {city_name}\033[0m")
+                        logger.info(f"  ✅ Fin scraping catégorie : {category} pour {city_name}")
                     except Exception as e:
                         logger.error(f"    Error scraping {category}: {e}")
                         stats_tracker.record_error("scraping_error", str(e), city_name, category)
@@ -171,17 +185,40 @@ def main():
                             success=False, tables_found=0, tables_successful=0, files_created=0
                         )
                         city_success = False
+                        print(f"\033[1;31m  ❌ Erreur scraping catégorie : {category} pour {city_name} : {e}\033[0m")
+                        logger.info(f"  ❌ Erreur scraping catégorie : {category} pour {city_name} : {e}")
                 
+                # Après la boucle des catégories pour la ville
+                print(f"  🟢 Fin de toutes les catégories pour {city_name}, passage à la fin de la ville.")
+                logger.info(f"  🟢 Fin de toutes les catégories pour {city_name}, passage à la fin de la ville.")
                 stats_tracker.record_city_end(city_name, country_name, city_success)
-                
+                print(f"\033[1;35m--- Fin scraping ville : {city_name}, {country_name} ---\033[0m\n")
+                logger.info(f"--- Fin scraping ville : {city_name}, {country_name} ---")
+            
             except Exception as e:
                 logger.error(f"Error processing city {city_name}: {e}")
                 stats_tracker.record_error("city_error", str(e), city_name)
                 stats_tracker.record_city_end(city_name, country_name, False)
+                print(f"\033[1;31m❌ Erreur scraping ville : {city_name}, {country_name} : {e}\033[0m")
+                logger.info(f"❌ Erreur scraping ville : {city_name}, {country_name} : {e}")
         
         # End tracking and generate report
         stats_tracker.end_scraping()
         report_file = stats_tracker.generate_report(file_saver.get_output_folder())
+
+        # Appel automatique de l'import MySQL pour tous les dossiers d'output générés
+        output_root = Path('output')
+        for subdir in output_root.iterdir():
+            if subdir.is_dir():
+                try:
+                    subprocess.run([
+                        sys.executable, 'import_to_mysql.py', str(subdir)
+                    ], check=True)
+                except Exception as e:
+                    logger.error(f"Erreur lors de l'import MySQL automatique pour {subdir} : {e}")
+
+        print("[DEBUG] Bloc upload Google Drive va être évalué.")
+        print(f"[DEBUG] report_file = {report_file}")
         
         if report_file:
             logger.info(f"Scraping completed. Report saved to: {report_file}")
@@ -201,8 +238,12 @@ def main():
     
     finally:
         # Cleanup
-        if 'base_scraper' in locals():
-            base_scraper.cleanup()
+        if 'scraper_factory' in locals():
+            scraper_factory.cleanup()
+
+    # Après la boucle des villes
+    print("✅ Fin du scraping de toutes les villes.")
+    logger.info("Fin du scraping de toutes les villes.")
 
 if __name__ == "__main__":
     args = parse_args()

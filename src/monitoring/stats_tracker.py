@@ -164,7 +164,9 @@ class StatsTracker:
     
     def generate_report(self, output_folder: Path) -> Path:
         """Generate a comprehensive scraping report"""
+        report_file = output_folder / "scraping_report.json"
         try:
+            output_folder.mkdir(parents=True, exist_ok=True)  # S'assure que le dossier existe
             report_data = {
                 'session_info': {
                     'start_time': self.start_time.isoformat() if self.start_time else None,
@@ -179,7 +181,6 @@ class StatsTracker:
                 'errors': self.stats['errors']
             }
             
-            report_file = output_folder / "scraping_report.json"
             with open(report_file, 'w', encoding='utf-8') as f:
                 json.dump(report_data, f, indent=2, ensure_ascii=False)
             
@@ -192,7 +193,8 @@ class StatsTracker:
             
         except Exception as e:
             logger.error(f"Error generating report: {e}")
-            return None
+            # Retourne quand même le chemin attendu pour permettre l'upload
+            return report_file
     
     def _generate_text_report(self, file_path: Path, report_data: Dict):
         """Generate human-readable text report"""

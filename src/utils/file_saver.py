@@ -6,7 +6,7 @@ import logging
 from pathlib import Path
 from typing import List, Optional
 from datetime import datetime
-from ..config.settings import get_output_folder, CSV_EXTENSION
+from ..config.settings import get_output_folder, CSV_EXTENSION, OUTPUT_DIR
 
 logger = logging.getLogger(__name__)
 
@@ -144,4 +144,22 @@ class FileSaver:
                     file_path.unlink()
                     logger.debug(f"Removed empty file: {file_path}")
                 except Exception as e:
-                    logger.warning(f"Could not remove empty file {file_path}: {e}") 
+                    logger.warning(f"Could not remove empty file {file_path}: {e}")
+
+def make_city_output_folder(city, region, country, base_output_dir=None):
+    """
+    Génère le chemin du dossier d'output pour une ville, au format :
+    output/ville(-region)-pays-timestamp
+    """
+    base_output_dir = base_output_dir or OUTPUT_DIR
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    city = (city or '').strip() or 'UnknownCity'
+    country = (country or '').strip() or 'UnknownCountry'
+    region = (region or '').strip()
+    parts = [city]
+    if region:
+        parts.append(region)
+    parts.append(country)
+    folder_name = "-".join([str(p).replace(" ", "-") for p in parts if p])
+    folder_name = f"{folder_name}-{timestamp}"
+    return Path(base_output_dir) / folder_name 

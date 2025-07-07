@@ -16,7 +16,7 @@ def check_login(username, password):
         users = json.load(f)
     return username in users and users[username] == hash_password(password)
 
-st.header("Uploader un fichier CSV de villes")
+st.header("Quelles villes souhaitez vous scraper ?")
 
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
@@ -52,10 +52,44 @@ else:
         else:
             st.error(f"Le fichier doit avoir 'city', 'country', puis 'region' comme trois premières colonnes. Colonnes trouvées : {list(df.columns)}")
 
+    # --- Bouton pour lancer le scraping complet du CSV ---
+    st.markdown("---")
+    # Vérifie si le CSV est correctement chargé
+    csv_path = os.path.join("datas", "cities.csv")
+    csv_ready = False
+    if os.path.exists(csv_path):
+        try:
+            df_check = pd.read_csv(csv_path)
+            expected_first_cols = ["city", "country", "region"]
+            if list(df_check.columns[:3]) == expected_first_cols:
+                csv_ready = True
+        except Exception:
+            csv_ready = False
+    btn_scrape = st.button("Lancer le scraping complet du CSV", disabled=not csv_ready)
+    if not csv_ready:
+        st.info("Le scraping complet n'est possible que si un fichier CSV valide est chargé (colonnes : city, country, region).")
+    if btn_scrape and csv_ready:
+        import sys
+        sys.path.insert(0, os.path.abspath("."))
+        try:
+            from main import main as run_full_scraping
+            st.info("⏳ Lancement du scraping complet des villes du CSV...")
+            success = run_full_scraping()
+            if success:
+                st.success("✅ Scraping complet terminé avec succès !")
+            else:
+                st.error("❌ Le scraping complet a échoué ou a rencontré des erreurs.")
+        except ImportError as e:
+            st.error(f"Erreur d'import de la fonction main : {e}")
+        except Exception as e:
+            st.error(f"Erreur inattendue lors du scraping complet : {e}")
+
     # --- Nouvelle section : Scraper à partir d'URLs Numbeo ---
     st.markdown("--- OU ---")
-    st.header("Scraper directement à partir d'une ou plusieurs URLs Numbeo")
+    st.header("Extraire les villes depuis une ou plusieurs URLs Numbeo")
     st.caption("le systeme extraiera les villes depuis les urls que vous entrerez, puis scrapera toutes les données (coût de la vie, climat, sécurité, ...) relatives à celles-ci")
+    st.write("*exemple : entrez https://www.numbeo.com/cost-of-living/in/Lyon pour extraire les données de la ville de Lyon*")
+
     urls_input = st.text_area("Collez une ou plusieurs URLs Numbeo (une par ligne)")
     if st.button("Lancer le scraping des URLs"):
         if not urls_input.strip():

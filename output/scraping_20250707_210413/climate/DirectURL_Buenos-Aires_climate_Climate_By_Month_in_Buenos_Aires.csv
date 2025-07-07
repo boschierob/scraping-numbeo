@@ -1,0 +1,13 @@
+Month,ClimateScore,Weather Conditions Outline,table_caption,category,data_type
+Jan,99.21,Chance of humid day 93%,Climate By Month in Buenos Aires,climate,table
+Feb,99.51,Chance of humid day 90%,Climate By Month in Buenos Aires,climate,table
+Mar,100.00,,Climate By Month in Buenos Aires,climate,table
+Apr,100.00,Chance of cloudy day 44%,Climate By Month in Buenos Aires,climate,table
+May,99.37,Chance of cloudy day 46%,Climate By Month in Buenos Aires,climate,table
+Jun,94.58,Chance of cloudy day 50%,Climate By Month in Buenos Aires,climate,table
+Jul,95.64,Chance of cloudy day 64%,Climate By Month in Buenos Aires,climate,table
+Aug,95.64,Chance of cloudy day 52%,Climate By Month in Buenos Aires,climate,table
+Sep,96.67,Chance of cloudy day 53%,Climate By Month in Buenos Aires,climate,table
+Oct,99.37,Chance of windy day 51%,Climate By Month in Buenos Aires,climate,table
+Nov,99.37,Chance of windy day 57%,Climate By Month in Buenos Aires,climate,table
+Dec,100.00,Chance of humid day 88%,Climate By Month in Buenos Aires,climate,table

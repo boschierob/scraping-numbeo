@@ -1,0 +1,9 @@
+section,sub_section,Value,price_min,price_max,table_caption,category
+Rent Per Month,Apartment (1 bedroom) in City Centre,"4,225.30 zł","3,400.00","5,500.00",Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (1 bedroom) Outside of Centre,"3,279.76 zł","2,500.00","4,150.00",Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (3 bedrooms) in City Centre,"7,723.33 zł","6,000.00","11,000.00",Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (3 bedrooms) Outside of Centre,"5,570.00 zł","4,500.00","7,000.00",Property Investment Details Table 1,property_investment
+Buy Apartment Price,Price per Square Meter to Buy Apartment in City Centre,"24,107.79 zł","20,000.00","32,000.00",Property Investment Details Table 1,property_investment
+Buy Apartment Price,Price per Square Meter to Buy Apartment Outside of Centre,"15,587.50 zł","13,000.00","18,500.00",Property Investment Details Table 1,property_investment
+Salaries And Financing,Average Monthly Net Salary (After Tax),"7,778.25 zł",,,Property Investment Details Table 1,property_investment
+Salaries And Financing,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",7.50,6.00,9.00,Property Investment Details Table 1,property_investment

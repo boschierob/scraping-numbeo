@@ -1,0 +1,65 @@
+Restaurants,Edit,Range,table_caption,category
+"Meal, Inexpensive Restaurant",40.00 zł,30.00-60.00,Table1,cost_of_living
+"Meal for 2 People, Mid-range Restaurant, Three-course",210.00 zł,150.00-400.00,Table1,cost_of_living
+McMeal at McDonalds (or Equivalent Combo Meal),35.00 zł,30.00-40.00,Table1,cost_of_living
+Domestic Beer (0.5 liter draught),17.00 zł,12.00-21.72,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),17.00 zł,12.00-25.00,Table1,cost_of_living
+Cappuccino (regular),15.47 zł,9.00-20.00,Table1,cost_of_living
+Coke/Pepsi (0.33 liter bottle),7.61 zł,5.00-12.00,Table1,cost_of_living
+Water (0.33 liter bottle),6.71 zł,4.00-10.00,Table1,cost_of_living
+Markets,Edit,nan,Table1,cost_of_living
+"Milk (regular), (1 liter)",4.27 zł,3.49-6.00,Table1,cost_of_living
+Loaf of Fresh White Bread (500g),5.21 zł,4.00-10.00,Table1,cost_of_living
+"Rice (white), (1kg)",6.65 zł,3.00-11.00,Table1,cost_of_living
+Eggs (regular) (12),13.05 zł,9.60-16.80,Table1,cost_of_living
+Local Cheese (1kg),37.33 zł,29.00-60.00,Table1,cost_of_living
+Chicken Fillets (1kg),26.38 zł,15.00-35.00,Table1,cost_of_living
+Beef Round (1kg) (or Equivalent Back Leg Red Meat),54.20 zł,35.00-79.00,Table1,cost_of_living
+Apples (1kg),4.72 zł,3.00-6.00,Table1,cost_of_living
+Banana (1kg),6.63 zł,5.00-8.00,Table1,cost_of_living
+Oranges (1kg),7.41 zł,4.00-12.00,Table1,cost_of_living
+Tomato (1kg),13.62 zł,8.00-20.00,Table1,cost_of_living
+Potato (1kg),3.87 zł,2.00-6.00,Table1,cost_of_living
+Onion (1kg),4.40 zł,2.00-6.00,Table1,cost_of_living
+Lettuce (1 head),5.46 zł,3.00-8.00,Table1,cost_of_living
+Water (1.5 liter bottle),2.59 zł,1.50-4.00,Table1,cost_of_living
+Bottle of Wine (Mid-Range),30.00 zł,20.00-50.00,Table1,cost_of_living
+Domestic Beer (0.5 liter bottle),5.12 zł,4.00-7.00,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),7.00 zł,5.00-10.00,Table1,cost_of_living
+Cigarettes 20 Pack (Marlboro),21.00 zł,20.00-25.00,Table1,cost_of_living
+Transportation,Edit,nan,Table1,cost_of_living
+One-way Ticket (Local Transport),4.40 zł,3.40-4.40,Table1,cost_of_living
+Monthly Pass (Regular Price),110.00 zł,110.00-180.00,Table1,cost_of_living
+Taxi Start (Normal Tariff),10.00 zł,8.00-15.00,Table1,cost_of_living
+Taxi 1km (Normal Tariff),5.00 zł,3.00-8.00,Table1,cost_of_living
+Taxi 1hour Waiting (Normal Tariff),50.00 zł,40.00-55.00,Table1,cost_of_living
+Gasoline (1 liter),6.42 zł,6.00-7.00,Table1,cost_of_living
+Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"121,645.00 zł","116,000.00-126,000.00",Table1,cost_of_living
+Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"121,495.65 zł","117,000.00-126,900.00",Table1,cost_of_living
+Utilities (Monthly),Edit,nan,Table1,cost_of_living
+"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment","1,345.10 zł","944.44-1,813.33",Table1,cost_of_living
+Mobile Phone Monthly Plan with Calls and 10GB+ Data,37.34 zł,20.00-75.00,Table1,cost_of_living
+"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",62.88 zł,45.00-90.00,Table1,cost_of_living
+Sports And Leisure,Edit,nan,Table1,cost_of_living
+"Fitness Club, Monthly Fee for 1 Adult",163.15 zł,120.00-250.00,Table1,cost_of_living
+Tennis Court Rent (1 Hour on Weekend),104.00 zł,75.00-150.00,Table1,cost_of_living
+"Cinema, International Release, 1 Seat",35.00 zł,30.00-45.00,Table1,cost_of_living
+Childcare,Edit,nan,Table1,cost_of_living
+"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","2,121.01 zł","1,500.00-2,500.00",Table1,cost_of_living
+"International Primary School, Yearly for 1 Child","58,277.78 zł","40,000.00-90,000.00",Table1,cost_of_living
+Clothing And Shoes,Edit,nan,Table1,cost_of_living
+1 Pair of Jeans (Levis 501 Or Similar),374.94 zł,200.00-500.00,Table1,cost_of_living
+"1 Summer Dress in a Chain Store (Zara, H&M, ...)",169.93 zł,100.00-300.00,Table1,cost_of_living
+1 Pair of Nike Running Shoes (Mid-Range),347.31 zł,250.00-500.00,Table1,cost_of_living
+1 Pair of Men Leather Business Shoes,399.29 zł,250.00-600.00,Table1,cost_of_living
+Rent Per Month,Edit,nan,Table1,cost_of_living
+Apartment (1 bedroom) in City Centre,"4,225.30 zł","3,400.00-5,500.00",Table1,cost_of_living
+Apartment (1 bedroom) Outside of Centre,"3,279.76 zł","2,500.00-4,150.00",Table1,cost_of_living
+Apartment (3 bedrooms) in City Centre,"7,723.33 zł","6,000.00-11,000.00",Table1,cost_of_living
+Apartment (3 bedrooms) Outside of Centre,"5,570.00 zł","4,500.00-7,000.00",Table1,cost_of_living
+Buy Apartment Price,Edit,nan,Table1,cost_of_living
+Price per Square Meter to Buy Apartment in City Centre,"24,107.79 zł","20,000.00-32,000.00",Table1,cost_of_living
+Price per Square Meter to Buy Apartment Outside of Centre,"15,587.50 zł","13,000.00-18,500.00",Table1,cost_of_living
+Salaries And Financing,Edit,nan,Table1,cost_of_living
+Average Monthly Net Salary (After Tax),"7,778.25 zł",nan,Table1,cost_of_living
+"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",7.50,6.00-9.00,Table1,cost_of_living

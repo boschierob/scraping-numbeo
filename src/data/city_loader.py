@@ -34,11 +34,15 @@ class CityLoader:
             # Convert DataFrame to list of dictionaries
             self.cities = df.to_dict('records')
             
-            # Build URLs for cities that don't have them
+            # Build URLs for cities that don't have them, with fallback
             for city in self.cities:
                 if 'url' not in city or not city['url']:
-                    city['url'] = self._build_city_url(city.get('city', ''), city.get('country', ''))
-                    logger.debug(f"Built URL for {city.get('city')}: {city['url']}")
+                    city['url'] = self._find_valid_city_url(
+                        city.get('city', ''),
+                        city.get('country', ''),
+                        city.get('region', None)
+                    )
+                    logger.debug(f"Built (fallback) URL for {city.get('city')}: {city['url']}")
             
             # Validate required columns
             required_columns = ['country', 'city']
@@ -99,6 +103,36 @@ class CityLoader:
     def get_total_cities(self) -> int:
         """Get total number of loaded cities"""
         return len(self.cities)
+    
+    def _find_valid_city_url(self, city_name: str, country_name: str, region: str = None) -> str:
+        """
+        Try different Numbeo URL formats for a city and return the first valid one.
+        """
+        from ..config.settings import BASE_URL
+        import requests
+        from bs4 import BeautifulSoup
+
+        def clean(val):
+            return str(val).replace(" ", "-")
+
+        candidates = [
+            f"{BASE_URL}/quality-of-life/in/{clean(city_name)}",
+            f"{BASE_URL}/quality-of-life/in/{clean(city_name)}-{clean(country_name)}"
+        ]
+        if region and str(region).strip():
+            candidates.append(f"{BASE_URL}/quality-of-life/in/{clean(city_name)}-{clean(region)}-{clean(country_name)}")
+
+        headers = {"User-Agent": "Mozilla/5.0"}
+        for url in candidates:
+            try:
+                resp = requests.get(url, headers=headers, timeout=10)
+                if resp.status_code == 200:
+                    soup = BeautifulSoup(resp.content, "html.parser")
+                    if soup.find("table") or soup.find("h1"):
+                        return url
+            except Exception:
+                continue
+        return candidates[0]  # fallback: retourne la première même si non valide
     
     def _build_city_url(self, city_name: str, country_name: str) -> str:
         """
