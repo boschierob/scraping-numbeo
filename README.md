@@ -1,134 +1,89 @@
-# Numbeo Scraping Project - Modular Structure
+# Numbeo Scraping
 
-Ce projet a été refactorisé en une structure modulaire pour améliorer la maintenabilité et l'extensibilité.
+Scrape, standardize, and upload Numbeo data (cost of living, climate, crime, health, etc.) for any city, with export to CSV/JSON and automated import into Supabase.
 
-## Structure du Projet
+---
 
-```
-Numbeo-scraping/
-├── src/
-│   ├── config/
-│   │   ├── __init__.py
-│   │   └── settings.py          # Configuration globale
-│   ├── data/
-│   │   ├── __init__.py
-│   │   └── city_loader.py       # Chargement des données des villes
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── url_builder.py       # Construction des URLs
-│   │   └── file_saver.py        # Sauvegarde des fichiers
-│   ├── scrapers/
-│   │   ├── __init__.py
-│   │   └── base_scraper.py      # Classe de base pour les scrapers
-│   ├── monitoring/
-│   │   ├── __init__.py
-│   │   └── stats_tracker.py     # Suivi des statistiques
-│   └── __init__.py
-├── main.py                      # Point d'entrée principal
-├── requirements.txt
-└── README.md
-```
+## Features
+- Multi-category scraping (cost of living, climate, crime, health, etc.)
+- Interactive CLI: scrape from CSV, URLs, or city slugs
+- Web interface (Flask) for scraping by URL
+- Standardized data structure and column mapping
+- Export results as CSV or JSON
+- Automatic merging of session files
+- Automated Supabase table creation and data import
+- Detailed logging
 
-## Modules
+---
 
-### 1. Configuration (`src/config/`)
-- **settings.py** : Tous les paramètres de configuration (URLs, délais, sélecteurs, etc.)
+## Installation
+1. Clone the repo
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Configure your `.env` file:
+   ```ini
+   SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+   SUPABASE_DB_URL=postgresql://USER:PASSWORD@HOST:PORT/DATABASE
+   ```
 
-### 2. Données (`src/data/`)
-- **city_loader.py** : Chargement et validation des données des villes depuis le CSV
+---
 
-### 3. Utilitaires (`src/utils/`)
-- **url_builder.py** : Construction des URLs pour les différentes catégories
-- **file_saver.py** : Sauvegarde des données en CSV et Excel
+## Usage
 
-### 4. Scrapers (`src/scrapers/`)
-- **base_scraper.py** : Classe de base avec fonctionnalités communes (requêtes HTTP, parsing HTML, etc.)
-
-### 5. Monitoring (`src/monitoring/`)
-- **stats_tracker.py** : Suivi des statistiques et génération de rapports
-
-## Utilisation
-
-### Installation
-```bash
-pip install -r requirements.txt
-```
-
-### Exécution
+### 1. Scraping (interactive CLI)
 ```bash
 python main.py
 ```
+- Choose: scrape from CSV, URLs, or city slugs
 
-## Fonctionnalités Implémentées
+### 2. Merge all CSVs from a session
+```bash
+python concatenate_city_csvs.py output/YourSessionFolder
+```
 
-### ✅ Structure de base modulaire
-- Séparation claire des responsabilités
-- Configuration centralisée
-- Gestion des erreurs et logging
-- Suivi des statistiques
+### 3. Create (or reset) the Supabase table
+```bash
+python create_supabase_table.py
+```
 
-### ✅ Chargement des données
-- Lecture du fichier CSV des villes
-- Validation des URLs
-- Gestion des erreurs de chargement
+### 4. Import merged data into Supabase
+```bash
+python upload_to_supabase.py
+```
 
-### ✅ Construction des URLs
-- Génération automatique des URLs pour toutes les catégories
-- Validation des URLs
-- Extraction des identifiants de ville
+### 5. Web interface (Flask)
+```bash
+python flask_app.py
+```
 
-### ✅ Sauvegarde des fichiers
-- Sauvegarde en CSV et Excel
-- Organisation par catégories
-- Noms de fichiers sécurisés
-- Gestion des dossiers de sortie
+---
 
-### ✅ Monitoring et rapports
-- Suivi détaillé des statistiques
-- Génération de rapports JSON et texte
-- Calcul des taux de succès
-- Gestion des erreurs
+## Data Structure
+- All exports (CSV/JSON) use a standardized schema:
+  - city, country, region, category, table_caption, imported_at, item, value, value2, value3, note, data_type, ...
+- All data can also be stored as JSON for flexibility.
 
-## Prochaines Étapes
+---
 
-### 🔄 À implémenter
-1. **Scrapers spécifiques par catégorie** :
-   - Quality of Life scraper
-   - Crime scraper
-   - Cost of Living scraper
-   - Health Care scraper
-   - Climate scraper
-   - Property Investment scraper
-   - Traffic scraper
-   - Pollution scraper
+## Customization
+- Add new categories: update column mapping in the code
+- Change export format: modify save functions (CSV/JSON)
+- Change Supabase schema: edit `create_supabase_table.py`
 
-2. **Intégration du scraping réel** dans `main.py`
+---
 
-3. **Script d'import MySQL** conditionnel
+## Dependencies
+- Python 3.8+
+- pandas, requests, beautifulsoup4, supabase-py, psycopg2-binary, flask, python-dotenv
 
-4. **Tests unitaires** pour chaque module
+---
 
-## Avantages de cette Structure
+## License
+MIT
 
-1. **Maintenabilité** : Code organisé et facile à maintenir
-2. **Extensibilité** : Facile d'ajouter de nouvelles catégories ou fonctionnalités
-3. **Testabilité** : Chaque module peut être testé indépendamment
-4. **Réutilisabilité** : Composants réutilisables dans d'autres projets
-5. **Débogage** : Logging et monitoring détaillés
+---
 
-## Configuration
-
-Tous les paramètres sont centralisés dans `src/config/settings.py` :
-- URLs de base
-- Délais entre requêtes
-- Sélecteurs de tables
-- Paramètres de base de données
-- Configuration du logging
-
-## Logs et Rapports
-
-Le système génère automatiquement :
-- Logs détaillés dans `logs/scraping.log`
-- Rapports de session dans le dossier de sortie
-- Statistiques de succès/échec
-- Liste des erreurs rencontrées 
+## Maintainer
+- For questions or contributions, open an issue or contact the maintainer. 

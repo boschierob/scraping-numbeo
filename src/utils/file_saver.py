@@ -6,6 +6,7 @@ import logging
 from pathlib import Path
 from typing import List, Optional
 from datetime import datetime
+import json
 from ..config.settings import get_output_folder, CSV_EXTENSION, OUTPUT_DIR
 
 logger = logging.getLogger(__name__)
@@ -162,4 +163,15 @@ def make_city_output_folder(city, region, country, base_output_dir=None):
     parts.append(country)
     folder_name = "-".join([str(p).replace(" ", "-") for p in parts if p])
     folder_name = f"{folder_name}-{timestamp}"
-    return Path(base_output_dir) / folder_name 
+    output_folder = Path(base_output_dir) / folder_name
+    output_folder.mkdir(parents=True, exist_ok=True)
+    # --- Ajout meta.json ---
+    meta = {
+        "city": city,
+        "region": region if region else None,
+        "country": country,
+        "datestamp": timestamp
+    }
+    with open(output_folder / "meta.json", "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=2)
+    return output_folder 

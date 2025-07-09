@@ -1,0 +1,13 @@
+Month,ClimateScore,Weather Conditions Outline,table_caption,category,data_type
+Jan,89.99,,"Climate By Month in Los Angeles, CA",climate,table
+Feb,92.34,,"Climate By Month in Los Angeles, CA",climate,table
+Mar,95.64,,"Climate By Month in Los Angeles, CA",climate,table
+Apr,95.64,,"Climate By Month in Los Angeles, CA",climate,table
+May,99.37,,"Climate By Month in Los Angeles, CA",climate,table
+Jun,100.00,,"Climate By Month in Los Angeles, CA",climate,table
+Jul,97.84,Chance of humid day 87%,"Climate By Month in Los Angeles, CA",climate,table
+Aug,97.84,Chance of humid day 86%,"Climate By Month in Los Angeles, CA",climate,table
+Sep,98.87,Chance of humid day 82%,"Climate By Month in Los Angeles, CA",climate,table
+Oct,98.55,,"Climate By Month in Los Angeles, CA",climate,table
+Nov,91.18,,"Climate By Month in Los Angeles, CA",climate,table
+Dec,88.78,,"Climate By Month in Los Angeles, CA",climate,table

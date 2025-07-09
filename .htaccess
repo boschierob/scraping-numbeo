@@ -1,0 +1,29 @@
+RewriteEngine On
+
+# Rediriger vers l'application Streamlit
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ app.py/$1 [QSA,L]
+
+# Configuration pour Python
+AddHandler wsgi-script .py
+Options ExecCGI
+
+# Sécurité
+<Files "*.py">
+    Require all granted
+</Files>
+
+# Empêcher l'accès aux fichiers sensibles
+<Files ".env">
+    Require all denied
+</Files>
+
+<Files "*.log">
+    Require all denied
+</Files>
+
+# Headers de sécurité
+Header always set X-Content-Type-Options nosniff
+Header always set X-Frame-Options DENY
+Header always set X-XSS-Protection "1; mode=block" 

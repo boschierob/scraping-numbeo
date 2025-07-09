@@ -1180,3 +1180,756 @@
 2025-07-07 23:23:50,379 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Warsaw-DirectURL-20250707_232345\pollution\DirectURL_Warsaw_pollution_Pollution_Details_Table_1.csv
 2025-07-07 23:23:50,381 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Warsaw-DirectURL-20250707_232345\pollution\DirectURL_Warsaw_pollution_Pollution_Details_Table_2.csv
 2025-07-07 23:23:50,381 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Warsaw.
+2025-07-08 19:31:10,953 - __main__ - INFO - === Début scraping du slug : Los-Angeles (country: DirectSlug, region: ) ===
+2025-07-08 19:31:10,958 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Los-Angeles
+2025-07-08 19:31:10,959 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Los-Angeles, DirectSlug
+2025-07-08 19:31:11,476 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Los-Angeles Quality of Life
+2025-07-08 19:31:11,479 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\quality-of-life\DirectSlug_Los-Angeles_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-08 19:31:11,480 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Los-Angeles.
+2025-07-08 19:31:11,480 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Los-Angeles
+2025-07-08 19:31:11,481 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Los-Angeles, DirectSlug
+2025-07-08 19:31:11,956 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-08 19:31:11,958 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-08 19:31:11,960 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-08 19:31:11,960 - src.scrapers.crime_scraper - INFO - Found 3 tables for Los-Angeles Safety/Crime
+2025-07-08 19:31:11,962 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\crime\DirectSlug_Los-Angeles_crime_Crime_Indices.csv
+2025-07-08 19:31:11,963 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\crime\DirectSlug_Los-Angeles_crime_Crime_Details_Table_1.csv
+2025-07-08 19:31:11,965 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\crime\DirectSlug_Los-Angeles_crime_Crime_Details_Table_2.csv
+2025-07-08 19:31:11,965 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Los-Angeles.
+2025-07-08 19:31:11,966 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Los-Angeles
+2025-07-08 19:31:11,966 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Los-Angeles, DirectSlug
+2025-07-08 19:31:12,630 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Los-Angeles Cost of Living
+2025-07-08 19:31:12,633 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\cost-of-living\DirectSlug_Los-Angeles_cost-of-living_Table1.csv
+2025-07-08 19:31:12,633 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Los-Angeles.
+2025-07-08 19:31:12,633 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Los-Angeles
+2025-07-08 19:31:12,634 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Los-Angeles, DirectSlug
+2025-07-08 19:31:13,117 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Los-Angeles Health Care
+2025-07-08 19:31:13,119 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Indices.csv
+2025-07-08 19:31:13,120 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_1.csv
+2025-07-08 19:31:13,121 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_2.csv
+2025-07-08 19:31:13,123 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_3.csv
+2025-07-08 19:31:13,123 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Los-Angeles.
+2025-07-08 19:31:13,123 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Los-Angeles
+2025-07-08 19:31:13,124 - src.scrapers.climate_scraper - INFO - Scraping Climate for Los-Angeles, DirectSlug
+2025-07-08 19:31:13,619 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\climate\DirectSlug_Los-Angeles_climate_Climate_By_Month_in_Los_Angeles,_CA.csv
+2025-07-08 19:31:13,620 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\climate\DirectSlug_Los-Angeles_climate_Best_Months_To_Visit_Los_Angeles,_CA.csv
+2025-07-08 19:31:13,622 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\climate\DirectSlug_Los-Angeles_climate_Temperatures_(table).csv
+2025-07-08 19:31:13,622 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Los-Angeles.
+2025-07-08 19:31:13,623 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Los-Angeles
+2025-07-08 19:31:13,623 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Los-Angeles, DirectSlug
+2025-07-08 19:31:14,121 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\property-investment\DirectSlug_Los-Angeles_property-investment_Property_Investment_Indices.csv
+2025-07-08 19:31:14,122 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\property-investment\DirectSlug_Los-Angeles_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-08 19:31:14,123 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Los-Angeles.
+2025-07-08 19:31:14,123 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Los-Angeles
+2025-07-08 19:31:14,124 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Los-Angeles, DirectSlug
+2025-07-08 19:31:14,710 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Los-Angeles Traffic
+2025-07-08 19:31:14,715 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\traffic\DirectSlug_Los-Angeles_traffic_Traffic_Indices.csv
+2025-07-08 19:31:14,717 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\traffic\DirectSlug_Los-Angeles_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-08 19:31:14,719 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Walking.csv
+2025-07-08 19:31:14,722 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Car.csv
+2025-07-08 19:31:14,724 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-08 19:31:14,725 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-08 19:31:14,726 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-08 19:31:14,726 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Los-Angeles.
+2025-07-08 19:31:14,727 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Los-Angeles
+2025-07-08 19:31:14,727 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Los-Angeles, DirectSlug
+2025-07-08 19:31:15,199 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Los-Angeles Pollution
+2025-07-08 19:31:15,200 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Indices.csv
+2025-07-08 19:31:15,202 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Details_Table_1.csv
+2025-07-08 19:31:15,203 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250708_193110\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Details_Table_2.csv
+2025-07-08 19:31:15,203 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Los-Angeles.
+2025-07-08 19:31:15,204 - __main__ - INFO - === Fin scraping du slug : Los-Angeles (succès) ===
+2025-07-08 19:31:15,205 - __main__ - INFO - === Début scraping du slug : Las-Vegas (country: DirectSlug, region: ) ===
+2025-07-08 19:31:15,206 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Las-Vegas
+2025-07-08 19:31:15,206 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Las-Vegas, DirectSlug
+2025-07-08 19:31:15,669 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Las-Vegas Quality of Life
+2025-07-08 19:31:15,670 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\quality-of-life\DirectSlug_Las-Vegas_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-08 19:31:15,671 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Las-Vegas.
+2025-07-08 19:31:15,671 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Las-Vegas
+2025-07-08 19:31:15,672 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Las-Vegas, DirectSlug
+2025-07-08 19:31:16,242 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-08 19:31:16,243 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-08 19:31:16,245 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-08 19:31:16,245 - src.scrapers.crime_scraper - INFO - Found 3 tables for Las-Vegas Safety/Crime
+2025-07-08 19:31:16,246 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\crime\DirectSlug_Las-Vegas_crime_Crime_Indices.csv
+2025-07-08 19:31:16,248 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\crime\DirectSlug_Las-Vegas_crime_Crime_Details_Table_1.csv
+2025-07-08 19:31:16,249 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\crime\DirectSlug_Las-Vegas_crime_Crime_Details_Table_2.csv
+2025-07-08 19:31:16,249 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Las-Vegas.
+2025-07-08 19:31:16,250 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Las-Vegas
+2025-07-08 19:31:16,250 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Las-Vegas, DirectSlug
+2025-07-08 19:31:16,896 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Las-Vegas Cost of Living
+2025-07-08 19:31:16,899 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\cost-of-living\DirectSlug_Las-Vegas_cost-of-living_Table1.csv
+2025-07-08 19:31:16,900 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Las-Vegas.
+2025-07-08 19:31:16,900 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Las-Vegas
+2025-07-08 19:31:16,901 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Las-Vegas, DirectSlug
+2025-07-08 19:31:17,389 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Las-Vegas Health Care
+2025-07-08 19:31:17,391 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\health-care\DirectSlug_Las-Vegas_health-care_Health_Care_Indices.csv
+2025-07-08 19:31:17,392 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\health-care\DirectSlug_Las-Vegas_health-care_Health_Care_Details_Table_1.csv
+2025-07-08 19:31:17,394 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\health-care\DirectSlug_Las-Vegas_health-care_Health_Care_Details_Table_2.csv
+2025-07-08 19:31:17,395 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\health-care\DirectSlug_Las-Vegas_health-care_Health_Care_Details_Table_3.csv
+2025-07-08 19:31:17,396 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Las-Vegas.
+2025-07-08 19:31:17,396 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Las-Vegas
+2025-07-08 19:31:17,396 - src.scrapers.climate_scraper - INFO - Scraping Climate for Las-Vegas, DirectSlug
+2025-07-08 19:31:17,868 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\climate\DirectSlug_Las-Vegas_climate_Climate_By_Month_in_Las_Vegas,_NV.csv
+2025-07-08 19:31:17,870 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\climate\DirectSlug_Las-Vegas_climate_Best_Months_To_Visit_Las_Vegas,_NV.csv
+2025-07-08 19:31:17,871 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\climate\DirectSlug_Las-Vegas_climate_Temperatures_(table).csv
+2025-07-08 19:31:17,872 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Las-Vegas.
+2025-07-08 19:31:17,872 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Las-Vegas
+2025-07-08 19:31:17,873 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Las-Vegas, DirectSlug
+2025-07-08 19:31:18,380 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\property-investment\DirectSlug_Las-Vegas_property-investment_Property_Investment_Indices.csv
+2025-07-08 19:31:18,382 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\property-investment\DirectSlug_Las-Vegas_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-08 19:31:18,382 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Las-Vegas.
+2025-07-08 19:31:18,382 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Las-Vegas
+2025-07-08 19:31:18,383 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Las-Vegas, DirectSlug
+2025-07-08 19:31:18,895 - src.scrapers.traffic_scraper - INFO - Found 5 tables for Las-Vegas Traffic
+2025-07-08 19:31:18,897 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\traffic\DirectSlug_Las-Vegas_traffic_Traffic_Indices.csv
+2025-07-08 19:31:18,898 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\traffic\DirectSlug_Las-Vegas_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-08 19:31:18,899 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\traffic\DirectSlug_Las-Vegas_traffic_Average_when_primarily_using_Walking.csv
+2025-07-08 19:31:18,901 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\traffic\DirectSlug_Las-Vegas_traffic_Average_when_primarily_using_Car.csv
+2025-07-08 19:31:18,902 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\traffic\DirectSlug_Las-Vegas_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-08 19:31:18,902 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Las-Vegas.
+2025-07-08 19:31:18,902 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Las-Vegas
+2025-07-08 19:31:18,903 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Las-Vegas, DirectSlug
+2025-07-08 19:31:19,397 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Las-Vegas Pollution
+2025-07-08 19:31:19,398 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\pollution\DirectSlug_Las-Vegas_pollution_Pollution_Indices.csv
+2025-07-08 19:31:19,400 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\pollution\DirectSlug_Las-Vegas_pollution_Pollution_Details_Table_1.csv
+2025-07-08 19:31:19,401 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Las-Vegas-DirectSlug-20250708_193115\pollution\DirectSlug_Las-Vegas_pollution_Pollution_Details_Table_2.csv
+2025-07-08 19:31:19,402 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Las-Vegas.
+2025-07-08 19:31:19,402 - __main__ - INFO - === Fin scraping du slug : Las-Vegas (succès) ===
+2025-07-08 19:33:15,738 - __main__ - INFO - === Début scraping du slug : Washington (country: DirectSlug, region: ) ===
+2025-07-08 19:33:15,743 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Washington
+2025-07-08 19:33:15,743 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Washington, DirectSlug
+2025-07-08 19:33:16,289 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Washington Quality of Life
+2025-07-08 19:33:16,293 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\quality-of-life\DirectSlug_Washington_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-08 19:33:16,293 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Washington.
+2025-07-08 19:33:16,293 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Washington
+2025-07-08 19:33:16,294 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Washington, DirectSlug
+2025-07-08 19:33:16,797 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-08 19:33:16,798 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-08 19:33:16,799 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-08 19:33:16,800 - src.scrapers.crime_scraper - INFO - Found 3 tables for Washington Safety/Crime
+2025-07-08 19:33:16,801 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\crime\DirectSlug_Washington_crime_Crime_Indices.csv
+2025-07-08 19:33:16,803 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\crime\DirectSlug_Washington_crime_Crime_Details_Table_1.csv
+2025-07-08 19:33:16,804 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\crime\DirectSlug_Washington_crime_Crime_Details_Table_2.csv
+2025-07-08 19:33:16,805 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Washington.
+2025-07-08 19:33:16,805 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Washington
+2025-07-08 19:33:16,806 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Washington, DirectSlug
+2025-07-08 19:33:17,589 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Washington Cost of Living
+2025-07-08 19:33:17,591 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\cost-of-living\DirectSlug_Washington_cost-of-living_Table1.csv
+2025-07-08 19:33:17,591 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Washington.
+2025-07-08 19:33:17,592 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Washington
+2025-07-08 19:33:17,592 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Washington, DirectSlug
+2025-07-08 19:33:18,077 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Washington Health Care
+2025-07-08 19:33:18,078 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\health-care\DirectSlug_Washington_health-care_Health_Care_Indices.csv
+2025-07-08 19:33:18,080 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\health-care\DirectSlug_Washington_health-care_Health_Care_Details_Table_1.csv
+2025-07-08 19:33:18,080 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Washington.
+2025-07-08 19:33:18,080 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Washington
+2025-07-08 19:33:18,081 - src.scrapers.climate_scraper - INFO - Scraping Climate for Washington, DirectSlug
+2025-07-08 19:33:18,578 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\climate\DirectSlug_Washington_climate_Climate_By_Month_in_Washington,_DC.csv
+2025-07-08 19:33:18,579 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\climate\DirectSlug_Washington_climate_Best_Months_To_Visit_Washington,_DC.csv
+2025-07-08 19:33:18,580 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\climate\DirectSlug_Washington_climate_Temperatures_(table).csv
+2025-07-08 19:33:18,581 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Washington.
+2025-07-08 19:33:18,581 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Washington
+2025-07-08 19:33:18,581 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Washington, DirectSlug
+2025-07-08 19:33:19,084 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\property-investment\DirectSlug_Washington_property-investment_Property_Investment_Indices.csv
+2025-07-08 19:33:19,086 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\property-investment\DirectSlug_Washington_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-08 19:33:19,086 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Washington.
+2025-07-08 19:33:19,087 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Washington
+2025-07-08 19:33:19,087 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Washington, DirectSlug
+2025-07-08 19:33:19,624 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Washington Traffic
+2025-07-08 19:33:19,625 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\traffic\DirectSlug_Washington_traffic_Traffic_Indices.csv
+2025-07-08 19:33:19,629 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\traffic\DirectSlug_Washington_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-08 19:33:19,631 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Walking.csv
+2025-07-08 19:33:19,635 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Car.csv
+2025-07-08 19:33:19,636 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-08 19:33:19,637 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-08 19:33:19,638 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-08 19:33:19,639 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Washington.
+2025-07-08 19:33:19,639 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Washington
+2025-07-08 19:33:19,639 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Washington, DirectSlug
+2025-07-08 19:33:20,130 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Washington Pollution
+2025-07-08 19:33:20,131 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\pollution\DirectSlug_Washington_pollution_Pollution_Indices.csv
+2025-07-08 19:33:20,132 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\pollution\DirectSlug_Washington_pollution_Pollution_Details_Table_1.csv
+2025-07-08 19:33:20,133 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250708_193315\pollution\DirectSlug_Washington_pollution_Pollution_Details_Table_2.csv
+2025-07-08 19:33:20,134 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Washington.
+2025-07-08 19:33:20,134 - __main__ - INFO - === Fin scraping du slug : Washington (succès) ===
+2025-07-08 19:33:20,135 - __main__ - INFO - === Début scraping du slug : Washington-MI-United-States (country: DirectSlug, region: ) ===
+2025-07-08 19:33:20,136 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Washington-MI-United-States
+2025-07-08 19:33:20,136 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Washington-MI-United-States, DirectSlug
+2025-07-08 19:33:20,631 - src.scrapers.quality_of_life_scraper - WARNING - No tables found for Washington-MI-United-States Quality of Life
+2025-07-08 19:33:20,632 - __main__ - WARNING - No tables found at https://www.numbeo.com/quality-of-life/in/Washington-MI-United-States.
+2025-07-08 19:33:20,632 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Washington-MI-United-States
+2025-07-08 19:33:20,632 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Washington-MI-United-States, DirectSlug
+2025-07-08 19:33:21,140 - src.scrapers.crime_scraper - INFO - Found 0 tables with class 'data_wide_table'
+2025-07-08 19:33:21,140 - src.scrapers.crime_scraper - WARNING - No tables found for Washington-MI-United-States Safety/Crime
+2025-07-08 19:33:21,141 - __main__ - WARNING - No tables found at https://www.numbeo.com/crime/in/Washington-MI-United-States.
+2025-07-08 19:33:21,141 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Washington-MI-United-States
+2025-07-08 19:33:21,142 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Washington-MI-United-States, DirectSlug
+2025-07-08 19:33:21,681 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Washington-MI-United-States Cost of Living
+2025-07-08 19:33:21,683 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-MI-United-States-DirectSlug-20250708_193320\cost-of-living\DirectSlug_Washington-MI-United-States_cost-of-living_Table1.csv
+2025-07-08 19:33:21,683 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Washington-MI-United-States.
+2025-07-08 19:33:21,684 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Washington-MI-United-States
+2025-07-08 19:33:21,684 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Washington-MI-United-States, DirectSlug
+2025-07-08 19:33:22,163 - src.scrapers.health_care_scraper - WARNING - No tables found for Washington-MI-United-States Health Care
+2025-07-08 19:33:22,164 - __main__ - WARNING - No tables found at https://www.numbeo.com/health-care/in/Washington-MI-United-States.
+2025-07-08 19:33:22,165 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Washington-MI-United-States
+2025-07-08 19:33:22,165 - src.scrapers.climate_scraper - INFO - Scraping Climate for Washington-MI-United-States, DirectSlug
+2025-07-08 19:33:22,630 - src.scrapers.climate_scraper - WARNING - No tables found for Washington-MI-United-States Climate. Saving debug HTML.
+2025-07-08 19:33:22,634 - src.scrapers.base_scraper - INFO - Saved debug HTML: debug\no_tables_Washington-MI-United-States_climate.html
+2025-07-08 19:33:22,634 - __main__ - WARNING - No tables found at https://www.numbeo.com/climate/in/Washington-MI-United-States.
+2025-07-08 19:33:22,635 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Washington-MI-United-States
+2025-07-08 19:33:22,635 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Washington-MI-United-States, DirectSlug
+2025-07-08 19:33:23,120 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-MI-United-States-DirectSlug-20250708_193320\property-investment\DirectSlug_Washington-MI-United-States_property-investment_Property_Investment_Indices.csv
+2025-07-08 19:33:23,121 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-MI-United-States-DirectSlug-20250708_193320\property-investment\DirectSlug_Washington-MI-United-States_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-08 19:33:23,121 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Washington-MI-United-States.
+2025-07-08 19:33:23,122 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Washington-MI-United-States
+2025-07-08 19:33:23,122 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Washington-MI-United-States, DirectSlug
+2025-07-08 19:33:23,576 - src.scrapers.traffic_scraper - WARNING - No tables found for Washington-MI-United-States Traffic
+2025-07-08 19:33:23,577 - __main__ - WARNING - No tables found at https://www.numbeo.com/traffic/in/Washington-MI-United-States.
+2025-07-08 19:33:23,577 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Washington-MI-United-States
+2025-07-08 19:33:23,578 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Washington-MI-United-States, DirectSlug
+2025-07-08 19:33:24,054 - src.scrapers.pollution_scraper - WARNING - No tables found for Washington-MI-United-States Pollution
+2025-07-08 19:33:24,055 - __main__ - WARNING - No tables found at https://www.numbeo.com/pollution/in/Washington-MI-United-States.
+2025-07-08 19:33:24,055 - __main__ - INFO - === Fin scraping du slug : Washington-MI-United-States (succès) ===
+2025-07-09 12:55:55,903 - __main__ - INFO - === Début scraping du slug : Concon-Chile (country: DirectSlug, region: ) ===
+2025-07-09 12:55:55,970 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Concon-Chile
+2025-07-09 12:55:55,971 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Concon-Chile, DirectSlug
+2025-07-09 12:55:56,679 - src.scrapers.quality_of_life_scraper - WARNING - No tables found for Concon-Chile Quality of Life
+2025-07-09 12:55:56,679 - __main__ - WARNING - No tables found at https://www.numbeo.com/quality-of-life/in/Concon-Chile.
+2025-07-09 12:55:56,680 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Concon-Chile
+2025-07-09 12:55:56,680 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Concon-Chile, DirectSlug
+2025-07-09 12:55:57,158 - src.scrapers.crime_scraper - INFO - Found 0 tables with class 'data_wide_table'
+2025-07-09 12:55:57,158 - src.scrapers.crime_scraper - WARNING - No tables found for Concon-Chile Safety/Crime
+2025-07-09 12:55:57,159 - __main__ - WARNING - No tables found at https://www.numbeo.com/crime/in/Concon-Chile.
+2025-07-09 12:55:57,159 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Concon-Chile
+2025-07-09 12:55:57,160 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Concon-Chile, DirectSlug
+2025-07-09 12:55:57,782 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Concon-Chile Cost of Living
+2025-07-09 12:55:57,799 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Concon-Chile-DirectSlug-20250709_125555\cost-of-living\DirectSlug_Concon-Chile_cost-of-living_Table1.csv
+2025-07-09 12:55:57,799 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Concon-Chile.
+2025-07-09 12:55:57,800 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Concon-Chile
+2025-07-09 12:55:57,800 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Concon-Chile, DirectSlug
+2025-07-09 12:55:58,296 - src.scrapers.health_care_scraper - WARNING - No tables found for Concon-Chile Health Care
+2025-07-09 12:55:58,296 - __main__ - WARNING - No tables found at https://www.numbeo.com/health-care/in/Concon-Chile.
+2025-07-09 12:55:58,297 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Concon-Chile
+2025-07-09 12:55:58,297 - src.scrapers.climate_scraper - INFO - Scraping Climate for Concon-Chile, DirectSlug
+2025-07-09 12:55:58,794 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Concon-Chile-DirectSlug-20250709_125555\climate\DirectSlug_Concon-Chile_climate_Climate_By_Month_in_Concon.csv
+2025-07-09 12:55:58,803 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Concon-Chile-DirectSlug-20250709_125555\climate\DirectSlug_Concon-Chile_climate_Best_Months_To_Visit_Concon.csv
+2025-07-09 12:55:58,805 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Concon-Chile-DirectSlug-20250709_125555\climate\DirectSlug_Concon-Chile_climate_Temperatures_(table).csv
+2025-07-09 12:55:58,805 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Concon-Chile.
+2025-07-09 12:55:58,806 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Concon-Chile
+2025-07-09 12:55:58,806 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Concon-Chile, DirectSlug
+2025-07-09 12:55:59,304 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Concon-Chile-DirectSlug-20250709_125555\property-investment\DirectSlug_Concon-Chile_property-investment_Property_Investment_Indices.csv
+2025-07-09 12:55:59,305 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Concon-Chile-DirectSlug-20250709_125555\property-investment\DirectSlug_Concon-Chile_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 12:55:59,306 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Concon-Chile.
+2025-07-09 12:55:59,306 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Concon-Chile
+2025-07-09 12:55:59,307 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Concon-Chile, DirectSlug
+2025-07-09 12:55:59,803 - src.scrapers.traffic_scraper - WARNING - No tables found for Concon-Chile Traffic
+2025-07-09 12:55:59,803 - __main__ - WARNING - No tables found at https://www.numbeo.com/traffic/in/Concon-Chile.
+2025-07-09 12:55:59,804 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Concon-Chile
+2025-07-09 12:55:59,804 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Concon-Chile, DirectSlug
+2025-07-09 12:56:00,274 - src.scrapers.pollution_scraper - WARNING - No tables found for Concon-Chile Pollution
+2025-07-09 12:56:00,275 - __main__ - WARNING - No tables found at https://www.numbeo.com/pollution/in/Concon-Chile.
+2025-07-09 12:56:00,275 - __main__ - INFO - === Fin scraping du slug : Concon-Chile (succès) ===
+2025-07-09 12:56:00,281 - __main__ - INFO - === Début scraping du slug : Lisbon (country: DirectSlug, region: ) ===
+2025-07-09 12:56:00,282 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Lisbon
+2025-07-09 12:56:00,282 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Lisbon, DirectSlug
+2025-07-09 12:56:00,863 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Lisbon Quality of Life
+2025-07-09 12:56:00,865 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\quality-of-life\DirectSlug_Lisbon_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 12:56:00,865 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Lisbon.
+2025-07-09 12:56:00,866 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Lisbon
+2025-07-09 12:56:00,866 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Lisbon, DirectSlug
+2025-07-09 12:56:01,434 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 12:56:01,436 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 12:56:01,437 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 12:56:01,437 - src.scrapers.crime_scraper - INFO - Found 3 tables for Lisbon Safety/Crime
+2025-07-09 12:56:01,439 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\crime\DirectSlug_Lisbon_crime_Crime_Indices.csv
+2025-07-09 12:56:01,440 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\crime\DirectSlug_Lisbon_crime_Crime_Details_Table_1.csv
+2025-07-09 12:56:01,441 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\crime\DirectSlug_Lisbon_crime_Crime_Details_Table_2.csv
+2025-07-09 12:56:01,442 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Lisbon.
+2025-07-09 12:56:01,442 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Lisbon
+2025-07-09 12:56:01,442 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Lisbon, DirectSlug
+2025-07-09 12:56:02,136 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Lisbon Cost of Living
+2025-07-09 12:56:02,140 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\cost-of-living\DirectSlug_Lisbon_cost-of-living_Table1.csv
+2025-07-09 12:56:02,140 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Lisbon.
+2025-07-09 12:56:02,141 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Lisbon
+2025-07-09 12:56:02,141 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Lisbon, DirectSlug
+2025-07-09 12:56:02,654 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Lisbon Health Care
+2025-07-09 12:56:02,656 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\health-care\DirectSlug_Lisbon_health-care_Health_Care_Indices.csv
+2025-07-09 12:56:02,657 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\health-care\DirectSlug_Lisbon_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 12:56:02,659 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\health-care\DirectSlug_Lisbon_health-care_Health_Care_Details_Table_2.csv
+2025-07-09 12:56:02,660 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\health-care\DirectSlug_Lisbon_health-care_Health_Care_Details_Table_3.csv
+2025-07-09 12:56:02,661 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Lisbon.
+2025-07-09 12:56:02,661 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Lisbon
+2025-07-09 12:56:02,662 - src.scrapers.climate_scraper - INFO - Scraping Climate for Lisbon, DirectSlug
+2025-07-09 12:56:03,202 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\climate\DirectSlug_Lisbon_climate_Climate_By_Month_in_Lisbon.csv
+2025-07-09 12:56:03,203 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\climate\DirectSlug_Lisbon_climate_Best_Months_To_Visit_Lisbon.csv
+2025-07-09 12:56:03,205 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\climate\DirectSlug_Lisbon_climate_Temperatures_(table).csv
+2025-07-09 12:56:03,205 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Lisbon.
+2025-07-09 12:56:03,206 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Lisbon
+2025-07-09 12:56:03,206 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Lisbon, DirectSlug
+2025-07-09 12:56:03,771 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\property-investment\DirectSlug_Lisbon_property-investment_Property_Investment_Indices.csv
+2025-07-09 12:56:03,772 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\property-investment\DirectSlug_Lisbon_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 12:56:03,773 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Lisbon.
+2025-07-09 12:56:03,773 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Lisbon
+2025-07-09 12:56:03,774 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Lisbon, DirectSlug
+2025-07-09 12:56:04,369 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Lisbon Traffic
+2025-07-09 12:56:04,371 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\traffic\DirectSlug_Lisbon_traffic_Traffic_Indices.csv
+2025-07-09 12:56:04,372 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\traffic\DirectSlug_Lisbon_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 12:56:04,373 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\traffic\DirectSlug_Lisbon_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 12:56:04,375 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\traffic\DirectSlug_Lisbon_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 12:56:04,377 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\traffic\DirectSlug_Lisbon_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 12:56:04,379 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\traffic\DirectSlug_Lisbon_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 12:56:04,380 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\traffic\DirectSlug_Lisbon_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 12:56:04,381 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\traffic\DirectSlug_Lisbon_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 12:56:04,381 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Lisbon.
+2025-07-09 12:56:04,382 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Lisbon
+2025-07-09 12:56:04,382 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Lisbon, DirectSlug
+2025-07-09 12:56:04,923 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Lisbon Pollution
+2025-07-09 12:56:04,925 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\pollution\DirectSlug_Lisbon_pollution_Pollution_Indices.csv
+2025-07-09 12:56:04,926 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\pollution\DirectSlug_Lisbon_pollution_Pollution_Details_Table_1.csv
+2025-07-09 12:56:04,927 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Lisbon-DirectSlug-20250709_125600\pollution\DirectSlug_Lisbon_pollution_Pollution_Details_Table_2.csv
+2025-07-09 12:56:04,928 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Lisbon.
+2025-07-09 12:56:04,928 - __main__ - INFO - === Fin scraping du slug : Lisbon (succès) ===
+2025-07-09 13:19:53,139 - __main__ - INFO - === Début scraping du slug : Washington (country: DirectSlug, region: ) ===
+2025-07-09 13:19:53,144 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Washington
+2025-07-09 13:19:53,144 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Washington, DirectSlug
+2025-07-09 13:19:53,731 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Washington Quality of Life
+2025-07-09 13:19:53,735 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\quality-of-life\DirectSlug_Washington_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 13:19:53,736 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Washington.
+2025-07-09 13:19:53,736 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Washington
+2025-07-09 13:19:53,736 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Washington, DirectSlug
+2025-07-09 13:19:54,219 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 13:19:54,221 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 13:19:54,222 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 13:19:54,222 - src.scrapers.crime_scraper - INFO - Found 3 tables for Washington Safety/Crime
+2025-07-09 13:19:54,224 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\crime\DirectSlug_Washington_crime_Crime_Indices.csv
+2025-07-09 13:19:54,225 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\crime\DirectSlug_Washington_crime_Crime_Details_Table_1.csv
+2025-07-09 13:19:54,226 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\crime\DirectSlug_Washington_crime_Crime_Details_Table_2.csv
+2025-07-09 13:19:54,226 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Washington.
+2025-07-09 13:19:54,227 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Washington
+2025-07-09 13:19:54,227 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Washington, DirectSlug
+2025-07-09 13:19:55,008 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Washington Cost of Living
+2025-07-09 13:19:55,010 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\cost-of-living\DirectSlug_Washington_cost-of-living_Table1.csv
+2025-07-09 13:19:55,010 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Washington.
+2025-07-09 13:19:55,010 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Washington
+2025-07-09 13:19:55,011 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Washington, DirectSlug
+2025-07-09 13:19:55,473 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Washington Health Care
+2025-07-09 13:19:55,475 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\health-care\DirectSlug_Washington_health-care_Health_Care_Indices.csv
+2025-07-09 13:19:55,476 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\health-care\DirectSlug_Washington_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 13:19:55,477 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Washington.
+2025-07-09 13:19:55,477 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Washington
+2025-07-09 13:19:55,477 - src.scrapers.climate_scraper - INFO - Scraping Climate for Washington, DirectSlug
+2025-07-09 13:19:55,948 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\climate\DirectSlug_Washington_climate_Climate_By_Month_in_Washington,_DC.csv
+2025-07-09 13:19:55,950 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\climate\DirectSlug_Washington_climate_Best_Months_To_Visit_Washington,_DC.csv
+2025-07-09 13:19:55,951 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\climate\DirectSlug_Washington_climate_Temperatures_(table).csv
+2025-07-09 13:19:55,951 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Washington.
+2025-07-09 13:19:55,951 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Washington
+2025-07-09 13:19:55,952 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Washington, DirectSlug
+2025-07-09 13:19:56,472 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\property-investment\DirectSlug_Washington_property-investment_Property_Investment_Indices.csv
+2025-07-09 13:19:56,474 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\property-investment\DirectSlug_Washington_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 13:19:56,474 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Washington.
+2025-07-09 13:19:56,474 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Washington
+2025-07-09 13:19:56,475 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Washington, DirectSlug
+2025-07-09 13:19:57,004 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Washington Traffic
+2025-07-09 13:19:57,008 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\traffic\DirectSlug_Washington_traffic_Traffic_Indices.csv
+2025-07-09 13:19:57,012 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\traffic\DirectSlug_Washington_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 13:19:57,014 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 13:19:57,015 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 13:19:57,016 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 13:19:57,017 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 13:19:57,018 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 13:19:57,019 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Washington.
+2025-07-09 13:19:57,019 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Washington
+2025-07-09 13:19:57,020 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Washington, DirectSlug
+2025-07-09 13:19:57,492 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Washington Pollution
+2025-07-09 13:19:57,494 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\pollution\DirectSlug_Washington_pollution_Pollution_Indices.csv
+2025-07-09 13:19:57,495 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\pollution\DirectSlug_Washington_pollution_Pollution_Details_Table_1.csv
+2025-07-09 13:19:57,496 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_131953\pollution\DirectSlug_Washington_pollution_Pollution_Details_Table_2.csv
+2025-07-09 13:19:57,496 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Washington.
+2025-07-09 13:19:57,496 - __main__ - INFO - === Fin scraping du slug : Washington (succès) ===
+2025-07-09 13:24:01,787 - __main__ - INFO - === Début scraping du slug : https://www.numbeo.com/cost-of-living/in/Washington (country: DirectSlug, region: ) ===
+2025-07-09 13:24:36,570 - __main__ - INFO - === Début scraping du slug : Washington (country: DirectSlug, region: ) ===
+2025-07-09 13:24:36,575 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Washington
+2025-07-09 13:24:36,576 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Washington, DirectSlug
+2025-07-09 13:24:37,168 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Washington Quality of Life
+2025-07-09 13:24:37,172 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\quality-of-life\DirectSlug_Washington_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 13:24:37,173 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Washington.
+2025-07-09 13:24:37,173 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Washington
+2025-07-09 13:24:37,173 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Washington, DirectSlug
+2025-07-09 13:24:37,670 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 13:24:37,671 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 13:24:37,673 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 13:24:37,673 - src.scrapers.crime_scraper - INFO - Found 3 tables for Washington Safety/Crime
+2025-07-09 13:24:37,674 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\crime\DirectSlug_Washington_crime_Crime_Indices.csv
+2025-07-09 13:24:37,676 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\crime\DirectSlug_Washington_crime_Crime_Details_Table_1.csv
+2025-07-09 13:24:37,677 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\crime\DirectSlug_Washington_crime_Crime_Details_Table_2.csv
+2025-07-09 13:24:37,677 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Washington.
+2025-07-09 13:24:37,677 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Washington
+2025-07-09 13:24:37,678 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Washington, DirectSlug
+2025-07-09 13:24:38,462 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Washington Cost of Living
+2025-07-09 13:24:38,466 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\cost-of-living\DirectSlug_Washington_cost-of-living_Table1.csv
+2025-07-09 13:24:38,467 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Washington.
+2025-07-09 13:24:38,467 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Washington
+2025-07-09 13:24:38,468 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Washington, DirectSlug
+2025-07-09 13:24:38,963 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Washington Health Care
+2025-07-09 13:24:38,964 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\health-care\DirectSlug_Washington_health-care_Health_Care_Indices.csv
+2025-07-09 13:24:38,966 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\health-care\DirectSlug_Washington_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 13:24:38,966 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Washington.
+2025-07-09 13:24:38,967 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Washington
+2025-07-09 13:24:38,967 - src.scrapers.climate_scraper - INFO - Scraping Climate for Washington, DirectSlug
+2025-07-09 13:24:39,462 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\climate\DirectSlug_Washington_climate_Climate_By_Month_in_Washington,_DC.csv
+2025-07-09 13:24:39,463 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\climate\DirectSlug_Washington_climate_Best_Months_To_Visit_Washington,_DC.csv
+2025-07-09 13:24:39,464 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\climate\DirectSlug_Washington_climate_Temperatures_(table).csv
+2025-07-09 13:24:39,465 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Washington.
+2025-07-09 13:24:39,465 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Washington
+2025-07-09 13:24:39,465 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Washington, DirectSlug
+2025-07-09 13:24:39,976 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\property-investment\DirectSlug_Washington_property-investment_Property_Investment_Indices.csv
+2025-07-09 13:24:39,978 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\property-investment\DirectSlug_Washington_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 13:24:39,978 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Washington.
+2025-07-09 13:24:39,978 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Washington
+2025-07-09 13:24:39,979 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Washington, DirectSlug
+2025-07-09 13:24:40,516 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Washington Traffic
+2025-07-09 13:24:40,517 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\traffic\DirectSlug_Washington_traffic_Traffic_Indices.csv
+2025-07-09 13:24:40,518 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\traffic\DirectSlug_Washington_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 13:24:40,519 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 13:24:40,521 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 13:24:40,522 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 13:24:40,525 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 13:24:40,528 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 13:24:40,530 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Washington.
+2025-07-09 13:24:40,530 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Washington
+2025-07-09 13:24:40,531 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Washington, DirectSlug
+2025-07-09 13:24:41,002 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Washington Pollution
+2025-07-09 13:24:41,004 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\pollution\DirectSlug_Washington_pollution_Pollution_Indices.csv
+2025-07-09 13:24:41,005 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\pollution\DirectSlug_Washington_pollution_Pollution_Details_Table_1.csv
+2025-07-09 13:24:41,007 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_132436\pollution\DirectSlug_Washington_pollution_Pollution_Details_Table_2.csv
+2025-07-09 13:24:41,007 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Washington.
+2025-07-09 13:24:41,008 - __main__ - INFO - === Fin scraping du slug : Washington (succès) ===
+2025-07-09 13:29:13,844 - __main__ - INFO - === Début scraping du slug : Los-Angeles (country: DirectSlug, region: ) ===
+2025-07-09 13:29:13,848 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Los-Angeles
+2025-07-09 13:29:13,848 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Los-Angeles, DirectSlug
+2025-07-09 13:29:14,432 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Los-Angeles Quality of Life
+2025-07-09 13:29:14,436 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\quality-of-life\DirectSlug_Los-Angeles_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 13:29:14,436 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Los-Angeles.
+2025-07-09 13:29:14,437 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Los-Angeles
+2025-07-09 13:29:14,437 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Los-Angeles, DirectSlug
+2025-07-09 13:29:14,922 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 13:29:14,924 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 13:29:14,925 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 13:29:14,925 - src.scrapers.crime_scraper - INFO - Found 3 tables for Los-Angeles Safety/Crime
+2025-07-09 13:29:14,927 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\crime\DirectSlug_Los-Angeles_crime_Crime_Indices.csv
+2025-07-09 13:29:14,928 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\crime\DirectSlug_Los-Angeles_crime_Crime_Details_Table_1.csv
+2025-07-09 13:29:14,929 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\crime\DirectSlug_Los-Angeles_crime_Crime_Details_Table_2.csv
+2025-07-09 13:29:14,929 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Los-Angeles.
+2025-07-09 13:29:14,929 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Los-Angeles
+2025-07-09 13:29:14,930 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Los-Angeles, DirectSlug
+2025-07-09 13:29:15,586 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Los-Angeles Cost of Living
+2025-07-09 13:29:15,587 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\cost-of-living\DirectSlug_Los-Angeles_cost-of-living_Table1.csv
+2025-07-09 13:29:15,588 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Los-Angeles.
+2025-07-09 13:29:15,588 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Los-Angeles
+2025-07-09 13:29:15,589 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Los-Angeles, DirectSlug
+2025-07-09 13:29:16,080 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Los-Angeles Health Care
+2025-07-09 13:29:16,081 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Indices.csv
+2025-07-09 13:29:16,082 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 13:29:16,083 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_2.csv
+2025-07-09 13:29:16,085 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_3.csv
+2025-07-09 13:29:16,085 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Los-Angeles.
+2025-07-09 13:29:16,086 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Los-Angeles
+2025-07-09 13:29:16,086 - src.scrapers.climate_scraper - INFO - Scraping Climate for Los-Angeles, DirectSlug
+2025-07-09 13:29:16,553 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\climate\DirectSlug_Los-Angeles_climate_Climate_By_Month_in_Los_Angeles,_CA.csv
+2025-07-09 13:29:16,555 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\climate\DirectSlug_Los-Angeles_climate_Best_Months_To_Visit_Los_Angeles,_CA.csv
+2025-07-09 13:29:16,556 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\climate\DirectSlug_Los-Angeles_climate_Temperatures_(table).csv
+2025-07-09 13:29:16,556 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Los-Angeles.
+2025-07-09 13:29:16,557 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Los-Angeles
+2025-07-09 13:29:16,557 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Los-Angeles, DirectSlug
+2025-07-09 13:29:17,042 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\property-investment\DirectSlug_Los-Angeles_property-investment_Property_Investment_Indices.csv
+2025-07-09 13:29:17,044 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\property-investment\DirectSlug_Los-Angeles_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 13:29:17,044 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Los-Angeles.
+2025-07-09 13:29:17,044 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Los-Angeles
+2025-07-09 13:29:17,045 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Los-Angeles, DirectSlug
+2025-07-09 13:29:17,599 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Los-Angeles Traffic
+2025-07-09 13:29:17,601 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\traffic\DirectSlug_Los-Angeles_traffic_Traffic_Indices.csv
+2025-07-09 13:29:17,602 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\traffic\DirectSlug_Los-Angeles_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 13:29:17,603 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 13:29:17,605 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 13:29:17,607 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 13:29:17,608 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 13:29:17,613 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 13:29:17,613 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Los-Angeles.
+2025-07-09 13:29:17,613 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Los-Angeles
+2025-07-09 13:29:17,614 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Los-Angeles, DirectSlug
+2025-07-09 13:29:18,090 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Los-Angeles Pollution
+2025-07-09 13:29:18,092 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Indices.csv
+2025-07-09 13:29:18,093 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Details_Table_1.csv
+2025-07-09 13:29:18,094 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_132913\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Details_Table_2.csv
+2025-07-09 13:29:18,095 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Los-Angeles.
+2025-07-09 13:29:18,095 - __main__ - INFO - === Fin scraping du slug : Los-Angeles (succès) ===
+2025-07-09 13:33:27,442 - __main__ - INFO - === Début scraping du slug : Washington (country: DirectSlug, region: ) ===
+2025-07-09 13:33:27,448 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Washington
+2025-07-09 13:33:27,448 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Washington, DirectSlug
+2025-07-09 13:33:27,978 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Washington Quality of Life
+2025-07-09 13:33:27,983 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\quality-of-life\DirectSlug_Washington_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 13:33:27,983 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Washington.
+2025-07-09 13:33:27,983 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Washington
+2025-07-09 13:33:27,984 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Washington, DirectSlug
+2025-07-09 13:33:28,454 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 13:33:28,455 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 13:33:28,456 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 13:33:28,457 - src.scrapers.crime_scraper - INFO - Found 3 tables for Washington Safety/Crime
+2025-07-09 13:33:28,458 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\crime\DirectSlug_Washington_crime_Crime_Indices.csv
+2025-07-09 13:33:28,459 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\crime\DirectSlug_Washington_crime_Crime_Details_Table_1.csv
+2025-07-09 13:33:28,461 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\crime\DirectSlug_Washington_crime_Crime_Details_Table_2.csv
+2025-07-09 13:33:28,461 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Washington.
+2025-07-09 13:33:28,461 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Washington
+2025-07-09 13:33:28,462 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Washington, DirectSlug
+2025-07-09 13:33:29,259 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Washington Cost of Living
+2025-07-09 13:33:29,260 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\cost-of-living\DirectSlug_Washington_cost-of-living_Table1.csv
+2025-07-09 13:33:29,261 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Washington.
+2025-07-09 13:33:29,261 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Washington
+2025-07-09 13:33:29,262 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Washington, DirectSlug
+2025-07-09 13:33:29,749 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Washington Health Care
+2025-07-09 13:33:29,750 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\health-care\DirectSlug_Washington_health-care_Health_Care_Indices.csv
+2025-07-09 13:33:29,752 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\health-care\DirectSlug_Washington_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 13:33:29,752 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Washington.
+2025-07-09 13:33:29,753 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Washington
+2025-07-09 13:33:29,753 - src.scrapers.climate_scraper - INFO - Scraping Climate for Washington, DirectSlug
+2025-07-09 13:33:30,219 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\climate\DirectSlug_Washington_climate_Climate_By_Month_in_Washington,_DC.csv
+2025-07-09 13:33:30,220 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\climate\DirectSlug_Washington_climate_Best_Months_To_Visit_Washington,_DC.csv
+2025-07-09 13:33:30,221 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\climate\DirectSlug_Washington_climate_Temperatures_(table).csv
+2025-07-09 13:33:30,222 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Washington.
+2025-07-09 13:33:30,222 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Washington
+2025-07-09 13:33:30,223 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Washington, DirectSlug
+2025-07-09 13:33:30,741 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\property-investment\DirectSlug_Washington_property-investment_Property_Investment_Indices.csv
+2025-07-09 13:33:30,743 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\property-investment\DirectSlug_Washington_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 13:33:30,743 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Washington.
+2025-07-09 13:33:30,744 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Washington
+2025-07-09 13:33:30,745 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Washington, DirectSlug
+2025-07-09 13:33:31,271 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Washington Traffic
+2025-07-09 13:33:31,273 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\traffic\DirectSlug_Washington_traffic_Traffic_Indices.csv
+2025-07-09 13:33:31,277 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\traffic\DirectSlug_Washington_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 13:33:31,279 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 13:33:31,281 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 13:33:31,282 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 13:33:31,283 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 13:33:31,284 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\traffic\DirectSlug_Washington_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 13:33:31,285 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Washington.
+2025-07-09 13:33:31,285 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Washington
+2025-07-09 13:33:31,286 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Washington, DirectSlug
+2025-07-09 13:33:31,770 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Washington Pollution
+2025-07-09 13:33:31,771 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\pollution\DirectSlug_Washington_pollution_Pollution_Indices.csv
+2025-07-09 13:33:31,773 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\pollution\DirectSlug_Washington_pollution_Pollution_Details_Table_1.csv
+2025-07-09 13:33:31,774 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Washington-DirectSlug-20250709_133327\pollution\DirectSlug_Washington_pollution_Pollution_Details_Table_2.csv
+2025-07-09 13:33:31,775 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Washington.
+2025-07-09 13:33:31,775 - __main__ - INFO - === Fin scraping du slug : Washington (succès) ===
+2025-07-09 13:35:33,874 - __main__ - INFO - === Début scraping du slug : Los-Angeles (country: DirectSlug, region: ) ===
+2025-07-09 13:35:33,879 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Los-Angeles
+2025-07-09 13:35:33,879 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Los-Angeles, DirectSlug
+2025-07-09 13:35:34,526 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Los-Angeles Quality of Life
+2025-07-09 13:35:34,536 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\quality-of-life\DirectSlug_Los-Angeles_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 13:35:34,537 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Los-Angeles.
+2025-07-09 13:35:34,537 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Los-Angeles
+2025-07-09 13:35:34,538 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Los-Angeles, DirectSlug
+2025-07-09 13:35:35,027 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 13:35:35,029 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 13:35:35,030 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 13:35:35,030 - src.scrapers.crime_scraper - INFO - Found 3 tables for Los-Angeles Safety/Crime
+2025-07-09 13:35:35,031 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\crime\DirectSlug_Los-Angeles_crime_Crime_Indices.csv
+2025-07-09 13:35:35,033 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\crime\DirectSlug_Los-Angeles_crime_Crime_Details_Table_1.csv
+2025-07-09 13:35:35,035 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\crime\DirectSlug_Los-Angeles_crime_Crime_Details_Table_2.csv
+2025-07-09 13:35:35,036 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Los-Angeles.
+2025-07-09 13:35:35,036 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Los-Angeles
+2025-07-09 13:35:35,037 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Los-Angeles, DirectSlug
+2025-07-09 13:35:35,689 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Los-Angeles Cost of Living
+2025-07-09 13:35:35,691 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\cost-of-living\DirectSlug_Los-Angeles_cost-of-living_Table1.csv
+2025-07-09 13:35:35,691 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Los-Angeles.
+2025-07-09 13:35:35,692 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Los-Angeles
+2025-07-09 13:35:35,692 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Los-Angeles, DirectSlug
+2025-07-09 13:35:36,177 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Los-Angeles Health Care
+2025-07-09 13:35:36,179 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Indices.csv
+2025-07-09 13:35:36,180 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 13:35:36,181 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_2.csv
+2025-07-09 13:35:36,183 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_3.csv
+2025-07-09 13:35:36,183 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Los-Angeles.
+2025-07-09 13:35:36,183 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Los-Angeles
+2025-07-09 13:35:36,184 - src.scrapers.climate_scraper - INFO - Scraping Climate for Los-Angeles, DirectSlug
+2025-07-09 13:35:36,653 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\climate\DirectSlug_Los-Angeles_climate_Climate_By_Month_in_Los_Angeles,_CA.csv
+2025-07-09 13:35:36,654 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\climate\DirectSlug_Los-Angeles_climate_Best_Months_To_Visit_Los_Angeles,_CA.csv
+2025-07-09 13:35:36,656 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\climate\DirectSlug_Los-Angeles_climate_Temperatures_(table).csv
+2025-07-09 13:35:36,656 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Los-Angeles.
+2025-07-09 13:35:36,656 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Los-Angeles
+2025-07-09 13:35:36,657 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Los-Angeles, DirectSlug
+2025-07-09 13:35:37,150 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\property-investment\DirectSlug_Los-Angeles_property-investment_Property_Investment_Indices.csv
+2025-07-09 13:35:37,151 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\property-investment\DirectSlug_Los-Angeles_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 13:35:37,152 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Los-Angeles.
+2025-07-09 13:35:37,152 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Los-Angeles
+2025-07-09 13:35:37,153 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Los-Angeles, DirectSlug
+2025-07-09 13:35:37,688 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Los-Angeles Traffic
+2025-07-09 13:35:37,690 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\traffic\DirectSlug_Los-Angeles_traffic_Traffic_Indices.csv
+2025-07-09 13:35:37,691 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\traffic\DirectSlug_Los-Angeles_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 13:35:37,693 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 13:35:37,695 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 13:35:37,696 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 13:35:37,698 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 13:35:37,699 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 13:35:37,700 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Los-Angeles.
+2025-07-09 13:35:37,700 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Los-Angeles
+2025-07-09 13:35:37,700 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Los-Angeles, DirectSlug
+2025-07-09 13:35:38,156 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Los-Angeles Pollution
+2025-07-09 13:35:38,157 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Indices.csv
+2025-07-09 13:35:38,159 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Details_Table_1.csv
+2025-07-09 13:35:38,160 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_133533\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Details_Table_2.csv
+2025-07-09 13:35:38,160 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Los-Angeles.
+2025-07-09 13:35:38,161 - __main__ - INFO - === Fin scraping du slug : Los-Angeles (succès) ===
+2025-07-09 13:43:38,611 - __main__ - INFO - === Début scraping du slug : Los-Angeles (country: DirectSlug, region: ) ===
+2025-07-09 13:43:38,616 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Los-Angeles
+2025-07-09 13:43:38,616 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Los-Angeles, DirectSlug
+2025-07-09 13:43:39,201 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Los-Angeles Quality of Life
+2025-07-09 13:43:39,205 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\quality-of-life\DirectSlug_Los-Angeles_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 13:43:39,205 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Los-Angeles.
+2025-07-09 13:43:39,205 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Los-Angeles
+2025-07-09 13:43:39,207 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Los-Angeles, DirectSlug
+2025-07-09 13:43:39,683 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 13:43:39,685 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 13:43:39,686 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 13:43:39,686 - src.scrapers.crime_scraper - INFO - Found 3 tables for Los-Angeles Safety/Crime
+2025-07-09 13:43:39,688 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\crime\DirectSlug_Los-Angeles_crime_Crime_Indices.csv
+2025-07-09 13:43:39,689 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\crime\DirectSlug_Los-Angeles_crime_Crime_Details_Table_1.csv
+2025-07-09 13:43:39,690 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\crime\DirectSlug_Los-Angeles_crime_Crime_Details_Table_2.csv
+2025-07-09 13:43:39,690 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Los-Angeles.
+2025-07-09 13:43:39,690 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Los-Angeles
+2025-07-09 13:43:39,691 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Los-Angeles, DirectSlug
+2025-07-09 13:43:40,351 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Los-Angeles Cost of Living
+2025-07-09 13:43:40,352 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\cost-of-living\DirectSlug_Los-Angeles_cost-of-living_Table1.csv
+2025-07-09 13:43:40,353 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Los-Angeles.
+2025-07-09 13:43:40,353 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Los-Angeles
+2025-07-09 13:43:40,356 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Los-Angeles, DirectSlug
+2025-07-09 13:43:40,869 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Los-Angeles Health Care
+2025-07-09 13:43:40,871 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Indices.csv
+2025-07-09 13:43:40,872 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 13:43:40,873 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_2.csv
+2025-07-09 13:43:40,875 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\health-care\DirectSlug_Los-Angeles_health-care_Health_Care_Details_Table_3.csv
+2025-07-09 13:43:40,875 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Los-Angeles.
+2025-07-09 13:43:40,875 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Los-Angeles
+2025-07-09 13:43:40,876 - src.scrapers.climate_scraper - INFO - Scraping Climate for Los-Angeles, DirectSlug
+2025-07-09 13:43:41,352 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\climate\DirectSlug_Los-Angeles_climate_Climate_By_Month_in_Los_Angeles,_CA.csv
+2025-07-09 13:43:41,353 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\climate\DirectSlug_Los-Angeles_climate_Best_Months_To_Visit_Los_Angeles,_CA.csv
+2025-07-09 13:43:41,354 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\climate\DirectSlug_Los-Angeles_climate_Temperatures_(table).csv
+2025-07-09 13:43:41,354 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Los-Angeles.
+2025-07-09 13:43:41,355 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Los-Angeles
+2025-07-09 13:43:41,355 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Los-Angeles, DirectSlug
+2025-07-09 13:43:41,849 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\property-investment\DirectSlug_Los-Angeles_property-investment_Property_Investment_Indices.csv
+2025-07-09 13:43:41,851 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\property-investment\DirectSlug_Los-Angeles_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 13:43:41,851 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Los-Angeles.
+2025-07-09 13:43:41,851 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Los-Angeles
+2025-07-09 13:43:41,852 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Los-Angeles, DirectSlug
+2025-07-09 13:43:42,408 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Los-Angeles Traffic
+2025-07-09 13:43:42,410 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\traffic\DirectSlug_Los-Angeles_traffic_Traffic_Indices.csv
+2025-07-09 13:43:42,411 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\traffic\DirectSlug_Los-Angeles_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 13:43:42,413 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 13:43:42,416 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 13:43:42,420 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 13:43:42,422 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 13:43:42,423 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\traffic\DirectSlug_Los-Angeles_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 13:43:42,423 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Los-Angeles.
+2025-07-09 13:43:42,424 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Los-Angeles
+2025-07-09 13:43:42,424 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Los-Angeles, DirectSlug
+2025-07-09 13:43:42,906 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Los-Angeles Pollution
+2025-07-09 13:43:42,908 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Indices.csv
+2025-07-09 13:43:42,909 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Details_Table_1.csv
+2025-07-09 13:43:42,910 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-DirectSlug-20250709_134338\pollution\DirectSlug_Los-Angeles_pollution_Pollution_Details_Table_2.csv
+2025-07-09 13:43:42,910 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Los-Angeles.
+2025-07-09 13:43:42,911 - __main__ - INFO - === Fin scraping du slug : Los-Angeles (succès) ===
+2025-07-09 13:43:42,912 - __main__ - INFO - === Début scraping du slug : United-States (country: DirectSlug, region: ) ===
+2025-07-09 13:43:42,913 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/United-States
+2025-07-09 13:43:42,913 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for United-States, DirectSlug
+2025-07-09 13:43:43,389 - src.scrapers.quality_of_life_scraper - WARNING - No tables found for United-States Quality of Life
+2025-07-09 13:43:43,390 - __main__ - WARNING - No tables found at https://www.numbeo.com/quality-of-life/in/United-States.
+2025-07-09 13:43:43,390 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/United-States
+2025-07-09 13:43:43,391 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for United-States, DirectSlug
+2025-07-09 13:43:43,868 - src.scrapers.crime_scraper - INFO - Found 0 tables with class 'data_wide_table'
+2025-07-09 13:43:43,868 - src.scrapers.crime_scraper - WARNING - No tables found for United-States Safety/Crime
+2025-07-09 13:43:43,869 - __main__ - WARNING - No tables found at https://www.numbeo.com/crime/in/United-States.
+2025-07-09 13:43:43,869 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/United-States
+2025-07-09 13:43:43,870 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for United-States, DirectSlug
+2025-07-09 13:43:44,325 - src.scrapers.cost_of_living_scraper - WARNING - No tables found for United-States Cost of Living
+2025-07-09 13:43:44,325 - __main__ - WARNING - No tables found at https://www.numbeo.com/cost-of-living/in/United-States.
+2025-07-09 13:43:44,326 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/United-States
+2025-07-09 13:43:44,326 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for United-States, DirectSlug
+2025-07-09 13:43:44,794 - src.scrapers.health_care_scraper - WARNING - No tables found for United-States Health Care
+2025-07-09 13:43:44,794 - __main__ - WARNING - No tables found at https://www.numbeo.com/health-care/in/United-States.
+2025-07-09 13:43:44,794 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/United-States
+2025-07-09 13:43:44,795 - src.scrapers.climate_scraper - INFO - Scraping Climate for United-States, DirectSlug
+2025-07-09 13:43:45,257 - src.scrapers.climate_scraper - WARNING - No tables found for United-States Climate. Saving debug HTML.
+2025-07-09 13:43:45,265 - src.scrapers.base_scraper - INFO - Saved debug HTML: debug\no_tables_United-States_climate.html
+2025-07-09 13:43:45,265 - __main__ - WARNING - No tables found at https://www.numbeo.com/climate/in/United-States.
+2025-07-09 13:43:45,266 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/United-States
+2025-07-09 13:43:45,266 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for United-States, DirectSlug
+2025-07-09 13:43:45,735 - __main__ - WARNING - No tables found at https://www.numbeo.com/property-investment/in/United-States.
+2025-07-09 13:43:45,736 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/United-States
+2025-07-09 13:43:45,737 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for United-States, DirectSlug
+2025-07-09 13:43:46,187 - src.scrapers.traffic_scraper - WARNING - No tables found for United-States Traffic
+2025-07-09 13:43:46,188 - __main__ - WARNING - No tables found at https://www.numbeo.com/traffic/in/United-States.
+2025-07-09 13:43:46,188 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/United-States
+2025-07-09 13:43:46,189 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for United-States, DirectSlug
+2025-07-09 13:43:46,660 - src.scrapers.pollution_scraper - WARNING - No tables found for United-States Pollution
+2025-07-09 13:43:46,660 - __main__ - WARNING - No tables found at https://www.numbeo.com/pollution/in/United-States.
+2025-07-09 13:43:46,661 - __main__ - INFO - === Fin scraping du slug : United-States (succès) ===
+2025-07-09 13:45:19,026 - __main__ - INFO - === Début scraping du slug : Los-Angeles-United-States (country: DirectSlug, region: ) ===
+2025-07-09 13:45:19,031 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Los-Angeles-United-States
+2025-07-09 13:45:19,031 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Los-Angeles-United-States, DirectSlug
+2025-07-09 13:45:19,648 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Los-Angeles-United-States Quality of Life
+2025-07-09 13:45:19,653 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\quality-of-life\DirectSlug_Los-Angeles-United-States_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 13:45:19,653 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Los-Angeles-United-States.
+2025-07-09 13:45:19,654 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Los-Angeles-United-States
+2025-07-09 13:45:19,655 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Los-Angeles-United-States, DirectSlug
+2025-07-09 13:45:20,256 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 13:45:20,258 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 13:45:20,259 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 13:45:20,259 - src.scrapers.crime_scraper - INFO - Found 3 tables for Los-Angeles-United-States Safety/Crime
+2025-07-09 13:45:20,260 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\crime\DirectSlug_Los-Angeles-United-States_crime_Crime_Indices.csv
+2025-07-09 13:45:20,262 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\crime\DirectSlug_Los-Angeles-United-States_crime_Crime_Details_Table_1.csv
+2025-07-09 13:45:20,263 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\crime\DirectSlug_Los-Angeles-United-States_crime_Crime_Details_Table_2.csv
+2025-07-09 13:45:20,263 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Los-Angeles-United-States.
+2025-07-09 13:45:20,263 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Los-Angeles-United-States
+2025-07-09 13:45:20,264 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Los-Angeles-United-States, DirectSlug
+2025-07-09 13:45:21,037 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Los-Angeles-United-States Cost of Living
+2025-07-09 13:45:21,038 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\cost-of-living\DirectSlug_Los-Angeles-United-States_cost-of-living_Table1.csv
+2025-07-09 13:45:21,039 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Los-Angeles-United-States.
+2025-07-09 13:45:21,039 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Los-Angeles-United-States
+2025-07-09 13:45:21,039 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Los-Angeles-United-States, DirectSlug
+2025-07-09 13:45:21,631 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Los-Angeles-United-States Health Care
+2025-07-09 13:45:21,633 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\health-care\DirectSlug_Los-Angeles-United-States_health-care_Health_Care_Indices.csv
+2025-07-09 13:45:21,635 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\health-care\DirectSlug_Los-Angeles-United-States_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 13:45:21,636 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\health-care\DirectSlug_Los-Angeles-United-States_health-care_Health_Care_Details_Table_2.csv
+2025-07-09 13:45:21,637 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\health-care\DirectSlug_Los-Angeles-United-States_health-care_Health_Care_Details_Table_3.csv
+2025-07-09 13:45:21,638 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Los-Angeles-United-States.
+2025-07-09 13:45:21,638 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Los-Angeles-United-States
+2025-07-09 13:45:21,639 - src.scrapers.climate_scraper - INFO - Scraping Climate for Los-Angeles-United-States, DirectSlug
+2025-07-09 13:45:22,220 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\climate\DirectSlug_Los-Angeles-United-States_climate_Climate_By_Month_in_Los_Angeles,_CA.csv
+2025-07-09 13:45:22,221 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\climate\DirectSlug_Los-Angeles-United-States_climate_Best_Months_To_Visit_Los_Angeles,_CA.csv
+2025-07-09 13:45:22,223 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\climate\DirectSlug_Los-Angeles-United-States_climate_Temperatures_(table).csv
+2025-07-09 13:45:22,223 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Los-Angeles-United-States.
+2025-07-09 13:45:22,224 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Los-Angeles-United-States
+2025-07-09 13:45:22,224 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Los-Angeles-United-States, DirectSlug
+2025-07-09 13:45:22,827 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\property-investment\DirectSlug_Los-Angeles-United-States_property-investment_Property_Investment_Indices.csv
+2025-07-09 13:45:22,829 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\property-investment\DirectSlug_Los-Angeles-United-States_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 13:45:22,830 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Los-Angeles-United-States.
+2025-07-09 13:45:22,830 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Los-Angeles-United-States
+2025-07-09 13:45:22,831 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Los-Angeles-United-States, DirectSlug
+2025-07-09 13:45:23,487 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Los-Angeles-United-States Traffic
+2025-07-09 13:45:23,489 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\traffic\DirectSlug_Los-Angeles-United-States_traffic_Traffic_Indices.csv
+2025-07-09 13:45:23,491 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\traffic\DirectSlug_Los-Angeles-United-States_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 13:45:23,497 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\traffic\DirectSlug_Los-Angeles-United-States_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 13:45:23,499 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\traffic\DirectSlug_Los-Angeles-United-States_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 13:45:23,501 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\traffic\DirectSlug_Los-Angeles-United-States_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 13:45:23,503 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\traffic\DirectSlug_Los-Angeles-United-States_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 13:45:23,504 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\traffic\DirectSlug_Los-Angeles-United-States_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 13:45:23,505 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Los-Angeles-United-States.
+2025-07-09 13:45:23,505 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Los-Angeles-United-States
+2025-07-09 13:45:23,505 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Los-Angeles-United-States, DirectSlug
+2025-07-09 13:45:24,207 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Los-Angeles-United-States Pollution
+2025-07-09 13:45:24,208 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\pollution\DirectSlug_Los-Angeles-United-States_pollution_Pollution_Indices.csv
+2025-07-09 13:45:24,210 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\pollution\DirectSlug_Los-Angeles-United-States_pollution_Pollution_Details_Table_1.csv
+2025-07-09 13:45:24,211 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\pollution\DirectSlug_Los-Angeles-United-States_pollution_Pollution_Details_Table_2.csv
+2025-07-09 13:45:24,212 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Los-Angeles-United-States.
+2025-07-09 13:45:24,212 - __main__ - INFO - === Fin scraping du slug : Los-Angeles-United-States (succès) ===
