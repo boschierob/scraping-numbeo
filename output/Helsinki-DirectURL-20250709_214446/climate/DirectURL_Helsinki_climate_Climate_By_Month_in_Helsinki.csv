@@ -1,0 +1,13 @@
+Month,ClimateScore,Weather Conditions Outline,table_caption,category,data_type
+Jan,-16.32,Low avg -9℃Chance of cloudy day 80%Chance of snow day 72%,Climate By Month in Helsinki,climate,table
+Feb,36.90,Low avg -3℃Chance of cloudy day 83%Chance of rainy day 53%Chance of snow day 58%,Climate By Month in Helsinki,climate,table
+Mar,19.08,Low avg -5℃Chance of cloudy day 52%Chance of snow day 37%,Climate By Month in Helsinki,climate,table
+Apr,56.43,Chance of cloudy day 58%Chance of rainy day 53%,Climate By Month in Helsinki,climate,table
+May,89.01,Chance of cloudy day 44%Chance of rainy day 42%,Climate By Month in Helsinki,climate,table
+Jun,97.64,Chance of cloudy day 43%Chance of rainy day 58%,Climate By Month in Helsinki,climate,table
+Jul,100.00,Chance of rainy day 48%,Climate By Month in Helsinki,climate,table
+Aug,100.00,Chance of fog day 42%Chance of rainy day 56%,Climate By Month in Helsinki,climate,table
+Sep,95.53,Chance of fog day 56%,Climate By Month in Helsinki,climate,table
+Oct,71.69,Chance of cloudy day 55%Chance of fog day 32%,Climate By Month in Helsinki,climate,table
+Nov,58.96,Chance of cloudy day 81%Chance of rainy day 64%,Climate By Month in Helsinki,climate,table
+Dec,44.62,Low avg -2℃Chance of cloudy day 81%Chance of rainy day 60%Chance of snow day 37%,Climate By Month in Helsinki,climate,table

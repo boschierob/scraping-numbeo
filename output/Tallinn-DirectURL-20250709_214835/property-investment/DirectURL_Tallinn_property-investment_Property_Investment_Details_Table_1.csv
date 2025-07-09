@@ -1,0 +1,9 @@
+section,sub_section,Value,price_min,price_max,table_caption,category
+Rent Per Month,Apartment (1 bedroom) in City Centre,686.92 €,600.00,830.00,Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (1 bedroom) Outside of Centre,510.43 €,450.00,650.00,Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (3 bedrooms) in City Centre,"1,268.42 €",900.00,"1,700.00",Property Investment Details Table 1,property_investment
+Rent Per Month,Apartment (3 bedrooms) Outside of Centre,910.38 €,690.00,"1,100.00",Property Investment Details Table 1,property_investment
+Buy Apartment Price,Price per Square Meter to Buy Apartment in City Centre,"4,555.88 €","3,500.00","6,000.00",Property Investment Details Table 1,property_investment
+Buy Apartment Price,Price per Square Meter to Buy Apartment Outside of Centre,"3,045.86 €","2,500.00","4,100.00",Property Investment Details Table 1,property_investment
+Salaries And Financing,Average Monthly Net Salary (After Tax),"1,643.28 €",,,Property Investment Details Table 1,property_investment
+Salaries And Financing,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",5.04,3.00,6.00,Property Investment Details Table 1,property_investment

@@ -1,0 +1,65 @@
+Restaurants,Edit,Range,table_caption,category
+"Meal, Inexpensive Restaurant",13.00 €,8.00-25.00,Table1,cost_of_living
+"Meal for 2 People, Mid-range Restaurant, Three-course",75.00 €,50.00-120.00,Table1,cost_of_living
+McMeal at McDonalds (or Equivalent Combo Meal),10.00 €,9.00-11.00,Table1,cost_of_living
+Domestic Beer (0.5 liter draught),5.50 €,3.50-7.00,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),5.50 €,4.50-8.00,Table1,cost_of_living
+Cappuccino (regular),3.76 €,2.00-5.00,Table1,cost_of_living
+Coke/Pepsi (0.33 liter bottle),2.53 €,1.50-4.00,Table1,cost_of_living
+Water (0.33 liter bottle),2.21 €,1.50-3.00,Table1,cost_of_living
+Markets,Edit,nan,Table1,cost_of_living
+"Milk (regular), (1 liter)",1.10 €,0.59-1.40,Table1,cost_of_living
+Loaf of Fresh White Bread (500g),1.24 €,0.90-2.00,Table1,cost_of_living
+"Rice (white), (1kg)",2.54 €,1.00-3.24,Table1,cost_of_living
+Eggs (regular) (12),2.49 €,1.74-3.11,Table1,cost_of_living
+Local Cheese (1kg),11.64 €,7.00-15.00,Table1,cost_of_living
+Chicken Fillets (1kg),8.24 €,5.99-11.00,Table1,cost_of_living
+Beef Round (1kg) (or Equivalent Back Leg Red Meat),20.01 €,10.00-32.00,Table1,cost_of_living
+Apples (1kg),1.95 €,0.49-3.00,Table1,cost_of_living
+Banana (1kg),1.35 €,1.20-2.00,Table1,cost_of_living
+Oranges (1kg),2.35 €,1.13-3.50,Table1,cost_of_living
+Tomato (1kg),3.19 €,1.10-6.00,Table1,cost_of_living
+Potato (1kg),1.19 €,0.29-2.00,Table1,cost_of_living
+Onion (1kg),0.82 €,0.37-1.30,Table1,cost_of_living
+Lettuce (1 head),1.76 €,1.00-2.50,Table1,cost_of_living
+Water (1.5 liter bottle),0.94 €,0.50-1.50,Table1,cost_of_living
+Bottle of Wine (Mid-Range),9.00 €,7.00-15.00,Table1,cost_of_living
+Domestic Beer (0.5 liter bottle),1.66 €,1.20-2.00,Table1,cost_of_living
+Imported Beer (0.33 liter bottle),2.16 €,1.55-3.00,Table1,cost_of_living
+Cigarettes 20 Pack (Marlboro),5.80 €,5.30-6.00,Table1,cost_of_living
+Transportation,Edit,nan,Table1,cost_of_living
+One-way Ticket (Local Transport),2.00 €,1.50-2.00,Table1,cost_of_living
+Monthly Pass (Regular Price),30.00 €,25.00-33.00,Table1,cost_of_living
+Taxi Start (Normal Tariff),3.35 €,2.50-5.50,Table1,cost_of_living
+Taxi 1km (Normal Tariff),0.86 €,0.50-1.50,Table1,cost_of_living
+Taxi 1hour Waiting (Normal Tariff),15.00 €,10.00-23.00,Table1,cost_of_living
+Gasoline (1 liter),1.67 €,1.55-1.80,Table1,cost_of_living
+Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"27,850.00 €","26,141.00-31,303.00",Table1,cost_of_living
+Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"29,350.00 €","28,100.00-30,500.00",Table1,cost_of_living
+Utilities (Monthly),Edit,nan,Table1,cost_of_living
+"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment",289.85 €,206.00-392.31,Table1,cost_of_living
+Mobile Phone Monthly Plan with Calls and 10GB+ Data,16.77 €,10.00-32.00,Table1,cost_of_living
+"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",30.48 €,25.00-40.00,Table1,cost_of_living
+Sports And Leisure,Edit,nan,Table1,cost_of_living
+"Fitness Club, Monthly Fee for 1 Adult",49.77 €,19.00-73.00,Table1,cost_of_living
+Tennis Court Rent (1 Hour on Weekend),34.06 €,25.00-50.00,Table1,cost_of_living
+"Cinema, International Release, 1 Seat",11.50 €,9.00-15.00,Table1,cost_of_living
+Childcare,Edit,nan,Table1,cost_of_living
+"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child",482.23 €,300.00-625.00,Table1,cost_of_living
+"International Primary School, Yearly for 1 Child","6,647.11 €","4,000.00-10,000.00",Table1,cost_of_living
+Clothing And Shoes,Edit,nan,Table1,cost_of_living
+1 Pair of Jeans (Levis 501 Or Similar),96.90 €,60.00-120.00,Table1,cost_of_living
+"1 Summer Dress in a Chain Store (Zara, H&M, ...)",41.35 €,25.00-60.00,Table1,cost_of_living
+1 Pair of Nike Running Shoes (Mid-Range),92.08 €,65.00-120.00,Table1,cost_of_living
+1 Pair of Men Leather Business Shoes,124.29 €,80.00-180.00,Table1,cost_of_living
+Rent Per Month,Edit,nan,Table1,cost_of_living
+Apartment (1 bedroom) in City Centre,686.92 €,600.00-830.00,Table1,cost_of_living
+Apartment (1 bedroom) Outside of Centre,510.43 €,450.00-650.00,Table1,cost_of_living
+Apartment (3 bedrooms) in City Centre,"1,268.42 €","900.00-1,700.00",Table1,cost_of_living
+Apartment (3 bedrooms) Outside of Centre,910.38 €,"690.00-1,100.00",Table1,cost_of_living
+Buy Apartment Price,Edit,nan,Table1,cost_of_living
+Price per Square Meter to Buy Apartment in City Centre,"4,555.88 €","3,500.00-6,000.00",Table1,cost_of_living
+Price per Square Meter to Buy Apartment Outside of Centre,"3,045.86 €","2,500.00-4,100.00",Table1,cost_of_living
+Salaries And Financing,Edit,nan,Table1,cost_of_living
+Average Monthly Net Salary (After Tax),"1,643.28 €",nan,Table1,cost_of_living
+"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",5.04,3.00-6.00,Table1,cost_of_living

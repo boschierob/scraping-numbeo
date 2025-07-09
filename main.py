@@ -137,59 +137,60 @@ def scrape_from_url(url, category=None):
         # Scraper toutes les catégories via la fonction factorisée
         scrape_from_slug(slug, country_name="DirectURL", region="", label="DirectURL")
 
-def automate_supabase_for_all_outputs():
+def automate_supabase_for_all_outputs(folders=None):
     output_root = Path('output')
-    for city_folder in output_root.iterdir():
-        if city_folder.is_dir():
-            meta_path = city_folder / "meta.json"
-            if meta_path.exists():
-                with open(meta_path, "r", encoding="utf-8") as f:
-                    meta = json.load(f)
-                city = meta.get("city")
-                region = meta.get("region")
-                country = meta.get("country")
-                datestamp = meta.get("datestamp")
-                if not city or not country:
-                    print(f"meta.json incomplet dans {city_folder}, dossier ignoré.")
-                    continue
+    if folders is None:
+        folders = [f for f in output_root.iterdir() if f.is_dir()]
+    for city_folder in folders:
+        meta_path = city_folder / "meta.json"
+        if meta_path.exists():
+            with open(meta_path, "r", encoding="utf-8") as f:
+                meta = json.load(f)
+            city = meta.get("city")
+            region = meta.get("region")
+            country = meta.get("country")
+            datestamp = meta.get("datestamp")
+            if not city or not country:
+                print(f"meta.json incomplet dans {city_folder}, dossier ignoré.")
+                continue
+        else:
+            # Fallback: parser le nom du dossier (ancienne méthode)
+            print(f"[WARN] Pas de meta.json dans {city_folder}, tentative de parsing du nom de dossier.")
+            folder_name = city_folder.name
+            import re
+            m = re.match(r'(.+)-(\d{8}_\d{6})$', folder_name)
+            if not m:
+                print(f"Nom de dossier non conforme: {folder_name}, dossier ignoré.")
+                continue
+            base, timestamp = m.groups()
+            parts = base.split('-')
+            if len(parts) >= 4:
+                country = '-'.join(parts[-2:])
+                region = parts[-3]
+                city = '-'.join(parts[:-3])
+            elif len(parts) == 3:
+                country = '-'.join(parts[-2:])
+                region = None
+                city = parts[0]
+            elif len(parts) == 2:
+                country = parts[-1]
+                region = None
+                city = parts[0]
             else:
-                # Fallback: parser le nom du dossier (ancienne méthode)
-                print(f"[WARN] Pas de meta.json dans {city_folder}, tentative de parsing du nom de dossier.")
-                folder_name = city_folder.name
-                import re
-                m = re.match(r'(.+)-(\d{8}_\d{6})$', folder_name)
-                if not m:
-                    print(f"Nom de dossier non conforme: {folder_name}, dossier ignoré.")
-                    continue
-                base, timestamp = m.groups()
-                parts = base.split('-')
-                if len(parts) >= 4:
-                    country = '-'.join(parts[-2:])
-                    region = parts[-3]
-                    city = '-'.join(parts[:-3])
-                elif len(parts) == 3:
-                    country = '-'.join(parts[-2:])
-                    region = None
-                    city = parts[0]
-                elif len(parts) == 2:
-                    country = parts[-1]
-                    region = None
-                    city = parts[0]
-                else:
-                    print(f"Impossible de parser le nom du dossier: {folder_name}, dossier ignoré.")
-                    continue
-                datestamp = timestamp
-            try:
-                city_json = collect_city_data(str(city_folder), city, country, datestamp, region)
-                with open(os.path.join(str(city_folder), "city_data.json"), "w", encoding="utf-8") as f:
-                    json.dump(city_json, f, ensure_ascii=False, indent=2)
-                conn = get_postgres_conn()
-                create_table_if_needed(conn)
-                insert_city_json(conn, city_json)
-                conn.close()
-                print(f"✅ Supabase: données insérées pour {city}, {country}")
-            except Exception as e:
-                print(f"❌ Erreur Supabase pour {city}, {country} : {e}")
+                print(f"Impossible de parser le nom du dossier: {folder_name}, dossier ignoré.")
+                continue
+            datestamp = timestamp
+        try:
+            city_json = collect_city_data(str(city_folder), city, country, datestamp, region)
+            with open(os.path.join(str(city_folder), "city_data.json"), "w", encoding="utf-8") as f:
+                json.dump(city_json, f, ensure_ascii=False, indent=2)
+            conn = get_postgres_conn()
+            create_table_if_needed(conn)
+            insert_city_json(conn, city_json)
+            conn.close()
+            print(f"✅ Supabase: données insérées pour {city}, {country}")
+        except Exception as e:
+            print(f"❌ Erreur Supabase pour {city}, {country} : {e}")
 
 def main():
     """Main scraping function"""
@@ -331,7 +332,12 @@ def main():
             logger.info(f"Scraping completed. Report saved to: {report_file}")
         
         # --- AUTOMATISATION SUPABASE POUR TOUS LES DOSSIERS ---
-        automate_supabase_for_all_outputs()
+        # This part is now handled by the new automate_supabase_for_all_outputs function
+        # which can take a list of folders to process.
+        # For the interactive mode, we'll call it with the newly created folders.
+        # In the case of the CSV mode, it will process all folders in 'output'.
+        # In the case of the URL mode, it will process only the newly created folders.
+        # The original call to automate_supabase_for_all_outputs() is removed.
         
         # Check if scraping was successful
         if stats_tracker.is_scraping_successful():
@@ -357,8 +363,16 @@ def main():
 if __name__ == "__main__":
     args = parse_args()
     if args.urls:
+        created_folders = []
         for url in args.urls:
+            # Avant scraping, lister les dossiers existants
+            before = set(f.name for f in Path('output').iterdir() if f.is_dir())
             scrape_from_url(url, args.category)
+            after = set(f.name for f in Path('output').iterdir() if f.is_dir())
+            new_folders = after - before
+            created_folders.extend([Path('output')/f for f in new_folders])
+        if created_folders:
+            automate_supabase_for_all_outputs(created_folders)
         sys.exit(0)
     else:
         # Mode interactif
@@ -368,21 +382,29 @@ if __name__ == "__main__":
         print("3. Entrer une ou plusieurs localités (slugs Numbeo)")
         choix = input("Votre choix [1/2/3] : ").strip()
         if choix == "1":
+            before = set(f.name for f in Path('output').iterdir() if f.is_dir())
             success = main()
-            sys.exit(0 if success else 1)
+            after = set(f.name for f in Path('output').iterdir() if f.is_dir())
+            created_folders = [Path('output')/f for f in (after - before)]
+            if created_folders:
+                automate_supabase_for_all_outputs(created_folders)
+            sys.exit(0)
         elif choix == "2":
-            print("Entrez une ou plusieurs URLs Numbeo (une par ligne). Laissez vide puis validez pour terminer :")
-            urls = []
-            while True:
-                url = input()
-                if not url.strip():
-                    break
-                urls.append(url.strip())
+            print("Entrez une ou plusieurs URLs Numbeo, séparées par un espace :")
+            line = input()
+            urls = [u for u in line.strip().split() if u]
             if not urls:
                 print("Aucune URL entrée. Fin du programme.")
                 sys.exit(1)
+            created_folders = []
             for url in urls:
+                before = set(f.name for f in Path('output').iterdir() if f.is_dir())
                 scrape_from_url(url)
+                after = set(f.name for f in Path('output').iterdir() if f.is_dir())
+                new_folders = after - before
+                created_folders.extend([Path('output')/f for f in new_folders])
+            if created_folders:
+                automate_supabase_for_all_outputs(created_folders)
             sys.exit(0)
         elif choix == "3":
             print("Attention : Veuillez entrer la localité exactement comme elle apparaît dans le slug Numbeo (ex : Paris, Lyon, New-York, etc.)")
@@ -393,10 +415,16 @@ if __name__ == "__main__":
                 print("Aucun slug entré. Fin du programme.")
                 sys.exit(1)
             print(f"\n\033[1;34m--- Début du scraping pour {len(slugs)} slug(s) ---\033[0m")
+            created_folders = []
             for slug in slugs:
+                before = set(f.name for f in Path('output').iterdir() if f.is_dir())
                 scrape_from_slug(slug)
+                after = set(f.name for f in Path('output').iterdir() if f.is_dir())
+                new_folders = after - before
+                created_folders.extend([Path('output')/f for f in new_folders])
             print(f"\n\033[1;34m--- Fin du scraping pour tous les slugs ---\033[0m")
-            automate_supabase_for_all_outputs()
+            if created_folders:
+                automate_supabase_for_all_outputs(created_folders)
             sys.exit(0)
         else:
             print("Choix invalide. Fin du programme.")

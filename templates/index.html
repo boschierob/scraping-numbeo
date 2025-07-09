@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% block title %}Accueil{% endblock %}
+{% block content %}
+<h2>Scraper des villes Numbeo par URL</h2>
+{% if inserted_rows %}
+    <div class="success">
+        <h4>Villes insérées dans la base :</h4>
+        <ul>
+        {% for row in inserted_rows %}
+            <li>{{ row.city }} ({{ row.country }})</li>
+        {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+{% if insert_errors %}
+    <div class="error">
+        <h4>Erreurs d'insertion :</h4>
+        <ul>
+        {% for err in insert_errors %}
+            <li>{{ err.city }} ({{ err.country }}) : {{ err.error }}</li>
+        {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+{% if not session.get('logged_in') %}
+    <h3>Connexion requise</h3>
+    <form method="POST" action="/login">
+        <div class="form-group">
+            <label>Identifiant:</label><br>
+            <input type="text" name="username" required>
+        </div>
+        <div class="form-group">
+            <label>Mot de passe:</label><br>
+            <input type="password" name="password" required>
+        </div>
+        <button type="submit">Se connecter</button>
+    </form>
+{% else %}
+    <p class="success">Connecté en tant que {{ session.get('username') }}</p>
+    <h3>Scraping d'URLs Numbeo</h3>
+    <form id="scrape-form" method="POST" action="/scrape_urls">
+        <div class="form-group">
+            <label>URLs Numbeo (une par ligne):</label><br>
+            <textarea name="urls" rows="5" cols="50" placeholder="https://www.numbeo.com/cost-of-living/in/Lyon"></textarea>
+        </div>
+        <button type="submit">Lancer le scraping</button>
+    </form>
+    <div id="loader" style="display:none; text-align:center; margin-top:30px;">
+        <div style="display:inline-block; border:8px solid #f3f3f3; border-top:8px solid #3498db; border-radius:50%; width:60px; height:60px; animation:spin 1s linear infinite;"></div>
+        <p>Scraping en cours, veuillez patienter...</p>
+    </div>
+    <form method="POST" action="/logout">
+        <button type="submit">Se déconnecter</button>
+    </form>
+    <style>
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    </style>
+    <script>
+    document.getElementById('scrape-form').addEventListener('submit', function(e) {
+        document.getElementById('scrape-form').style.display = 'none';
+        document.getElementById('loader').style.display = 'block';
+    });
+    </script>
+{% endif %}
+{% endblock %} 

@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from flask import Flask, render_template_string, request, redirect, flash, session
+from flask import Flask, render_template, render_template_string, request, redirect, flash, session, url_for
 import os
 import sys
 import json
 import hashlib
 from pathlib import Path
+from main import scrape_from_url, automate_supabase_for_all_outputs
+from dotenv import load_dotenv
+load_dotenv()
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+print(f"[DEBUG] CWD set to: {os.getcwd()}")
+print('[DEBUG] SUPABASE_DB_URL (Flask) =', os.getenv('SUPABASE_DB_URL'))
 
 # Ajouter le répertoire du projet au PYTHONPATH
 project_root = Path(__file__).parent
@@ -29,74 +36,13 @@ def check_login(username, password):
     return username in users and users[username] == hash_password(password)
 
 # Template HTML simple
-HTML_TEMPLATE = """
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Numbeo Scraping - {% block title %}{% endblock %}</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        .container { max-width: 800px; margin: 0 auto; }
-        .form-group { margin: 20px 0; }
-        input, textarea, button { padding: 10px; margin: 5px; }
-        .success { color: green; }
-        .error { color: red; }
-        .warning { color: orange; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Numbeo Scraping</h1>
-        {% with messages = get_flashed_messages(with_categories=true) %}
-          {% if messages %}
-            <ul>
-            {% for category, message in messages %}
-              <li class="{{ category }}">{{ message }}</li>
-            {% endfor %}
-            </ul>
-          {% endif %}
-        {% endwith %}
-        {% block content %}{% endblock %}
-    </div>
-</body>
-</html>
-"""
+# SUPPRIMER HTML_TEMPLATE et remplacer la route index
 
 @app.route('/')
 def index():
-    return render_template_string(HTML_TEMPLATE, title="Accueil") + """
-    <h2>Scraper des villes Numbeo par URL</h2>
-    
-    {% if not session.get('logged_in') %}
-        <h3>Connexion requise</h3>
-        <form method="POST" action="/login">
-            <div class="form-group">
-                <label>Identifiant:</label><br>
-                <input type="text" name="username" required>
-            </div>
-            <div class="form-group">
-                <label>Mot de passe:</label><br>
-                <input type="password" name="password" required>
-            </div>
-            <button type="submit">Se connecter</button>
-        </form>
-    {% else %}
-        <p class="success">Connecté en tant que {{ session.get('username') }}</p>
-        
-        <h3>Scraping d'URLs Numbeo</h3>
-        <form method="POST" action="/scrape_urls">
-            <div class="form-group">
-                <label>URLs Numbeo (une par ligne):</label><br>
-                <textarea name="urls" rows="5" cols="50" placeholder="https://www.numbeo.com/cost-of-living/in/Lyon"></textarea>
-            </div>
-            <button type="submit">Lancer le scraping</button>
-        </form>
-        
-        <form method="POST" action="/logout">
-            <button type="submit">Se déconnecter</button>
-        </form>
-    {% endif %}
-    """
+    inserted_rows = session.pop('inserted_rows', None)
+    insert_errors = session.pop('insert_errors', None)
+    return render_template('index.html', inserted_rows=inserted_rows, insert_errors=insert_errors)
 
 @app.route('/login', methods=['POST'])
 def login():
@@ -125,15 +71,56 @@ def scrape_urls():
         flash('Veuillez entrer au moins une URL.', 'warning')
         return redirect('/')
 
-    # Appel du scraping pour chaque URL
-    from main import scrape_from_url  # Import ici pour éviter les problèmes de dépendances circulaires
+    created_folders = []
+    inserted_rows = []
+    errors = []
     for url in [u.strip() for u in urls.splitlines() if u.strip()]:
+        output_dir = Path('output')
+        print(f"[DEBUG] Absolute output dir: {output_dir.resolve()}")
+        before = set(f.name for f in output_dir.iterdir() if f.is_dir())
+        print(f"[DEBUG] Output folders before scraping: {before}")
         try:
             scrape_from_url(url)
             flash(f"✅ Succès pour {url}", "success")
         except Exception as e:
             flash(f"❌ Erreur pour {url} : {e}", "error")
-    return redirect('/')
+        print(f"[DEBUG] Absolute output dir (after): {output_dir.resolve()}")
+        print(f"[DEBUG] Files/folders in output dir: {list(output_dir.iterdir())}")
+        for f in output_dir.iterdir():
+            print(f"[DEBUG] {f} - is_dir: {f.is_dir()} - is_file: {f.is_file()}")
+        after = set(f.name for f in output_dir.iterdir() if f.is_dir())
+        print(f"[DEBUG] Output folders after scraping: {after}")
+        new_folders = after - before
+        print(f"[DEBUG] New folders detected: {new_folders}")
+        created_folders.extend([output_dir/f for f in new_folders])
+    print(f"[DEBUG] created_folders list: {created_folders}")
+    if created_folders:
+        # On va collecter les infos d'insertion pour l'affichage
+        from automate_supabase_json import collect_city_data
+        for city_folder in created_folders:
+            meta_path = city_folder / "meta.json"
+            if meta_path.exists():
+                import json
+                with open(meta_path, "r", encoding="utf-8") as f:
+                    meta = json.load(f)
+                city = meta.get("city")
+                country = meta.get("country")
+            else:
+                # fallback parsing
+                parts = city_folder.name.split('-')
+                city = parts[0]
+                country = parts[-2] if len(parts) > 2 else parts[-1]
+            try:
+                # On tente l'insertion (déjà faite, mais on veut le feedback)
+                print(f"[DEBUG] Appel automate_supabase_for_all_outputs pour {city_folder}")
+                automate_supabase_for_all_outputs([city_folder])
+                inserted_rows.append({'city': city, 'country': country})
+            except Exception as e:
+                errors.append({'city': city, 'country': country, 'error': str(e)})
+        # Stocke le résultat dans la session pour affichage après redirect
+        session['inserted_rows'] = inserted_rows
+        session['insert_errors'] = errors
+    return redirect(url_for('index'))
 
 # WSGI application
 application = app

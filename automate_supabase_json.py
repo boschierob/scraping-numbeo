@@ -15,6 +15,7 @@ load_dotenv()
 
 def get_postgres_conn():
     db_url = os.getenv("SUPABASE_DB_URL")
+    print(f"[DEBUG] SUPABASE_DB_URL (automate_supabase_json) = {db_url}")
     if not db_url:
         raise Exception("Set SUPABASE_DB_URL in your .env (see Supabase > Project Settings > Database > Connection string)")
     return psycopg2.connect(db_url)
@@ -91,9 +92,9 @@ def insert_city_json(conn, city_data):
             )
         )
         conn.commit()
-        print(f"✅ Data for {city_data.get('city')} inserted/updated in '{TABLE_NAME}'.")
+        print(f"[DEBUG] ✅ Data for {city_data.get('city')} inserted/updated in '{TABLE_NAME}'.")
     except Exception as e:
-        print(f"Error inserting data: {e}")
+        print(f"[DEBUG] Error inserting data: {e}")
     finally:
         cur.close()
 

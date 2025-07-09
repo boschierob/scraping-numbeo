@@ -1933,3 +1933,1175 @@
 2025-07-09 13:45:24,211 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Los-Angeles-United-States-DirectSlug-20250709_134519\pollution\DirectSlug_Los-Angeles-United-States_pollution_Pollution_Details_Table_2.csv
 2025-07-09 13:45:24,212 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Los-Angeles-United-States.
 2025-07-09 13:45:24,212 - __main__ - INFO - === Fin scraping du slug : Los-Angeles-United-States (succès) ===
+2025-07-09 14:10:25,913 - __main__ - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Struer-Denmark (category: None)
+2025-07-09 14:10:25,914 - __main__ - INFO - === Début scraping du slug : Struer-Denmark (country: DirectURL, region: ) ===
+2025-07-09 14:10:25,920 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Struer-Denmark
+2025-07-09 14:10:25,920 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Struer-Denmark, DirectURL
+2025-07-09 14:10:26,521 - src.scrapers.quality_of_life_scraper - WARNING - No tables found for Struer-Denmark Quality of Life
+2025-07-09 14:10:26,522 - __main__ - WARNING - No tables found at https://www.numbeo.com/quality-of-life/in/Struer-Denmark.
+2025-07-09 14:10:26,522 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Struer-Denmark
+2025-07-09 14:10:26,523 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Struer-Denmark, DirectURL
+2025-07-09 14:10:26,988 - src.scrapers.crime_scraper - INFO - Found 0 tables with class 'data_wide_table'
+2025-07-09 14:10:26,989 - src.scrapers.crime_scraper - WARNING - No tables found for Struer-Denmark Safety/Crime
+2025-07-09 14:10:26,989 - __main__ - WARNING - No tables found at https://www.numbeo.com/crime/in/Struer-Denmark.
+2025-07-09 14:10:26,989 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Struer-Denmark
+2025-07-09 14:10:26,990 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Struer-Denmark, DirectURL
+2025-07-09 14:10:27,504 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Struer-Denmark Cost of Living
+2025-07-09 14:10:27,507 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Struer-Denmark-DirectURL-20250709_141025\cost-of-living\DirectURL_Struer-Denmark_cost-of-living_Table1.csv
+2025-07-09 14:10:27,508 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Struer-Denmark.
+2025-07-09 14:10:27,508 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Struer-Denmark
+2025-07-09 14:10:27,508 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Struer-Denmark, DirectURL
+2025-07-09 14:10:27,980 - src.scrapers.health_care_scraper - WARNING - No tables found for Struer-Denmark Health Care
+2025-07-09 14:10:27,981 - __main__ - WARNING - No tables found at https://www.numbeo.com/health-care/in/Struer-Denmark.
+2025-07-09 14:10:27,981 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Struer-Denmark
+2025-07-09 14:10:27,982 - src.scrapers.climate_scraper - INFO - Scraping Climate for Struer-Denmark, DirectURL
+2025-07-09 14:10:28,462 - src.scrapers.climate_scraper - WARNING - No tables found for Struer-Denmark Climate. Saving debug HTML.
+2025-07-09 14:10:28,466 - src.scrapers.base_scraper - INFO - Saved debug HTML: debug\no_tables_Struer-Denmark_climate.html
+2025-07-09 14:10:28,467 - __main__ - WARNING - No tables found at https://www.numbeo.com/climate/in/Struer-Denmark.
+2025-07-09 14:10:28,467 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Struer-Denmark
+2025-07-09 14:10:28,468 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Struer-Denmark, DirectURL
+2025-07-09 14:10:28,978 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Struer-Denmark-DirectURL-20250709_141025\property-investment\DirectURL_Struer-Denmark_property-investment_Property_Investment_Indices.csv
+2025-07-09 14:10:28,979 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Struer-Denmark-DirectURL-20250709_141025\property-investment\DirectURL_Struer-Denmark_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 14:10:28,979 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Struer-Denmark.
+2025-07-09 14:10:28,980 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Struer-Denmark
+2025-07-09 14:10:28,980 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Struer-Denmark, DirectURL
+2025-07-09 14:10:29,449 - src.scrapers.traffic_scraper - WARNING - No tables found for Struer-Denmark Traffic
+2025-07-09 14:10:29,449 - __main__ - WARNING - No tables found at https://www.numbeo.com/traffic/in/Struer-Denmark.
+2025-07-09 14:10:29,450 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Struer-Denmark
+2025-07-09 14:10:29,450 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Struer-Denmark, DirectURL
+2025-07-09 14:10:29,938 - src.scrapers.pollution_scraper - WARNING - No tables found for Struer-Denmark Pollution
+2025-07-09 14:10:29,939 - __main__ - WARNING - No tables found at https://www.numbeo.com/pollution/in/Struer-Denmark.
+2025-07-09 14:10:29,939 - __main__ - INFO - === Fin scraping du slug : Struer-Denmark (succès) ===
+2025-07-09 14:13:25,938 - __main__ - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Nice (category: None)
+2025-07-09 14:13:25,939 - __main__ - INFO - === Début scraping du slug : Nice (country: DirectURL, region: ) ===
+2025-07-09 14:13:25,944 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Nice
+2025-07-09 14:13:25,944 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Nice, DirectURL
+2025-07-09 14:13:26,522 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Nice Quality of Life
+2025-07-09 14:13:26,526 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\quality-of-life\DirectURL_Nice_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 14:13:26,526 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Nice.
+2025-07-09 14:13:26,527 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Nice
+2025-07-09 14:13:26,528 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Nice, DirectURL
+2025-07-09 14:13:26,997 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 14:13:26,999 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 14:13:27,000 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 14:13:27,000 - src.scrapers.crime_scraper - INFO - Found 3 tables for Nice Safety/Crime
+2025-07-09 14:13:27,002 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\crime\DirectURL_Nice_crime_Crime_Indices.csv
+2025-07-09 14:13:27,003 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\crime\DirectURL_Nice_crime_Crime_Details_Table_1.csv
+2025-07-09 14:13:27,004 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\crime\DirectURL_Nice_crime_Crime_Details_Table_2.csv
+2025-07-09 14:13:27,004 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Nice.
+2025-07-09 14:13:27,004 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Nice
+2025-07-09 14:13:27,005 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Nice, DirectURL
+2025-07-09 14:13:27,546 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Nice Cost of Living
+2025-07-09 14:13:27,548 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\cost-of-living\DirectURL_Nice_cost-of-living_Table1.csv
+2025-07-09 14:13:27,548 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Nice.
+2025-07-09 14:13:27,549 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Nice
+2025-07-09 14:13:27,549 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Nice, DirectURL
+2025-07-09 14:13:28,015 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Nice Health Care
+2025-07-09 14:13:28,016 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\health-care\DirectURL_Nice_health-care_Health_Care_Indices.csv
+2025-07-09 14:13:28,018 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\health-care\DirectURL_Nice_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 14:13:28,018 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Nice.
+2025-07-09 14:13:28,018 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Nice
+2025-07-09 14:13:28,019 - src.scrapers.climate_scraper - INFO - Scraping Climate for Nice, DirectURL
+2025-07-09 14:13:28,501 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\climate\DirectURL_Nice_climate_Climate_By_Month_in_Nice.csv
+2025-07-09 14:13:28,503 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\climate\DirectURL_Nice_climate_Best_Months_To_Visit_Nice.csv
+2025-07-09 14:13:28,504 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\climate\DirectURL_Nice_climate_Temperatures_(table).csv
+2025-07-09 14:13:28,504 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Nice.
+2025-07-09 14:13:28,504 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Nice
+2025-07-09 14:13:28,505 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Nice, DirectURL
+2025-07-09 14:13:29,007 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\property-investment\DirectURL_Nice_property-investment_Property_Investment_Indices.csv
+2025-07-09 14:13:29,009 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\property-investment\DirectURL_Nice_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 14:13:29,009 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Nice.
+2025-07-09 14:13:29,010 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Nice
+2025-07-09 14:13:29,010 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Nice, DirectURL
+2025-07-09 14:13:29,567 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Nice Traffic
+2025-07-09 14:13:29,570 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\traffic\DirectURL_Nice_traffic_Traffic_Indices.csv
+2025-07-09 14:13:29,574 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\traffic\DirectURL_Nice_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 14:13:29,575 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\traffic\DirectURL_Nice_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 14:13:29,577 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\traffic\DirectURL_Nice_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 14:13:29,578 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\traffic\DirectURL_Nice_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 14:13:29,579 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\traffic\DirectURL_Nice_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 14:13:29,580 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\traffic\DirectURL_Nice_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 14:13:29,580 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Nice.
+2025-07-09 14:13:29,581 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Nice
+2025-07-09 14:13:29,581 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Nice, DirectURL
+2025-07-09 14:13:30,067 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Nice Pollution
+2025-07-09 14:13:30,069 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\pollution\DirectURL_Nice_pollution_Pollution_Indices.csv
+2025-07-09 14:13:30,070 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\pollution\DirectURL_Nice_pollution_Pollution_Details_Table_1.csv
+2025-07-09 14:13:30,071 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Nice-DirectURL-20250709_141325\pollution\DirectURL_Nice_pollution_Pollution_Details_Table_2.csv
+2025-07-09 14:13:30,071 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Nice.
+2025-07-09 14:13:30,072 - __main__ - INFO - === Fin scraping du slug : Nice (succès) ===
+2025-07-09 14:13:30,073 - __main__ - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Saint-Tropez-France (category: None)
+2025-07-09 14:13:30,074 - __main__ - INFO - === Début scraping du slug : Saint-Tropez-France (country: DirectURL, region: ) ===
+2025-07-09 14:13:30,075 - __main__ - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Saint-Tropez-France
+2025-07-09 14:13:30,075 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Saint-Tropez-France, DirectURL
+2025-07-09 14:13:30,550 - src.scrapers.quality_of_life_scraper - WARNING - No tables found for Saint-Tropez-France Quality of Life
+2025-07-09 14:13:30,551 - __main__ - WARNING - No tables found at https://www.numbeo.com/quality-of-life/in/Saint-Tropez-France.
+2025-07-09 14:13:30,551 - __main__ - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Saint-Tropez-France
+2025-07-09 14:13:30,552 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Saint-Tropez-France, DirectURL
+2025-07-09 14:13:31,148 - src.scrapers.crime_scraper - INFO - Found 0 tables with class 'data_wide_table'
+2025-07-09 14:13:31,148 - src.scrapers.crime_scraper - WARNING - No tables found for Saint-Tropez-France Safety/Crime
+2025-07-09 14:13:31,149 - __main__ - WARNING - No tables found at https://www.numbeo.com/crime/in/Saint-Tropez-France.
+2025-07-09 14:13:31,149 - __main__ - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Saint-Tropez-France
+2025-07-09 14:13:31,149 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Saint-Tropez-France, DirectURL
+2025-07-09 14:13:31,664 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Saint-Tropez-France Cost of Living
+2025-07-09 14:13:31,666 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Saint-Tropez-France-DirectURL-20250709_141330\cost-of-living\DirectURL_Saint-Tropez-France_cost-of-living_Table1.csv
+2025-07-09 14:13:31,667 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Saint-Tropez-France.
+2025-07-09 14:13:31,667 - __main__ - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Saint-Tropez-France
+2025-07-09 14:13:31,668 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Saint-Tropez-France, DirectURL
+2025-07-09 14:13:32,153 - src.scrapers.health_care_scraper - WARNING - No tables found for Saint-Tropez-France Health Care
+2025-07-09 14:13:32,154 - __main__ - WARNING - No tables found at https://www.numbeo.com/health-care/in/Saint-Tropez-France.
+2025-07-09 14:13:32,154 - __main__ - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Saint-Tropez-France
+2025-07-09 14:13:32,155 - src.scrapers.climate_scraper - INFO - Scraping Climate for Saint-Tropez-France, DirectURL
+2025-07-09 14:13:32,643 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Saint-Tropez-France-DirectURL-20250709_141330\climate\DirectURL_Saint-Tropez-France_climate_Climate_By_Month_in_Saint-Tropez.csv
+2025-07-09 14:13:32,645 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Saint-Tropez-France-DirectURL-20250709_141330\climate\DirectURL_Saint-Tropez-France_climate_Best_Months_To_Visit_Saint-Tropez.csv
+2025-07-09 14:13:32,646 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Saint-Tropez-France-DirectURL-20250709_141330\climate\DirectURL_Saint-Tropez-France_climate_Temperatures_(table).csv
+2025-07-09 14:13:32,647 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Saint-Tropez-France.
+2025-07-09 14:13:32,647 - __main__ - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Saint-Tropez-France
+2025-07-09 14:13:32,648 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Saint-Tropez-France, DirectURL
+2025-07-09 14:13:33,157 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Saint-Tropez-France-DirectURL-20250709_141330\property-investment\DirectURL_Saint-Tropez-France_property-investment_Property_Investment_Indices.csv
+2025-07-09 14:13:33,159 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Saint-Tropez-France-DirectURL-20250709_141330\property-investment\DirectURL_Saint-Tropez-France_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 14:13:33,159 - __main__ - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Saint-Tropez-France.
+2025-07-09 14:13:33,159 - __main__ - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Saint-Tropez-France
+2025-07-09 14:13:33,160 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Saint-Tropez-France, DirectURL
+2025-07-09 14:13:33,631 - src.scrapers.traffic_scraper - WARNING - No tables found for Saint-Tropez-France Traffic
+2025-07-09 14:13:33,632 - __main__ - WARNING - No tables found at https://www.numbeo.com/traffic/in/Saint-Tropez-France.
+2025-07-09 14:13:33,632 - __main__ - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Saint-Tropez-France
+2025-07-09 14:13:33,633 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Saint-Tropez-France, DirectURL
+2025-07-09 14:13:34,093 - src.scrapers.pollution_scraper - WARNING - No tables found for Saint-Tropez-France Pollution
+2025-07-09 14:13:34,094 - __main__ - WARNING - No tables found at https://www.numbeo.com/pollution/in/Saint-Tropez-France.
+2025-07-09 14:13:34,094 - __main__ - INFO - === Fin scraping du slug : Saint-Tropez-France (succès) ===
+2025-07-09 17:27:50,311 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Linz (category: None)
+2025-07-09 17:27:50,312 - main - INFO - === Début scraping du slug : Linz (country: DirectURL, region: ) ===
+2025-07-09 17:27:50,319 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Linz
+2025-07-09 17:27:50,319 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Linz, DirectURL
+2025-07-09 17:27:50,903 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Linz Quality of Life
+2025-07-09 17:27:50,907 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\quality-of-life\DirectURL_Linz_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 17:27:50,908 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Linz.
+2025-07-09 17:27:50,908 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Linz
+2025-07-09 17:27:50,909 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Linz, DirectURL
+2025-07-09 17:27:51,413 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 17:27:51,415 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 17:27:51,417 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 17:27:51,417 - src.scrapers.crime_scraper - INFO - Found 3 tables for Linz Safety/Crime
+2025-07-09 17:27:51,419 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\crime\DirectURL_Linz_crime_Crime_Indices.csv
+2025-07-09 17:27:51,420 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\crime\DirectURL_Linz_crime_Crime_Details_Table_1.csv
+2025-07-09 17:27:51,422 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\crime\DirectURL_Linz_crime_Crime_Details_Table_2.csv
+2025-07-09 17:27:51,422 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Linz.
+2025-07-09 17:27:51,422 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Linz
+2025-07-09 17:27:51,423 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Linz, DirectURL
+2025-07-09 17:27:51,970 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Linz Cost of Living
+2025-07-09 17:27:51,971 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\cost-of-living\DirectURL_Linz_cost-of-living_Table1.csv
+2025-07-09 17:27:51,972 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Linz.
+2025-07-09 17:27:51,972 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Linz
+2025-07-09 17:27:51,973 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Linz, DirectURL
+2025-07-09 17:27:52,450 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Linz Health Care
+2025-07-09 17:27:52,451 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\health-care\DirectURL_Linz_health-care_Health_Care_Indices.csv
+2025-07-09 17:27:52,453 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\health-care\DirectURL_Linz_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 17:27:52,453 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Linz.
+2025-07-09 17:27:52,454 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Linz
+2025-07-09 17:27:52,454 - src.scrapers.climate_scraper - INFO - Scraping Climate for Linz, DirectURL
+2025-07-09 17:27:52,949 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\climate\DirectURL_Linz_climate_Climate_By_Month_in_Linz.csv
+2025-07-09 17:27:52,951 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\climate\DirectURL_Linz_climate_Best_Months_To_Visit_Linz.csv
+2025-07-09 17:27:52,953 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\climate\DirectURL_Linz_climate_Temperatures_(table).csv
+2025-07-09 17:27:52,953 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Linz.
+2025-07-09 17:27:52,953 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Linz
+2025-07-09 17:27:52,954 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Linz, DirectURL
+2025-07-09 17:27:53,449 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\property-investment\DirectURL_Linz_property-investment_Property_Investment_Indices.csv
+2025-07-09 17:27:53,451 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\property-investment\DirectURL_Linz_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 17:27:53,451 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Linz.
+2025-07-09 17:27:53,452 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Linz
+2025-07-09 17:27:53,452 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Linz, DirectURL
+2025-07-09 17:27:53,970 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Linz Traffic
+2025-07-09 17:27:53,975 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\traffic\DirectURL_Linz_traffic_Traffic_Indices.csv
+2025-07-09 17:27:53,977 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\traffic\DirectURL_Linz_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 17:27:53,979 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\traffic\DirectURL_Linz_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 17:27:53,981 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\traffic\DirectURL_Linz_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 17:27:53,982 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\traffic\DirectURL_Linz_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 17:27:53,983 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\traffic\DirectURL_Linz_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 17:27:53,986 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\traffic\DirectURL_Linz_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 17:27:53,987 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\traffic\DirectURL_Linz_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 17:27:53,988 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Linz.
+2025-07-09 17:27:53,988 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Linz
+2025-07-09 17:27:53,988 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Linz, DirectURL
+2025-07-09 17:27:54,474 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Linz Pollution
+2025-07-09 17:27:54,476 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\pollution\DirectURL_Linz_pollution_Pollution_Indices.csv
+2025-07-09 17:27:54,478 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\pollution\DirectURL_Linz_pollution_Pollution_Details_Table_1.csv
+2025-07-09 17:27:54,480 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Linz-DirectURL-20250709_172750\pollution\DirectURL_Linz_pollution_Pollution_Details_Table_2.csv
+2025-07-09 17:27:54,480 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Linz.
+2025-07-09 17:27:54,481 - main - INFO - === Fin scraping du slug : Linz (succès) ===
+2025-07-09 17:27:54,482 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Vienna (category: None)
+2025-07-09 17:27:54,483 - main - INFO - === Début scraping du slug : Vienna (country: DirectURL, region: ) ===
+2025-07-09 17:27:54,484 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Vienna
+2025-07-09 17:27:54,485 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Vienna, DirectURL
+2025-07-09 17:27:55,135 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Vienna Quality of Life
+2025-07-09 17:27:55,137 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\quality-of-life\DirectURL_Vienna_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 17:27:55,138 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Vienna.
+2025-07-09 17:27:55,138 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Vienna
+2025-07-09 17:27:55,139 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Vienna, DirectURL
+2025-07-09 17:27:55,862 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 17:27:55,864 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 17:27:55,865 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 17:27:55,866 - src.scrapers.crime_scraper - INFO - Found 3 tables for Vienna Safety/Crime
+2025-07-09 17:27:55,867 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\crime\DirectURL_Vienna_crime_Crime_Indices.csv
+2025-07-09 17:27:55,870 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\crime\DirectURL_Vienna_crime_Crime_Details_Table_1.csv
+2025-07-09 17:27:55,872 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\crime\DirectURL_Vienna_crime_Crime_Details_Table_2.csv
+2025-07-09 17:27:55,872 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Vienna.
+2025-07-09 17:27:55,873 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Vienna
+2025-07-09 17:27:55,873 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Vienna, DirectURL
+2025-07-09 17:27:56,725 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Vienna Cost of Living
+2025-07-09 17:27:56,731 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\cost-of-living\DirectURL_Vienna_cost-of-living_Table1.csv
+2025-07-09 17:27:56,734 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Vienna.
+2025-07-09 17:27:56,735 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Vienna
+2025-07-09 17:27:56,740 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Vienna, DirectURL
+2025-07-09 17:27:57,209 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Vienna Health Care
+2025-07-09 17:27:57,210 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\health-care\DirectURL_Vienna_health-care_Health_Care_Indices.csv
+2025-07-09 17:27:57,212 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\health-care\DirectURL_Vienna_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 17:27:57,212 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Vienna.
+2025-07-09 17:27:57,212 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Vienna
+2025-07-09 17:27:57,213 - src.scrapers.climate_scraper - INFO - Scraping Climate for Vienna, DirectURL
+2025-07-09 17:27:57,686 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\climate\DirectURL_Vienna_climate_Climate_By_Month_in_Vienna.csv
+2025-07-09 17:27:57,689 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\climate\DirectURL_Vienna_climate_Best_Months_To_Visit_Vienna.csv
+2025-07-09 17:27:57,691 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\climate\DirectURL_Vienna_climate_Temperatures_(table).csv
+2025-07-09 17:27:57,691 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Vienna.
+2025-07-09 17:27:57,691 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Vienna
+2025-07-09 17:27:57,692 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Vienna, DirectURL
+2025-07-09 17:27:58,170 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\property-investment\DirectURL_Vienna_property-investment_Property_Investment_Indices.csv
+2025-07-09 17:27:58,172 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\property-investment\DirectURL_Vienna_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 17:27:58,173 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Vienna.
+2025-07-09 17:27:58,173 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Vienna
+2025-07-09 17:27:58,173 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Vienna, DirectURL
+2025-07-09 17:27:58,699 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Vienna Traffic
+2025-07-09 17:27:58,701 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\traffic\DirectURL_Vienna_traffic_Traffic_Indices.csv
+2025-07-09 17:27:58,703 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\traffic\DirectURL_Vienna_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 17:27:58,704 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\traffic\DirectURL_Vienna_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 17:27:58,707 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\traffic\DirectURL_Vienna_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 17:27:58,713 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\traffic\DirectURL_Vienna_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 17:27:58,715 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\traffic\DirectURL_Vienna_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 17:27:58,716 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\traffic\DirectURL_Vienna_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 17:27:58,718 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\traffic\DirectURL_Vienna_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 17:27:58,718 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Vienna.
+2025-07-09 17:27:58,719 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Vienna
+2025-07-09 17:27:58,719 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Vienna, DirectURL
+2025-07-09 17:27:59,184 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Vienna Pollution
+2025-07-09 17:27:59,186 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\pollution\DirectURL_Vienna_pollution_Pollution_Indices.csv
+2025-07-09 17:27:59,186 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\pollution\DirectURL_Vienna_pollution_Pollution_Details_Table_1.csv
+2025-07-09 17:27:59,188 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Vienna-DirectURL-20250709_172754\pollution\DirectURL_Vienna_pollution_Pollution_Details_Table_2.csv
+2025-07-09 17:27:59,188 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Vienna.
+2025-07-09 17:27:59,188 - main - INFO - === Fin scraping du slug : Vienna (succès) ===
+2025-07-09 17:27:59,190 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:27:59] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 17:27:59,196 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:27:59] "GET / HTTP/1.1" 200 -
+2025-07-09 17:30:57,276 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 17:30:57,276 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 17:30:57,277 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 17:35:43,837 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Buenos-Aires (category: None)
+2025-07-09 17:35:43,838 - main - INFO - === Début scraping du slug : Buenos-Aires (country: DirectURL, region: ) ===
+2025-07-09 17:35:43,843 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Buenos-Aires
+2025-07-09 17:35:43,844 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Buenos-Aires, DirectURL
+2025-07-09 17:35:44,327 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Buenos-Aires Quality of Life
+2025-07-09 17:35:44,331 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\quality-of-life\DirectURL_Buenos-Aires_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 17:35:44,332 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Buenos-Aires.
+2025-07-09 17:35:44,332 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Buenos-Aires
+2025-07-09 17:35:44,332 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Buenos-Aires, DirectURL
+2025-07-09 17:35:44,820 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 17:35:44,822 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 17:35:44,823 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 17:35:44,824 - src.scrapers.crime_scraper - INFO - Found 3 tables for Buenos-Aires Safety/Crime
+2025-07-09 17:35:44,825 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\crime\DirectURL_Buenos-Aires_crime_Crime_Indices.csv
+2025-07-09 17:35:44,826 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\crime\DirectURL_Buenos-Aires_crime_Crime_Details_Table_1.csv
+2025-07-09 17:35:44,828 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\crime\DirectURL_Buenos-Aires_crime_Crime_Details_Table_2.csv
+2025-07-09 17:35:44,829 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Buenos-Aires.
+2025-07-09 17:35:44,829 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Buenos-Aires
+2025-07-09 17:35:44,830 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Buenos-Aires, DirectURL
+2025-07-09 17:35:45,484 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Buenos-Aires Cost of Living
+2025-07-09 17:35:45,486 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\cost-of-living\DirectURL_Buenos-Aires_cost-of-living_Table1.csv
+2025-07-09 17:35:45,486 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Buenos-Aires.
+2025-07-09 17:35:45,486 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Buenos-Aires
+2025-07-09 17:35:45,487 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Buenos-Aires, DirectURL
+2025-07-09 17:35:45,951 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Buenos-Aires Health Care
+2025-07-09 17:35:45,952 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\health-care\DirectURL_Buenos-Aires_health-care_Health_Care_Indices.csv
+2025-07-09 17:35:45,954 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\health-care\DirectURL_Buenos-Aires_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 17:35:45,955 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\health-care\DirectURL_Buenos-Aires_health-care_Health_Care_Details_Table_2.csv
+2025-07-09 17:35:45,957 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\health-care\DirectURL_Buenos-Aires_health-care_Health_Care_Details_Table_3.csv
+2025-07-09 17:35:45,958 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Buenos-Aires.
+2025-07-09 17:35:45,958 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Buenos-Aires
+2025-07-09 17:35:45,958 - src.scrapers.climate_scraper - INFO - Scraping Climate for Buenos-Aires, DirectURL
+2025-07-09 17:35:46,421 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\climate\DirectURL_Buenos-Aires_climate_Climate_By_Month_in_Buenos_Aires.csv
+2025-07-09 17:35:46,423 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\climate\DirectURL_Buenos-Aires_climate_Best_Months_To_Visit_Buenos_Aires.csv
+2025-07-09 17:35:46,424 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\climate\DirectURL_Buenos-Aires_climate_Temperatures_(table).csv
+2025-07-09 17:35:46,425 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Buenos-Aires.
+2025-07-09 17:35:46,425 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Buenos-Aires
+2025-07-09 17:35:46,426 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Buenos-Aires, DirectURL
+2025-07-09 17:35:46,918 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\property-investment\DirectURL_Buenos-Aires_property-investment_Property_Investment_Indices.csv
+2025-07-09 17:35:46,921 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\property-investment\DirectURL_Buenos-Aires_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 17:35:46,921 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Buenos-Aires.
+2025-07-09 17:35:46,921 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Buenos-Aires
+2025-07-09 17:35:46,921 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Buenos-Aires, DirectURL
+2025-07-09 17:35:47,440 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Buenos-Aires Traffic
+2025-07-09 17:35:47,443 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\traffic\DirectURL_Buenos-Aires_traffic_Traffic_Indices.csv
+2025-07-09 17:35:47,445 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\traffic\DirectURL_Buenos-Aires_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 17:35:47,449 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\traffic\DirectURL_Buenos-Aires_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 17:35:47,451 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\traffic\DirectURL_Buenos-Aires_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 17:35:47,453 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\traffic\DirectURL_Buenos-Aires_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 17:35:47,454 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\traffic\DirectURL_Buenos-Aires_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 17:35:47,456 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\traffic\DirectURL_Buenos-Aires_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 17:35:47,456 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Buenos-Aires.
+2025-07-09 17:35:47,456 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Buenos-Aires
+2025-07-09 17:35:47,457 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Buenos-Aires, DirectURL
+2025-07-09 17:35:47,939 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Buenos-Aires Pollution
+2025-07-09 17:35:47,941 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\pollution\DirectURL_Buenos-Aires_pollution_Pollution_Indices.csv
+2025-07-09 17:35:47,943 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\pollution\DirectURL_Buenos-Aires_pollution_Pollution_Details_Table_1.csv
+2025-07-09 17:35:47,945 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Buenos-Aires-DirectURL-20250709_173543\pollution\DirectURL_Buenos-Aires_pollution_Pollution_Details_Table_2.csv
+2025-07-09 17:35:47,945 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Buenos-Aires.
+2025-07-09 17:35:47,946 - main - INFO - === Fin scraping du slug : Buenos-Aires (succès) ===
+2025-07-09 17:35:47,947 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:35:47] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 17:35:47,950 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:35:47] "GET / HTTP/1.1" 200 -
+2025-07-09 17:41:17,423 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Prague (category: None)
+2025-07-09 17:41:17,424 - main - INFO - === Début scraping du slug : Prague (country: DirectURL, region: ) ===
+2025-07-09 17:41:17,426 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Prague
+2025-07-09 17:41:17,426 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Prague, DirectURL
+2025-07-09 17:41:18,013 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Prague Quality of Life
+2025-07-09 17:41:18,015 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\quality-of-life\DirectURL_Prague_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 17:41:18,015 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Prague.
+2025-07-09 17:41:18,016 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Prague
+2025-07-09 17:41:18,016 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Prague, DirectURL
+2025-07-09 17:41:18,487 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 17:41:18,489 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 17:41:18,491 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 17:41:18,491 - src.scrapers.crime_scraper - INFO - Found 3 tables for Prague Safety/Crime
+2025-07-09 17:41:18,492 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\crime\DirectURL_Prague_crime_Crime_Indices.csv
+2025-07-09 17:41:18,494 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\crime\DirectURL_Prague_crime_Crime_Details_Table_1.csv
+2025-07-09 17:41:18,495 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\crime\DirectURL_Prague_crime_Crime_Details_Table_2.csv
+2025-07-09 17:41:18,495 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Prague.
+2025-07-09 17:41:18,496 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Prague
+2025-07-09 17:41:18,496 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Prague, DirectURL
+2025-07-09 17:41:19,188 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Prague Cost of Living
+2025-07-09 17:41:19,192 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\cost-of-living\DirectURL_Prague_cost-of-living_Table1.csv
+2025-07-09 17:41:19,194 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Prague.
+2025-07-09 17:41:19,194 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Prague
+2025-07-09 17:41:19,195 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Prague, DirectURL
+2025-07-09 17:41:19,679 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Prague Health Care
+2025-07-09 17:41:19,681 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\health-care\DirectURL_Prague_health-care_Health_Care_Indices.csv
+2025-07-09 17:41:19,683 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\health-care\DirectURL_Prague_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 17:41:19,683 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Prague.
+2025-07-09 17:41:19,683 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Prague
+2025-07-09 17:41:19,684 - src.scrapers.climate_scraper - INFO - Scraping Climate for Prague, DirectURL
+2025-07-09 17:41:20,149 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\climate\DirectURL_Prague_climate_Climate_By_Month_in_Prague.csv
+2025-07-09 17:41:20,151 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\climate\DirectURL_Prague_climate_Best_Months_To_Visit_Prague.csv
+2025-07-09 17:41:20,152 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\climate\DirectURL_Prague_climate_Temperatures_(table).csv
+2025-07-09 17:41:20,153 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Prague.
+2025-07-09 17:41:20,153 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Prague
+2025-07-09 17:41:20,153 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Prague, DirectURL
+2025-07-09 17:41:20,642 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\property-investment\DirectURL_Prague_property-investment_Property_Investment_Indices.csv
+2025-07-09 17:41:20,643 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\property-investment\DirectURL_Prague_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 17:41:20,644 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Prague.
+2025-07-09 17:41:20,644 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Prague
+2025-07-09 17:41:20,644 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Prague, DirectURL
+2025-07-09 17:41:21,205 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Prague Traffic
+2025-07-09 17:41:21,208 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\traffic\DirectURL_Prague_traffic_Traffic_Indices.csv
+2025-07-09 17:41:21,215 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\traffic\DirectURL_Prague_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 17:41:21,220 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 17:41:21,222 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 17:41:21,224 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 17:41:21,230 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 17:41:21,233 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 17:41:21,235 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 17:41:21,235 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Prague.
+2025-07-09 17:41:21,236 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Prague
+2025-07-09 17:41:21,236 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Prague, DirectURL
+2025-07-09 17:41:21,709 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Prague Pollution
+2025-07-09 17:41:21,712 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\pollution\DirectURL_Prague_pollution_Pollution_Indices.csv
+2025-07-09 17:41:21,713 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\pollution\DirectURL_Prague_pollution_Pollution_Details_Table_1.csv
+2025-07-09 17:41:21,715 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174117\pollution\DirectURL_Prague_pollution_Pollution_Details_Table_2.csv
+2025-07-09 17:41:21,715 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Prague.
+2025-07-09 17:41:21,715 - main - INFO - === Fin scraping du slug : Prague (succès) ===
+2025-07-09 17:41:21,717 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:41:21] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 17:41:21,723 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:41:21] "GET / HTTP/1.1" 200 -
+2025-07-09 17:41:23,898 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:41:23] "GET / HTTP/1.1" 200 -
+2025-07-09 17:41:29,327 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Prague (category: None)
+2025-07-09 17:41:29,328 - main - INFO - === Début scraping du slug : Prague (country: DirectURL, region: ) ===
+2025-07-09 17:41:29,329 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Prague
+2025-07-09 17:41:29,330 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Prague, DirectURL
+2025-07-09 17:41:29,939 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Prague Quality of Life
+2025-07-09 17:41:29,941 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\quality-of-life\DirectURL_Prague_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 17:41:29,942 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Prague.
+2025-07-09 17:41:29,942 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Prague
+2025-07-09 17:41:29,942 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Prague, DirectURL
+2025-07-09 17:41:30,409 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 17:41:30,412 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 17:41:30,413 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 17:41:30,413 - src.scrapers.crime_scraper - INFO - Found 3 tables for Prague Safety/Crime
+2025-07-09 17:41:30,415 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\crime\DirectURL_Prague_crime_Crime_Indices.csv
+2025-07-09 17:41:30,417 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\crime\DirectURL_Prague_crime_Crime_Details_Table_1.csv
+2025-07-09 17:41:30,419 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\crime\DirectURL_Prague_crime_Crime_Details_Table_2.csv
+2025-07-09 17:41:30,421 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Prague.
+2025-07-09 17:41:30,423 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Prague
+2025-07-09 17:41:30,424 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Prague, DirectURL
+2025-07-09 17:41:31,155 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Prague Cost of Living
+2025-07-09 17:41:31,159 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\cost-of-living\DirectURL_Prague_cost-of-living_Table1.csv
+2025-07-09 17:41:31,159 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Prague.
+2025-07-09 17:41:31,160 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Prague
+2025-07-09 17:41:31,160 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Prague, DirectURL
+2025-07-09 17:41:31,628 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Prague Health Care
+2025-07-09 17:41:31,629 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\health-care\DirectURL_Prague_health-care_Health_Care_Indices.csv
+2025-07-09 17:41:31,631 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\health-care\DirectURL_Prague_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 17:41:31,631 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Prague.
+2025-07-09 17:41:31,631 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Prague
+2025-07-09 17:41:31,632 - src.scrapers.climate_scraper - INFO - Scraping Climate for Prague, DirectURL
+2025-07-09 17:41:32,120 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\climate\DirectURL_Prague_climate_Climate_By_Month_in_Prague.csv
+2025-07-09 17:41:32,122 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\climate\DirectURL_Prague_climate_Best_Months_To_Visit_Prague.csv
+2025-07-09 17:41:32,124 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\climate\DirectURL_Prague_climate_Temperatures_(table).csv
+2025-07-09 17:41:32,124 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Prague.
+2025-07-09 17:41:32,124 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Prague
+2025-07-09 17:41:32,125 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Prague, DirectURL
+2025-07-09 17:41:32,616 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\property-investment\DirectURL_Prague_property-investment_Property_Investment_Indices.csv
+2025-07-09 17:41:32,617 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\property-investment\DirectURL_Prague_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 17:41:32,618 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Prague.
+2025-07-09 17:41:32,618 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Prague
+2025-07-09 17:41:32,619 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Prague, DirectURL
+2025-07-09 17:41:33,169 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Prague Traffic
+2025-07-09 17:41:33,175 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\traffic\DirectURL_Prague_traffic_Traffic_Indices.csv
+2025-07-09 17:41:33,177 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\traffic\DirectURL_Prague_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 17:41:33,181 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 17:41:33,183 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 17:41:33,184 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 17:41:33,187 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 17:41:33,191 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 17:41:33,197 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\traffic\DirectURL_Prague_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 17:41:33,197 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Prague.
+2025-07-09 17:41:33,197 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Prague
+2025-07-09 17:41:33,198 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Prague, DirectURL
+2025-07-09 17:41:33,667 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Prague Pollution
+2025-07-09 17:41:33,670 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\pollution\DirectURL_Prague_pollution_Pollution_Indices.csv
+2025-07-09 17:41:33,672 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\pollution\DirectURL_Prague_pollution_Pollution_Details_Table_1.csv
+2025-07-09 17:41:33,673 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Prague-DirectURL-20250709_174129\pollution\DirectURL_Prague_pollution_Pollution_Details_Table_2.csv
+2025-07-09 17:41:33,674 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Prague.
+2025-07-09 17:41:33,674 - main - INFO - === Fin scraping du slug : Prague (succès) ===
+2025-07-09 17:41:33,675 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:41:33] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 17:41:33,678 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:41:33] "GET / HTTP/1.1" 200 -
+2025-07-09 17:46:06,933 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 17:46:06,934 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 17:51:16,784 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Cairo-Egypt (category: None)
+2025-07-09 17:51:16,785 - main - INFO - === Début scraping du slug : Cairo-Egypt (country: DirectURL, region: ) ===
+2025-07-09 17:51:16,792 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Cairo-Egypt
+2025-07-09 17:51:16,792 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Cairo-Egypt, DirectURL
+2025-07-09 17:51:17,290 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Cairo-Egypt Quality of Life
+2025-07-09 17:51:17,294 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\quality-of-life\DirectURL_Cairo-Egypt_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 17:51:17,294 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Cairo-Egypt.
+2025-07-09 17:51:17,295 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Cairo-Egypt
+2025-07-09 17:51:17,295 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Cairo-Egypt, DirectURL
+2025-07-09 17:51:17,774 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 17:51:17,776 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 17:51:17,777 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 17:51:17,777 - src.scrapers.crime_scraper - INFO - Found 3 tables for Cairo-Egypt Safety/Crime
+2025-07-09 17:51:17,779 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\crime\DirectURL_Cairo-Egypt_crime_Crime_Indices.csv
+2025-07-09 17:51:17,780 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\crime\DirectURL_Cairo-Egypt_crime_Crime_Details_Table_1.csv
+2025-07-09 17:51:17,782 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\crime\DirectURL_Cairo-Egypt_crime_Crime_Details_Table_2.csv
+2025-07-09 17:51:17,783 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Cairo-Egypt.
+2025-07-09 17:51:17,783 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Cairo-Egypt
+2025-07-09 17:51:17,784 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Cairo-Egypt, DirectURL
+2025-07-09 17:51:18,454 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Cairo-Egypt Cost of Living
+2025-07-09 17:51:18,456 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\cost-of-living\DirectURL_Cairo-Egypt_cost-of-living_Table1.csv
+2025-07-09 17:51:18,457 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Cairo-Egypt.
+2025-07-09 17:51:18,457 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Cairo-Egypt
+2025-07-09 17:51:18,458 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Cairo-Egypt, DirectURL
+2025-07-09 17:51:18,946 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Cairo-Egypt Health Care
+2025-07-09 17:51:18,948 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\health-care\DirectURL_Cairo-Egypt_health-care_Health_Care_Indices.csv
+2025-07-09 17:51:18,949 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\health-care\DirectURL_Cairo-Egypt_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 17:51:18,950 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\health-care\DirectURL_Cairo-Egypt_health-care_Health_Care_Details_Table_2.csv
+2025-07-09 17:51:18,952 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\health-care\DirectURL_Cairo-Egypt_health-care_Health_Care_Details_Table_3.csv
+2025-07-09 17:51:18,952 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Cairo-Egypt.
+2025-07-09 17:51:18,953 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Cairo-Egypt
+2025-07-09 17:51:18,953 - src.scrapers.climate_scraper - INFO - Scraping Climate for Cairo-Egypt, DirectURL
+2025-07-09 17:51:19,447 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\climate\DirectURL_Cairo-Egypt_climate_Climate_By_Month_in_Cairo.csv
+2025-07-09 17:51:19,448 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\climate\DirectURL_Cairo-Egypt_climate_Best_Months_To_Visit_Cairo.csv
+2025-07-09 17:51:19,450 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\climate\DirectURL_Cairo-Egypt_climate_Temperatures_(table).csv
+2025-07-09 17:51:19,450 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Cairo-Egypt.
+2025-07-09 17:51:19,450 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Cairo-Egypt
+2025-07-09 17:51:19,451 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Cairo-Egypt, DirectURL
+2025-07-09 17:51:19,932 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\property-investment\DirectURL_Cairo-Egypt_property-investment_Property_Investment_Indices.csv
+2025-07-09 17:51:19,933 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\property-investment\DirectURL_Cairo-Egypt_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 17:51:19,934 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Cairo-Egypt.
+2025-07-09 17:51:19,934 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Cairo-Egypt
+2025-07-09 17:51:19,934 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Cairo-Egypt, DirectURL
+2025-07-09 17:51:20,482 - src.scrapers.traffic_scraper - INFO - Found 7 tables for Cairo-Egypt Traffic
+2025-07-09 17:51:20,485 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\traffic\DirectURL_Cairo-Egypt_traffic_Traffic_Indices.csv
+2025-07-09 17:51:20,487 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\traffic\DirectURL_Cairo-Egypt_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 17:51:20,488 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\traffic\DirectURL_Cairo-Egypt_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 17:51:20,491 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\traffic\DirectURL_Cairo-Egypt_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 17:51:20,494 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\traffic\DirectURL_Cairo-Egypt_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 17:51:20,495 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\traffic\DirectURL_Cairo-Egypt_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 17:51:20,497 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\traffic\DirectURL_Cairo-Egypt_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 17:51:20,497 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Cairo-Egypt.
+2025-07-09 17:51:20,498 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Cairo-Egypt
+2025-07-09 17:51:20,498 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Cairo-Egypt, DirectURL
+2025-07-09 17:51:20,976 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Cairo-Egypt Pollution
+2025-07-09 17:51:20,978 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\pollution\DirectURL_Cairo-Egypt_pollution_Pollution_Indices.csv
+2025-07-09 17:51:20,980 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\pollution\DirectURL_Cairo-Egypt_pollution_Pollution_Details_Table_1.csv
+2025-07-09 17:51:20,981 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Cairo-Egypt-DirectURL-20250709_175116\pollution\DirectURL_Cairo-Egypt_pollution_Pollution_Details_Table_2.csv
+2025-07-09 17:51:20,981 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Cairo-Egypt.
+2025-07-09 17:51:20,981 - main - INFO - === Fin scraping du slug : Cairo-Egypt (succès) ===
+2025-07-09 17:51:20,983 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:51:20] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 17:51:20,987 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 17:51:20] "GET / HTTP/1.1" 200 -
+2025-07-09 17:55:44,077 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 17:55:44,078 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 21:44:46,604 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Helsinki (category: None)
+2025-07-09 21:44:46,605 - main - INFO - === Début scraping du slug : Helsinki (country: DirectURL, region: ) ===
+2025-07-09 21:44:46,615 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Helsinki
+2025-07-09 21:44:46,615 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Helsinki, DirectURL
+2025-07-09 21:44:47,277 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Helsinki Quality of Life
+2025-07-09 21:44:47,286 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\quality-of-life\DirectURL_Helsinki_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 21:44:47,286 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Helsinki.
+2025-07-09 21:44:47,287 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Helsinki
+2025-07-09 21:44:47,287 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Helsinki, DirectURL
+2025-07-09 21:44:47,807 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 21:44:47,809 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 21:44:47,811 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 21:44:47,811 - src.scrapers.crime_scraper - INFO - Found 3 tables for Helsinki Safety/Crime
+2025-07-09 21:44:47,812 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\crime\DirectURL_Helsinki_crime_Crime_Indices.csv
+2025-07-09 21:44:47,816 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\crime\DirectURL_Helsinki_crime_Crime_Details_Table_1.csv
+2025-07-09 21:44:47,817 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\crime\DirectURL_Helsinki_crime_Crime_Details_Table_2.csv
+2025-07-09 21:44:47,818 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Helsinki.
+2025-07-09 21:44:47,818 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Helsinki
+2025-07-09 21:44:47,819 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Helsinki, DirectURL
+2025-07-09 21:44:48,357 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Helsinki Cost of Living
+2025-07-09 21:44:48,359 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\cost-of-living\DirectURL_Helsinki_cost-of-living_Table1.csv
+2025-07-09 21:44:48,360 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Helsinki.
+2025-07-09 21:44:48,360 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Helsinki
+2025-07-09 21:44:48,360 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Helsinki, DirectURL
+2025-07-09 21:44:48,834 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Helsinki Health Care
+2025-07-09 21:44:48,836 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\health-care\DirectURL_Helsinki_health-care_Health_Care_Indices.csv
+2025-07-09 21:44:48,838 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\health-care\DirectURL_Helsinki_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 21:44:48,838 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Helsinki.
+2025-07-09 21:44:48,838 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Helsinki
+2025-07-09 21:44:48,839 - src.scrapers.climate_scraper - INFO - Scraping Climate for Helsinki, DirectURL
+2025-07-09 21:44:49,342 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\climate\DirectURL_Helsinki_climate_Climate_By_Month_in_Helsinki.csv
+2025-07-09 21:44:49,343 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\climate\DirectURL_Helsinki_climate_Best_Months_To_Visit_Helsinki.csv
+2025-07-09 21:44:49,344 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\climate\DirectURL_Helsinki_climate_Temperatures_(table).csv
+2025-07-09 21:44:49,345 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Helsinki.
+2025-07-09 21:44:49,345 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Helsinki
+2025-07-09 21:44:49,345 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Helsinki, DirectURL
+2025-07-09 21:44:49,827 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\property-investment\DirectURL_Helsinki_property-investment_Property_Investment_Indices.csv
+2025-07-09 21:44:49,828 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\property-investment\DirectURL_Helsinki_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 21:44:49,829 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Helsinki.
+2025-07-09 21:44:49,829 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Helsinki
+2025-07-09 21:44:49,829 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Helsinki, DirectURL
+2025-07-09 21:44:50,395 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Helsinki Traffic
+2025-07-09 21:44:50,397 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\traffic\DirectURL_Helsinki_traffic_Traffic_Indices.csv
+2025-07-09 21:44:50,398 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\traffic\DirectURL_Helsinki_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 21:44:50,400 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\traffic\DirectURL_Helsinki_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 21:44:50,403 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\traffic\DirectURL_Helsinki_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 21:44:50,405 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\traffic\DirectURL_Helsinki_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 21:44:50,406 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\traffic\DirectURL_Helsinki_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 21:44:50,408 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\traffic\DirectURL_Helsinki_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 21:44:50,414 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\traffic\DirectURL_Helsinki_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 21:44:50,414 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Helsinki.
+2025-07-09 21:44:50,415 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Helsinki
+2025-07-09 21:44:50,415 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Helsinki, DirectURL
+2025-07-09 21:44:50,882 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Helsinki Pollution
+2025-07-09 21:44:50,884 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\pollution\DirectURL_Helsinki_pollution_Pollution_Indices.csv
+2025-07-09 21:44:50,886 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\pollution\DirectURL_Helsinki_pollution_Pollution_Details_Table_1.csv
+2025-07-09 21:44:50,888 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Helsinki-DirectURL-20250709_214446\pollution\DirectURL_Helsinki_pollution_Pollution_Details_Table_2.csv
+2025-07-09 21:44:50,888 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Helsinki.
+2025-07-09 21:44:50,889 - main - INFO - === Fin scraping du slug : Helsinki (succès) ===
+2025-07-09 21:44:50,890 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Athens (category: None)
+2025-07-09 21:44:50,891 - main - INFO - === Début scraping du slug : Athens (country: DirectURL, region: ) ===
+2025-07-09 21:44:50,892 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Athens
+2025-07-09 21:44:50,892 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Athens, DirectURL
+2025-07-09 21:44:51,554 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Athens Quality of Life
+2025-07-09 21:44:51,556 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\quality-of-life\DirectURL_Athens_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 21:44:51,557 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Athens.
+2025-07-09 21:44:51,557 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Athens
+2025-07-09 21:44:51,558 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Athens, DirectURL
+2025-07-09 21:44:52,045 - src.scrapers.base_scraper - WARNING - Page appears to be blocked: https://www.numbeo.com/crime/in/Athens
+2025-07-09 21:44:52,045 - src.scrapers.base_scraper - INFO - Waiting 4s before retry
+2025-07-09 21:44:56,164 - src.scrapers.base_scraper - WARNING - Page appears to be blocked: https://www.numbeo.com/crime/in/Athens
+2025-07-09 21:44:56,164 - src.scrapers.base_scraper - INFO - Waiting 8s before retry
+2025-07-09 21:45:04,285 - src.scrapers.base_scraper - WARNING - Page appears to be blocked: https://www.numbeo.com/crime/in/Athens
+2025-07-09 21:45:04,286 - src.scrapers.crime_scraper - ERROR - Failed to fetch page: https://www.numbeo.com/crime/in/Athens
+2025-07-09 21:45:04,286 - main - WARNING - No tables found at https://www.numbeo.com/crime/in/Athens.
+2025-07-09 21:45:04,287 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Athens
+2025-07-09 21:45:04,287 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Athens, DirectURL
+2025-07-09 21:45:05,022 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Athens Cost of Living
+2025-07-09 21:45:05,024 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\cost-of-living\DirectURL_Athens_cost-of-living_Table1.csv
+2025-07-09 21:45:05,025 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Athens.
+2025-07-09 21:45:05,025 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Athens
+2025-07-09 21:45:05,026 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Athens, DirectURL
+2025-07-09 21:45:05,513 - src.scrapers.health_care_scraper - INFO - Found 4 tables for Athens Health Care
+2025-07-09 21:45:05,515 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\health-care\DirectURL_Athens_health-care_Health_Care_Indices.csv
+2025-07-09 21:45:05,517 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\health-care\DirectURL_Athens_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 21:45:05,518 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\health-care\DirectURL_Athens_health-care_Health_Care_Details_Table_2.csv
+2025-07-09 21:45:05,520 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\health-care\DirectURL_Athens_health-care_Health_Care_Details_Table_3.csv
+2025-07-09 21:45:05,520 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Athens.
+2025-07-09 21:45:05,521 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Athens
+2025-07-09 21:45:05,521 - src.scrapers.climate_scraper - INFO - Scraping Climate for Athens, DirectURL
+2025-07-09 21:45:05,996 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\climate\DirectURL_Athens_climate_Climate_By_Month_in_Athens.csv
+2025-07-09 21:45:05,998 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\climate\DirectURL_Athens_climate_Best_Months_To_Visit_Athens.csv
+2025-07-09 21:45:06,000 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\climate\DirectURL_Athens_climate_Temperatures_(table).csv
+2025-07-09 21:45:06,000 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Athens.
+2025-07-09 21:45:06,001 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Athens
+2025-07-09 21:45:06,001 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Athens, DirectURL
+2025-07-09 21:45:06,474 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\property-investment\DirectURL_Athens_property-investment_Property_Investment_Indices.csv
+2025-07-09 21:45:06,475 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\property-investment\DirectURL_Athens_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 21:45:06,476 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Athens.
+2025-07-09 21:45:06,476 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Athens
+2025-07-09 21:45:06,476 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Athens, DirectURL
+2025-07-09 21:45:06,999 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Athens Traffic
+2025-07-09 21:45:07,003 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\traffic\DirectURL_Athens_traffic_Traffic_Indices.csv
+2025-07-09 21:45:07,007 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\traffic\DirectURL_Athens_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 21:45:07,008 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\traffic\DirectURL_Athens_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 21:45:07,010 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\traffic\DirectURL_Athens_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 21:45:07,011 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\traffic\DirectURL_Athens_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 21:45:07,013 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\traffic\DirectURL_Athens_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 21:45:07,014 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\traffic\DirectURL_Athens_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 21:45:07,015 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\traffic\DirectURL_Athens_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 21:45:07,016 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Athens.
+2025-07-09 21:45:07,017 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Athens
+2025-07-09 21:45:07,017 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Athens, DirectURL
+2025-07-09 21:45:07,512 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Athens Pollution
+2025-07-09 21:45:07,514 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\pollution\DirectURL_Athens_pollution_Pollution_Indices.csv
+2025-07-09 21:45:07,517 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\pollution\DirectURL_Athens_pollution_Pollution_Details_Table_1.csv
+2025-07-09 21:45:07,518 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Athens-DirectURL-20250709_214450\pollution\DirectURL_Athens_pollution_Pollution_Details_Table_2.csv
+2025-07-09 21:45:07,518 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Athens.
+2025-07-09 21:45:07,518 - main - INFO - === Fin scraping du slug : Athens (succès) ===
+2025-07-09 21:45:07,520 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:45:07] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 21:45:07,524 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:45:07] "GET / HTTP/1.1" 200 -
+2025-07-09 21:47:13,682 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 21:47:13,683 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 21:48:35,318 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Tallinn (category: None)
+2025-07-09 21:48:35,320 - main - INFO - === Début scraping du slug : Tallinn (country: DirectURL, region: ) ===
+2025-07-09 21:48:35,327 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Tallinn
+2025-07-09 21:48:35,328 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Tallinn, DirectURL
+2025-07-09 21:48:35,831 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Tallinn Quality of Life
+2025-07-09 21:48:35,835 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\quality-of-life\DirectURL_Tallinn_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 21:48:35,836 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Tallinn.
+2025-07-09 21:48:35,836 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Tallinn
+2025-07-09 21:48:35,836 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Tallinn, DirectURL
+2025-07-09 21:48:36,318 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 21:48:36,320 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 21:48:36,321 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 21:48:36,321 - src.scrapers.crime_scraper - INFO - Found 3 tables for Tallinn Safety/Crime
+2025-07-09 21:48:36,323 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\crime\DirectURL_Tallinn_crime_Crime_Indices.csv
+2025-07-09 21:48:36,326 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\crime\DirectURL_Tallinn_crime_Crime_Details_Table_1.csv
+2025-07-09 21:48:36,328 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\crime\DirectURL_Tallinn_crime_Crime_Details_Table_2.csv
+2025-07-09 21:48:36,328 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Tallinn.
+2025-07-09 21:48:36,329 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Tallinn
+2025-07-09 21:48:36,329 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Tallinn, DirectURL
+2025-07-09 21:48:36,890 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Tallinn Cost of Living
+2025-07-09 21:48:36,893 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\cost-of-living\DirectURL_Tallinn_cost-of-living_Table1.csv
+2025-07-09 21:48:36,894 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Tallinn.
+2025-07-09 21:48:36,894 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Tallinn
+2025-07-09 21:48:36,895 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Tallinn, DirectURL
+2025-07-09 21:48:37,363 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Tallinn Health Care
+2025-07-09 21:48:37,365 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\health-care\DirectURL_Tallinn_health-care_Health_Care_Indices.csv
+2025-07-09 21:48:37,366 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\health-care\DirectURL_Tallinn_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 21:48:37,367 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Tallinn.
+2025-07-09 21:48:37,367 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Tallinn
+2025-07-09 21:48:37,367 - src.scrapers.climate_scraper - INFO - Scraping Climate for Tallinn, DirectURL
+2025-07-09 21:48:37,858 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\climate\DirectURL_Tallinn_climate_Climate_By_Month_in_Tallinn.csv
+2025-07-09 21:48:37,861 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\climate\DirectURL_Tallinn_climate_Best_Months_To_Visit_Tallinn.csv
+2025-07-09 21:48:37,863 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\climate\DirectURL_Tallinn_climate_Temperatures_(table).csv
+2025-07-09 21:48:37,864 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Tallinn.
+2025-07-09 21:48:37,864 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Tallinn
+2025-07-09 21:48:37,865 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Tallinn, DirectURL
+2025-07-09 21:48:38,351 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Indices.csv
+2025-07-09 21:48:38,352 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 21:48:38,353 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Tallinn.
+2025-07-09 21:48:38,353 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Tallinn
+2025-07-09 21:48:38,353 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Tallinn, DirectURL
+2025-07-09 21:48:38,889 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Tallinn Traffic
+2025-07-09 21:48:38,891 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\traffic\DirectURL_Tallinn_traffic_Traffic_Indices.csv
+2025-07-09 21:48:38,893 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\traffic\DirectURL_Tallinn_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 21:48:38,895 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 21:48:38,898 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 21:48:38,902 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 21:48:38,904 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 21:48:38,906 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 21:48:38,907 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 21:48:38,907 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Tallinn.
+2025-07-09 21:48:38,907 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Tallinn
+2025-07-09 21:48:38,908 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Tallinn, DirectURL
+2025-07-09 21:48:39,390 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Tallinn Pollution
+2025-07-09 21:48:39,393 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\pollution\DirectURL_Tallinn_pollution_Pollution_Indices.csv
+2025-07-09 21:48:39,394 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_1.csv
+2025-07-09 21:48:39,396 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_214835\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_2.csv
+2025-07-09 21:48:39,397 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Tallinn.
+2025-07-09 21:48:39,397 - main - INFO - === Fin scraping du slug : Tallinn (succès) ===
+2025-07-09 21:48:39,398 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:39] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 21:48:39,402 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:39] "GET / HTTP/1.1" 200 -
+2025-07-09 21:52:54,953 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\upload_to_supabase.py', reloading
+2025-07-09 21:52:54,953 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\upload_to_gdrive.py', reloading
+2025-07-09 21:52:54,954 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\upload_cities_app.py', reloading
+2025-07-09 21:52:54,954 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\test_single_url.py', reloading
+2025-07-09 21:52:54,955 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\test_numbeo.py', reloading
+2025-07-09 21:52:54,955 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\test_html.py', reloading
+2025-07-09 21:52:54,956 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\debug_urls.py', reloading
+2025-07-09 21:52:54,956 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\__init__.py', reloading
+2025-07-09 21:52:54,957 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\utils\\__init__.py', reloading
+2025-07-09 21:52:54,957 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\utils\\url_builder.py', reloading
+2025-07-09 21:52:54,957 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\utils\\file_saver.py', reloading
+2025-07-09 21:52:54,958 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\__init__.py', reloading
+2025-07-09 21:52:54,958 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\traffic_scraper.py', reloading
+2025-07-09 21:52:54,959 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\scraper_factory.py', reloading
+2025-07-09 21:52:54,959 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\quality_of_life_scraper.py', reloading
+2025-07-09 21:52:54,960 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\property_investment_scraper.py', reloading
+2025-07-09 21:52:54,960 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\pollution_scraper.py', reloading
+2025-07-09 21:52:54,960 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\health_care_scraper.py', reloading
+2025-07-09 21:52:54,961 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\generic_scraper.py', reloading
+2025-07-09 21:52:54,961 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\crime_scraper.py', reloading
+2025-07-09 21:52:54,961 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\create_supabase_table.py', reloading
+2025-07-09 21:52:54,962 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\cost_of_living_scraper.py', reloading
+2025-07-09 21:52:54,962 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\concatenate_city_csvs.py', reloading
+2025-07-09 21:52:54,963 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\climate_scraper.py', reloading
+2025-07-09 21:52:54,963 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\scrapers\\base_scraper.py', reloading
+2025-07-09 21:52:54,964 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\app.py', reloading
+2025-07-09 21:52:54,967 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\monitoring\\__init__.py', reloading
+2025-07-09 21:52:54,968 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\monitoring\\stats_tracker.py', reloading
+2025-07-09 21:52:54,968 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\data\\__init__.py', reloading
+2025-07-09 21:52:54,969 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\data\\city_loader.py', reloading
+2025-07-09 21:52:54,969 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\config\\__init__.py', reloading
+2025-07-09 21:52:54,970 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\src\\config\\settings.py', reloading
+2025-07-09 21:52:54,970 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\scrape_numbeo.py', reloading
+2025-07-09 21:52:54,971 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\passenger_wsgi.py', reloading
+2025-07-09 21:52:54,971 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\o2switch_config.py', reloading
+2025-07-09 21:52:54,972 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\manage_users.py', reloading
+2025-07-09 21:52:54,972 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\main.py', reloading
+2025-07-09 21:52:54,973 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\import_to_mysql.py', reloading
+2025-07-09 21:55:18,021 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Tallinn (category: None)
+2025-07-09 21:55:18,023 - main - INFO - === Début scraping du slug : Tallinn (country: DirectURL, region: ) ===
+2025-07-09 21:55:18,030 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Tallinn
+2025-07-09 21:55:18,031 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Tallinn, DirectURL
+2025-07-09 21:55:18,612 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Tallinn Quality of Life
+2025-07-09 21:55:18,617 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\quality-of-life\DirectURL_Tallinn_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 21:55:18,617 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Tallinn.
+2025-07-09 21:55:18,618 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Tallinn
+2025-07-09 21:55:18,618 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Tallinn, DirectURL
+2025-07-09 21:55:19,121 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 21:55:19,123 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 21:55:19,124 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 21:55:19,124 - src.scrapers.crime_scraper - INFO - Found 3 tables for Tallinn Safety/Crime
+2025-07-09 21:55:19,126 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\crime\DirectURL_Tallinn_crime_Crime_Indices.csv
+2025-07-09 21:55:19,128 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\crime\DirectURL_Tallinn_crime_Crime_Details_Table_1.csv
+2025-07-09 21:55:19,130 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\crime\DirectURL_Tallinn_crime_Crime_Details_Table_2.csv
+2025-07-09 21:55:19,131 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Tallinn.
+2025-07-09 21:55:19,131 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Tallinn
+2025-07-09 21:55:19,132 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Tallinn, DirectURL
+2025-07-09 21:55:19,726 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Tallinn Cost of Living
+2025-07-09 21:55:19,728 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\cost-of-living\DirectURL_Tallinn_cost-of-living_Table1.csv
+2025-07-09 21:55:19,728 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Tallinn.
+2025-07-09 21:55:19,729 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Tallinn
+2025-07-09 21:55:19,730 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Tallinn, DirectURL
+2025-07-09 21:55:20,213 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Tallinn Health Care
+2025-07-09 21:55:20,215 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\health-care\DirectURL_Tallinn_health-care_Health_Care_Indices.csv
+2025-07-09 21:55:20,216 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\health-care\DirectURL_Tallinn_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 21:55:20,217 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Tallinn.
+2025-07-09 21:55:20,217 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Tallinn
+2025-07-09 21:55:20,217 - src.scrapers.climate_scraper - INFO - Scraping Climate for Tallinn, DirectURL
+2025-07-09 21:55:20,708 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\climate\DirectURL_Tallinn_climate_Climate_By_Month_in_Tallinn.csv
+2025-07-09 21:55:20,709 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\climate\DirectURL_Tallinn_climate_Best_Months_To_Visit_Tallinn.csv
+2025-07-09 21:55:20,711 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\climate\DirectURL_Tallinn_climate_Temperatures_(table).csv
+2025-07-09 21:55:20,711 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Tallinn.
+2025-07-09 21:55:20,711 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Tallinn
+2025-07-09 21:55:20,712 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Tallinn, DirectURL
+2025-07-09 21:55:21,218 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Indices.csv
+2025-07-09 21:55:21,219 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 21:55:21,220 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Tallinn.
+2025-07-09 21:55:21,220 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Tallinn
+2025-07-09 21:55:21,220 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Tallinn, DirectURL
+2025-07-09 21:55:21,767 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Tallinn Traffic
+2025-07-09 21:55:21,773 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\traffic\DirectURL_Tallinn_traffic_Traffic_Indices.csv
+2025-07-09 21:55:21,775 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\traffic\DirectURL_Tallinn_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 21:55:21,776 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 21:55:21,778 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 21:55:21,780 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 21:55:21,783 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 21:55:21,785 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 21:55:21,786 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 21:55:21,787 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Tallinn.
+2025-07-09 21:55:21,787 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Tallinn
+2025-07-09 21:55:21,788 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Tallinn, DirectURL
+2025-07-09 21:55:22,266 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Tallinn Pollution
+2025-07-09 21:55:22,268 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\pollution\DirectURL_Tallinn_pollution_Pollution_Indices.csv
+2025-07-09 21:55:22,270 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_1.csv
+2025-07-09 21:55:22,271 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215518\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_2.csv
+2025-07-09 21:55:22,271 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Tallinn.
+2025-07-09 21:55:22,272 - main - INFO - === Fin scraping du slug : Tallinn (succès) ===
+2025-07-09 21:55:22,274 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:55:22] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 21:55:22,288 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:55:22] "GET / HTTP/1.1" 200 -
+2025-07-09 21:57:08,997 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 21:57:08,998 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 21:57:24,109 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Tallinn (category: None)
+2025-07-09 21:57:24,110 - main - INFO - === Début scraping du slug : Tallinn (country: DirectURL, region: ) ===
+2025-07-09 21:57:24,116 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Tallinn
+2025-07-09 21:57:24,116 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Tallinn, DirectURL
+2025-07-09 21:57:24,705 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Tallinn Quality of Life
+2025-07-09 21:57:24,709 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\quality-of-life\DirectURL_Tallinn_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 21:57:24,709 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Tallinn.
+2025-07-09 21:57:24,710 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Tallinn
+2025-07-09 21:57:24,710 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Tallinn, DirectURL
+2025-07-09 21:57:25,198 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 21:57:25,199 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 21:57:25,201 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 21:57:25,201 - src.scrapers.crime_scraper - INFO - Found 3 tables for Tallinn Safety/Crime
+2025-07-09 21:57:25,203 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\crime\DirectURL_Tallinn_crime_Crime_Indices.csv
+2025-07-09 21:57:25,206 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\crime\DirectURL_Tallinn_crime_Crime_Details_Table_1.csv
+2025-07-09 21:57:25,208 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\crime\DirectURL_Tallinn_crime_Crime_Details_Table_2.csv
+2025-07-09 21:57:25,209 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Tallinn.
+2025-07-09 21:57:25,209 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Tallinn
+2025-07-09 21:57:25,209 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Tallinn, DirectURL
+2025-07-09 21:57:25,766 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Tallinn Cost of Living
+2025-07-09 21:57:25,768 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\cost-of-living\DirectURL_Tallinn_cost-of-living_Table1.csv
+2025-07-09 21:57:25,769 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Tallinn.
+2025-07-09 21:57:25,769 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Tallinn
+2025-07-09 21:57:25,769 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Tallinn, DirectURL
+2025-07-09 21:57:26,287 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Tallinn Health Care
+2025-07-09 21:57:26,290 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\health-care\DirectURL_Tallinn_health-care_Health_Care_Indices.csv
+2025-07-09 21:57:26,292 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\health-care\DirectURL_Tallinn_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 21:57:26,292 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Tallinn.
+2025-07-09 21:57:26,292 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Tallinn
+2025-07-09 21:57:26,293 - src.scrapers.climate_scraper - INFO - Scraping Climate for Tallinn, DirectURL
+2025-07-09 21:57:26,794 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\climate\DirectURL_Tallinn_climate_Climate_By_Month_in_Tallinn.csv
+2025-07-09 21:57:26,796 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\climate\DirectURL_Tallinn_climate_Best_Months_To_Visit_Tallinn.csv
+2025-07-09 21:57:26,797 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\climate\DirectURL_Tallinn_climate_Temperatures_(table).csv
+2025-07-09 21:57:26,797 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Tallinn.
+2025-07-09 21:57:26,798 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Tallinn
+2025-07-09 21:57:26,798 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Tallinn, DirectURL
+2025-07-09 21:57:27,281 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Indices.csv
+2025-07-09 21:57:27,283 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 21:57:27,283 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Tallinn.
+2025-07-09 21:57:27,284 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Tallinn
+2025-07-09 21:57:27,284 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Tallinn, DirectURL
+2025-07-09 21:57:27,818 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Tallinn Traffic
+2025-07-09 21:57:27,820 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\traffic\DirectURL_Tallinn_traffic_Traffic_Indices.csv
+2025-07-09 21:57:27,821 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\traffic\DirectURL_Tallinn_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 21:57:27,824 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 21:57:27,826 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 21:57:27,831 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 21:57:27,833 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 21:57:27,834 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 21:57:27,836 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 21:57:27,836 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Tallinn.
+2025-07-09 21:57:27,836 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Tallinn
+2025-07-09 21:57:27,837 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Tallinn, DirectURL
+2025-07-09 21:57:28,318 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Tallinn Pollution
+2025-07-09 21:57:28,320 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\pollution\DirectURL_Tallinn_pollution_Pollution_Indices.csv
+2025-07-09 21:57:28,322 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_1.csv
+2025-07-09 21:57:28,325 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_215724\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_2.csv
+2025-07-09 21:57:28,325 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Tallinn.
+2025-07-09 21:57:28,325 - main - INFO - === Fin scraping du slug : Tallinn (succès) ===
+2025-07-09 21:57:28,327 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:57:28] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 21:57:28,331 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:57:28] "GET / HTTP/1.1" 200 -
+2025-07-09 22:00:33,332 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 22:00:33,333 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 22:01:09,598 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Tallinn (category: None)
+2025-07-09 22:01:09,599 - main - INFO - === Début scraping du slug : Tallinn (country: DirectURL, region: ) ===
+2025-07-09 22:01:09,605 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Tallinn
+2025-07-09 22:01:09,606 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Tallinn, DirectURL
+2025-07-09 22:01:10,275 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Tallinn Quality of Life
+2025-07-09 22:01:10,280 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\quality-of-life\DirectURL_Tallinn_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 22:01:10,281 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Tallinn.
+2025-07-09 22:01:10,281 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Tallinn
+2025-07-09 22:01:10,281 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Tallinn, DirectURL
+2025-07-09 22:01:10,778 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 22:01:10,780 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 22:01:10,782 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 22:01:10,782 - src.scrapers.crime_scraper - INFO - Found 3 tables for Tallinn Safety/Crime
+2025-07-09 22:01:10,784 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\crime\DirectURL_Tallinn_crime_Crime_Indices.csv
+2025-07-09 22:01:10,786 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\crime\DirectURL_Tallinn_crime_Crime_Details_Table_1.csv
+2025-07-09 22:01:10,792 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\crime\DirectURL_Tallinn_crime_Crime_Details_Table_2.csv
+2025-07-09 22:01:10,792 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Tallinn.
+2025-07-09 22:01:10,793 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Tallinn
+2025-07-09 22:01:10,793 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Tallinn, DirectURL
+2025-07-09 22:01:11,363 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Tallinn Cost of Living
+2025-07-09 22:01:11,365 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\cost-of-living\DirectURL_Tallinn_cost-of-living_Table1.csv
+2025-07-09 22:01:11,365 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Tallinn.
+2025-07-09 22:01:11,366 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Tallinn
+2025-07-09 22:01:11,366 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Tallinn, DirectURL
+2025-07-09 22:01:11,834 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Tallinn Health Care
+2025-07-09 22:01:11,836 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\health-care\DirectURL_Tallinn_health-care_Health_Care_Indices.csv
+2025-07-09 22:01:11,838 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\health-care\DirectURL_Tallinn_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 22:01:11,838 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Tallinn.
+2025-07-09 22:01:11,838 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Tallinn
+2025-07-09 22:01:11,839 - src.scrapers.climate_scraper - INFO - Scraping Climate for Tallinn, DirectURL
+2025-07-09 22:01:12,332 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\climate\DirectURL_Tallinn_climate_Climate_By_Month_in_Tallinn.csv
+2025-07-09 22:01:12,333 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\climate\DirectURL_Tallinn_climate_Best_Months_To_Visit_Tallinn.csv
+2025-07-09 22:01:12,335 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\climate\DirectURL_Tallinn_climate_Temperatures_(table).csv
+2025-07-09 22:01:12,335 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Tallinn.
+2025-07-09 22:01:12,336 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Tallinn
+2025-07-09 22:01:12,336 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Tallinn, DirectURL
+2025-07-09 22:01:12,815 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Indices.csv
+2025-07-09 22:01:12,816 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 22:01:12,817 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Tallinn.
+2025-07-09 22:01:12,817 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Tallinn
+2025-07-09 22:01:12,818 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Tallinn, DirectURL
+2025-07-09 22:01:13,340 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Tallinn Traffic
+2025-07-09 22:01:13,343 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\traffic\DirectURL_Tallinn_traffic_Traffic_Indices.csv
+2025-07-09 22:01:13,344 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\traffic\DirectURL_Tallinn_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 22:01:13,346 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 22:01:13,348 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 22:01:13,350 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 22:01:13,352 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 22:01:13,357 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 22:01:13,358 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 22:01:13,359 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Tallinn.
+2025-07-09 22:01:13,359 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Tallinn
+2025-07-09 22:01:13,360 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Tallinn, DirectURL
+2025-07-09 22:01:13,828 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Tallinn Pollution
+2025-07-09 22:01:13,831 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\pollution\DirectURL_Tallinn_pollution_Pollution_Indices.csv
+2025-07-09 22:01:13,833 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_1.csv
+2025-07-09 22:01:13,835 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220109\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_2.csv
+2025-07-09 22:01:13,835 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Tallinn.
+2025-07-09 22:01:13,835 - main - INFO - === Fin scraping du slug : Tallinn (succès) ===
+2025-07-09 22:01:13,837 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:13] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 22:01:13,841 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:13] "GET / HTTP/1.1" 200 -
+2025-07-09 22:03:03,279 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 22:03:03,280 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 22:03:30,013 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Tallinn (category: None)
+2025-07-09 22:03:30,015 - main - INFO - === Début scraping du slug : Tallinn (country: DirectURL, region: ) ===
+2025-07-09 22:03:30,022 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Tallinn
+2025-07-09 22:03:30,023 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Tallinn, DirectURL
+2025-07-09 22:03:30,513 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Tallinn Quality of Life
+2025-07-09 22:03:30,518 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\quality-of-life\DirectURL_Tallinn_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 22:03:30,518 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Tallinn.
+2025-07-09 22:03:30,518 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Tallinn
+2025-07-09 22:03:30,520 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Tallinn, DirectURL
+2025-07-09 22:03:31,015 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 22:03:31,017 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 22:03:31,019 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 22:03:31,019 - src.scrapers.crime_scraper - INFO - Found 3 tables for Tallinn Safety/Crime
+2025-07-09 22:03:31,021 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\crime\DirectURL_Tallinn_crime_Crime_Indices.csv
+2025-07-09 22:03:31,023 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\crime\DirectURL_Tallinn_crime_Crime_Details_Table_1.csv
+2025-07-09 22:03:31,024 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\crime\DirectURL_Tallinn_crime_Crime_Details_Table_2.csv
+2025-07-09 22:03:31,024 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Tallinn.
+2025-07-09 22:03:31,025 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Tallinn
+2025-07-09 22:03:31,025 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Tallinn, DirectURL
+2025-07-09 22:03:31,576 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Tallinn Cost of Living
+2025-07-09 22:03:31,578 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\cost-of-living\DirectURL_Tallinn_cost-of-living_Table1.csv
+2025-07-09 22:03:31,579 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Tallinn.
+2025-07-09 22:03:31,579 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Tallinn
+2025-07-09 22:03:31,579 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Tallinn, DirectURL
+2025-07-09 22:03:32,051 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Tallinn Health Care
+2025-07-09 22:03:32,054 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\health-care\DirectURL_Tallinn_health-care_Health_Care_Indices.csv
+2025-07-09 22:03:32,056 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\health-care\DirectURL_Tallinn_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 22:03:32,056 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Tallinn.
+2025-07-09 22:03:32,057 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Tallinn
+2025-07-09 22:03:32,057 - src.scrapers.climate_scraper - INFO - Scraping Climate for Tallinn, DirectURL
+2025-07-09 22:03:32,543 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\climate\DirectURL_Tallinn_climate_Climate_By_Month_in_Tallinn.csv
+2025-07-09 22:03:32,544 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\climate\DirectURL_Tallinn_climate_Best_Months_To_Visit_Tallinn.csv
+2025-07-09 22:03:32,545 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\climate\DirectURL_Tallinn_climate_Temperatures_(table).csv
+2025-07-09 22:03:32,546 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Tallinn.
+2025-07-09 22:03:32,546 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Tallinn
+2025-07-09 22:03:32,546 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Tallinn, DirectURL
+2025-07-09 22:03:33,033 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Indices.csv
+2025-07-09 22:03:33,035 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 22:03:33,036 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Tallinn.
+2025-07-09 22:03:33,036 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Tallinn
+2025-07-09 22:03:33,037 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Tallinn, DirectURL
+2025-07-09 22:03:33,587 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Tallinn Traffic
+2025-07-09 22:03:33,590 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\traffic\DirectURL_Tallinn_traffic_Traffic_Indices.csv
+2025-07-09 22:03:33,597 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\traffic\DirectURL_Tallinn_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 22:03:33,599 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 22:03:33,602 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 22:03:33,604 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 22:03:33,609 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 22:03:33,614 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 22:03:33,616 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 22:03:33,617 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Tallinn.
+2025-07-09 22:03:33,617 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Tallinn
+2025-07-09 22:03:33,617 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Tallinn, DirectURL
+2025-07-09 22:03:34,086 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Tallinn Pollution
+2025-07-09 22:03:34,088 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\pollution\DirectURL_Tallinn_pollution_Pollution_Indices.csv
+2025-07-09 22:03:34,091 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_1.csv
+2025-07-09 22:03:34,092 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220330\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_2.csv
+2025-07-09 22:03:34,093 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Tallinn.
+2025-07-09 22:03:34,093 - main - INFO - === Fin scraping du slug : Tallinn (succès) ===
+2025-07-09 22:03:34,097 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:03:34] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 22:03:34,102 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:03:34] "GET / HTTP/1.1" 200 -
+2025-07-09 22:06:51,835 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 22:06:51,836 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 22:07:20,887 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Tallinn (category: None)
+2025-07-09 22:07:20,889 - main - INFO - === Début scraping du slug : Tallinn (country: DirectURL, region: ) ===
+2025-07-09 22:07:20,895 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Tallinn
+2025-07-09 22:07:20,896 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Tallinn, DirectURL
+2025-07-09 22:07:21,384 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Tallinn Quality of Life
+2025-07-09 22:07:21,388 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\quality-of-life\DirectURL_Tallinn_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 22:07:21,388 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Tallinn.
+2025-07-09 22:07:21,389 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Tallinn
+2025-07-09 22:07:21,389 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Tallinn, DirectURL
+2025-07-09 22:07:21,869 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 22:07:21,871 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 22:07:21,873 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 22:07:21,873 - src.scrapers.crime_scraper - INFO - Found 3 tables for Tallinn Safety/Crime
+2025-07-09 22:07:21,874 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\crime\DirectURL_Tallinn_crime_Crime_Indices.csv
+2025-07-09 22:07:21,876 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\crime\DirectURL_Tallinn_crime_Crime_Details_Table_1.csv
+2025-07-09 22:07:21,878 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\crime\DirectURL_Tallinn_crime_Crime_Details_Table_2.csv
+2025-07-09 22:07:21,878 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Tallinn.
+2025-07-09 22:07:21,878 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Tallinn
+2025-07-09 22:07:21,879 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Tallinn, DirectURL
+2025-07-09 22:07:22,455 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Tallinn Cost of Living
+2025-07-09 22:07:22,457 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\cost-of-living\DirectURL_Tallinn_cost-of-living_Table1.csv
+2025-07-09 22:07:22,458 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Tallinn.
+2025-07-09 22:07:22,458 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Tallinn
+2025-07-09 22:07:22,459 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Tallinn, DirectURL
+2025-07-09 22:07:22,949 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Tallinn Health Care
+2025-07-09 22:07:22,952 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\health-care\DirectURL_Tallinn_health-care_Health_Care_Indices.csv
+2025-07-09 22:07:22,954 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\health-care\DirectURL_Tallinn_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 22:07:22,954 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Tallinn.
+2025-07-09 22:07:22,955 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Tallinn
+2025-07-09 22:07:22,955 - src.scrapers.climate_scraper - INFO - Scraping Climate for Tallinn, DirectURL
+2025-07-09 22:07:23,455 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\climate\DirectURL_Tallinn_climate_Climate_By_Month_in_Tallinn.csv
+2025-07-09 22:07:23,456 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\climate\DirectURL_Tallinn_climate_Best_Months_To_Visit_Tallinn.csv
+2025-07-09 22:07:23,458 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\climate\DirectURL_Tallinn_climate_Temperatures_(table).csv
+2025-07-09 22:07:23,458 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Tallinn.
+2025-07-09 22:07:23,458 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Tallinn
+2025-07-09 22:07:23,459 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Tallinn, DirectURL
+2025-07-09 22:07:23,949 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Indices.csv
+2025-07-09 22:07:23,951 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 22:07:23,951 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Tallinn.
+2025-07-09 22:07:23,951 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Tallinn
+2025-07-09 22:07:23,953 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Tallinn, DirectURL
+2025-07-09 22:07:24,492 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Tallinn Traffic
+2025-07-09 22:07:24,494 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\traffic\DirectURL_Tallinn_traffic_Traffic_Indices.csv
+2025-07-09 22:07:24,495 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\traffic\DirectURL_Tallinn_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 22:07:24,497 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 22:07:24,499 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 22:07:24,500 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 22:07:24,504 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 22:07:24,506 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 22:07:24,507 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 22:07:24,508 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Tallinn.
+2025-07-09 22:07:24,508 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Tallinn
+2025-07-09 22:07:24,508 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Tallinn, DirectURL
+2025-07-09 22:07:24,996 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Tallinn Pollution
+2025-07-09 22:07:24,999 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\pollution\DirectURL_Tallinn_pollution_Pollution_Indices.csv
+2025-07-09 22:07:25,000 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_1.csv
+2025-07-09 22:07:25,002 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_220720\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_2.csv
+2025-07-09 22:07:25,002 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Tallinn.
+2025-07-09 22:07:25,002 - main - INFO - === Fin scraping du slug : Tallinn (succès) ===
+2025-07-09 22:07:25,005 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:07:25] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 22:07:25,021 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:07:25] "GET / HTTP/1.1" 200 -
+2025-07-09 22:09:46,951 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 22:09:46,952 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 22:10:20,582 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Tallinn (category: None)
+2025-07-09 22:10:20,583 - main - INFO - === Début scraping du slug : Tallinn (country: DirectURL, region: ) ===
+2025-07-09 22:10:20,589 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Tallinn
+2025-07-09 22:10:20,590 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Tallinn, DirectURL
+2025-07-09 22:10:21,136 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Tallinn Quality of Life
+2025-07-09 22:10:21,140 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\quality-of-life\DirectURL_Tallinn_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 22:10:21,140 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Tallinn.
+2025-07-09 22:10:21,141 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Tallinn
+2025-07-09 22:10:21,141 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Tallinn, DirectURL
+2025-07-09 22:10:21,630 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 22:10:21,632 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 22:10:21,633 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 22:10:21,633 - src.scrapers.crime_scraper - INFO - Found 3 tables for Tallinn Safety/Crime
+2025-07-09 22:10:21,635 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\crime\DirectURL_Tallinn_crime_Crime_Indices.csv
+2025-07-09 22:10:21,636 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\crime\DirectURL_Tallinn_crime_Crime_Details_Table_1.csv
+2025-07-09 22:10:21,638 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\crime\DirectURL_Tallinn_crime_Crime_Details_Table_2.csv
+2025-07-09 22:10:21,638 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Tallinn.
+2025-07-09 22:10:21,639 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Tallinn
+2025-07-09 22:10:21,639 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Tallinn, DirectURL
+2025-07-09 22:10:22,194 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Tallinn Cost of Living
+2025-07-09 22:10:22,198 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\cost-of-living\DirectURL_Tallinn_cost-of-living_Table1.csv
+2025-07-09 22:10:22,199 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Tallinn.
+2025-07-09 22:10:22,199 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Tallinn
+2025-07-09 22:10:22,199 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Tallinn, DirectURL
+2025-07-09 22:10:22,678 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Tallinn Health Care
+2025-07-09 22:10:22,681 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\health-care\DirectURL_Tallinn_health-care_Health_Care_Indices.csv
+2025-07-09 22:10:22,683 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\health-care\DirectURL_Tallinn_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 22:10:22,683 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Tallinn.
+2025-07-09 22:10:22,683 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Tallinn
+2025-07-09 22:10:22,684 - src.scrapers.climate_scraper - INFO - Scraping Climate for Tallinn, DirectURL
+2025-07-09 22:10:23,185 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\climate\DirectURL_Tallinn_climate_Climate_By_Month_in_Tallinn.csv
+2025-07-09 22:10:23,186 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\climate\DirectURL_Tallinn_climate_Best_Months_To_Visit_Tallinn.csv
+2025-07-09 22:10:23,188 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\climate\DirectURL_Tallinn_climate_Temperatures_(table).csv
+2025-07-09 22:10:23,188 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Tallinn.
+2025-07-09 22:10:23,188 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Tallinn
+2025-07-09 22:10:23,189 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Tallinn, DirectURL
+2025-07-09 22:10:23,686 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Indices.csv
+2025-07-09 22:10:23,688 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 22:10:23,688 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Tallinn.
+2025-07-09 22:10:23,689 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Tallinn
+2025-07-09 22:10:23,689 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Tallinn, DirectURL
+2025-07-09 22:10:24,259 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Tallinn Traffic
+2025-07-09 22:10:24,261 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\traffic\DirectURL_Tallinn_traffic_Traffic_Indices.csv
+2025-07-09 22:10:24,263 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\traffic\DirectURL_Tallinn_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 22:10:24,266 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 22:10:24,269 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 22:10:24,270 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 22:10:24,272 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 22:10:24,273 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 22:10:24,275 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 22:10:24,276 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Tallinn.
+2025-07-09 22:10:24,276 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Tallinn
+2025-07-09 22:10:24,276 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Tallinn, DirectURL
+2025-07-09 22:10:24,745 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Tallinn Pollution
+2025-07-09 22:10:24,748 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\pollution\DirectURL_Tallinn_pollution_Pollution_Indices.csv
+2025-07-09 22:10:24,750 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_1.csv
+2025-07-09 22:10:24,751 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221020\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_2.csv
+2025-07-09 22:10:24,752 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Tallinn.
+2025-07-09 22:10:24,752 - main - INFO - === Fin scraping du slug : Tallinn (succès) ===
+2025-07-09 22:10:24,756 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:24] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 22:10:24,759 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:24] "GET / HTTP/1.1" 200 -
+2025-07-09 22:11:22,248 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 22:11:22,249 - werkzeug - INFO -  * Detected change in 'D:\\Numbeo-scraping\\flask_app.py', reloading
+2025-07-09 22:12:00,519 - main - INFO - Scraping direct URL: https://www.numbeo.com/cost-of-living/in/Tallinn (category: None)
+2025-07-09 22:12:00,521 - main - INFO - === Début scraping du slug : Tallinn (country: DirectURL, region: ) ===
+2025-07-09 22:12:00,529 - main - INFO - Scraping category 'quality-of-life' at URL: https://www.numbeo.com/quality-of-life/in/Tallinn
+2025-07-09 22:12:00,531 - src.scrapers.quality_of_life_scraper - INFO - Scraping Quality of Life for Tallinn, DirectURL
+2025-07-09 22:12:01,149 - src.scrapers.quality_of_life_scraper - INFO - Found 1 tables for Tallinn Quality of Life
+2025-07-09 22:12:01,157 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\quality-of-life\DirectURL_Tallinn_quality-of-life_Quality_of_Life_Indices.csv
+2025-07-09 22:12:01,158 - main - INFO - Scraping and saving completed for https://www.numbeo.com/quality-of-life/in/Tallinn.
+2025-07-09 22:12:01,158 - main - INFO - Scraping category 'crime' at URL: https://www.numbeo.com/crime/in/Tallinn
+2025-07-09 22:12:01,159 - src.scrapers.crime_scraper - INFO - Scraping Safety/Crime for Tallinn, DirectURL
+2025-07-09 22:12:01,650 - src.scrapers.crime_scraper - INFO - Found 2 tables with class 'data_wide_table'
+2025-07-09 22:12:01,652 - src.scrapers.crime_scraper - INFO - Table 1 extracted 13 rows
+2025-07-09 22:12:01,653 - src.scrapers.crime_scraper - INFO - Table 2 extracted 2 rows
+2025-07-09 22:12:01,653 - src.scrapers.crime_scraper - INFO - Found 3 tables for Tallinn Safety/Crime
+2025-07-09 22:12:01,655 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\crime\DirectURL_Tallinn_crime_Crime_Indices.csv
+2025-07-09 22:12:01,657 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\crime\DirectURL_Tallinn_crime_Crime_Details_Table_1.csv
+2025-07-09 22:12:01,658 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\crime\DirectURL_Tallinn_crime_Crime_Details_Table_2.csv
+2025-07-09 22:12:01,659 - main - INFO - Scraping and saving completed for https://www.numbeo.com/crime/in/Tallinn.
+2025-07-09 22:12:01,659 - main - INFO - Scraping category 'cost-of-living' at URL: https://www.numbeo.com/cost-of-living/in/Tallinn
+2025-07-09 22:12:01,660 - src.scrapers.cost_of_living_scraper - INFO - Scraping Cost of Living for Tallinn, DirectURL
+2025-07-09 22:12:02,226 - src.scrapers.cost_of_living_scraper - INFO - Found 1 tables for Tallinn Cost of Living
+2025-07-09 22:12:02,229 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\cost-of-living\DirectURL_Tallinn_cost-of-living_Table1.csv
+2025-07-09 22:12:02,229 - main - INFO - Scraping and saving completed for https://www.numbeo.com/cost-of-living/in/Tallinn.
+2025-07-09 22:12:02,230 - main - INFO - Scraping category 'health-care' at URL: https://www.numbeo.com/health-care/in/Tallinn
+2025-07-09 22:12:02,231 - src.scrapers.health_care_scraper - INFO - Scraping Health Care for Tallinn, DirectURL
+2025-07-09 22:12:02,721 - src.scrapers.health_care_scraper - INFO - Found 2 tables for Tallinn Health Care
+2025-07-09 22:12:02,723 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\health-care\DirectURL_Tallinn_health-care_Health_Care_Indices.csv
+2025-07-09 22:12:02,725 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\health-care\DirectURL_Tallinn_health-care_Health_Care_Details_Table_1.csv
+2025-07-09 22:12:02,725 - main - INFO - Scraping and saving completed for https://www.numbeo.com/health-care/in/Tallinn.
+2025-07-09 22:12:02,725 - main - INFO - Scraping category 'climate' at URL: https://www.numbeo.com/climate/in/Tallinn
+2025-07-09 22:12:02,726 - src.scrapers.climate_scraper - INFO - Scraping Climate for Tallinn, DirectURL
+2025-07-09 22:12:03,207 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\climate\DirectURL_Tallinn_climate_Climate_By_Month_in_Tallinn.csv
+2025-07-09 22:12:03,208 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\climate\DirectURL_Tallinn_climate_Best_Months_To_Visit_Tallinn.csv
+2025-07-09 22:12:03,210 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\climate\DirectURL_Tallinn_climate_Temperatures_(table).csv
+2025-07-09 22:12:03,210 - main - INFO - Scraping and saving completed for https://www.numbeo.com/climate/in/Tallinn.
+2025-07-09 22:12:03,210 - main - INFO - Scraping category 'property-investment' at URL: https://www.numbeo.com/property-investment/in/Tallinn
+2025-07-09 22:12:03,211 - src.scrapers.property_investment_scraper - INFO - Scraping Property Investment for Tallinn, DirectURL
+2025-07-09 22:12:03,694 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Indices.csv
+2025-07-09 22:12:03,695 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\property-investment\DirectURL_Tallinn_property-investment_Property_Investment_Details_Table_1.csv
+2025-07-09 22:12:03,696 - main - INFO - Scraping and saving completed for https://www.numbeo.com/property-investment/in/Tallinn.
+2025-07-09 22:12:03,696 - main - INFO - Scraping category 'traffic' at URL: https://www.numbeo.com/traffic/in/Tallinn
+2025-07-09 22:12:03,696 - src.scrapers.traffic_scraper - INFO - Scraping Traffic for Tallinn, DirectURL
+2025-07-09 22:12:04,227 - src.scrapers.traffic_scraper - INFO - Found 8 tables for Tallinn Traffic
+2025-07-09 22:12:04,229 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\traffic\DirectURL_Tallinn_traffic_Traffic_Indices.csv
+2025-07-09 22:12:04,231 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\traffic\DirectURL_Tallinn_traffic_Main_Means_of_Transportation_to_Work_or_School.csv
+2025-07-09 22:12:04,233 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Walking.csv
+2025-07-09 22:12:04,237 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Car.csv
+2025-07-09 22:12:04,240 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bicycle.csv
+2025-07-09 22:12:04,241 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Bus_Trolleybus.csv
+2025-07-09 22:12:04,243 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Tram_Streetcar.csv
+2025-07-09 22:12:04,244 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\traffic\DirectURL_Tallinn_traffic_Average_when_primarily_using_Train_Metro.csv
+2025-07-09 22:12:04,245 - main - INFO - Scraping and saving completed for https://www.numbeo.com/traffic/in/Tallinn.
+2025-07-09 22:12:04,245 - main - INFO - Scraping category 'pollution' at URL: https://www.numbeo.com/pollution/in/Tallinn
+2025-07-09 22:12:04,245 - src.scrapers.pollution_scraper - INFO - Scraping Pollution for Tallinn, DirectURL
+2025-07-09 22:12:04,751 - src.scrapers.pollution_scraper - INFO - Found 3 tables for Tallinn Pollution
+2025-07-09 22:12:04,753 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\pollution\DirectURL_Tallinn_pollution_Pollution_Indices.csv
+2025-07-09 22:12:04,755 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_1.csv
+2025-07-09 22:12:04,756 - src.utils.file_saver - INFO - Saved CSV: D:\Numbeo-scraping\output\Tallinn-DirectURL-20250709_221200\pollution\DirectURL_Tallinn_pollution_Pollution_Details_Table_2.csv
+2025-07-09 22:12:04,756 - main - INFO - Scraping and saving completed for https://www.numbeo.com/pollution/in/Tallinn.
+2025-07-09 22:12:04,756 - main - INFO - === Fin scraping du slug : Tallinn (succès) ===
+2025-07-09 22:12:05,273 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:12:05] "[32mPOST /scrape_urls HTTP/1.1[0m" 302 -
+2025-07-09 22:12:05,277 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:12:05] "GET / HTTP/1.1" 200 -

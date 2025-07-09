@@ -1,0 +1,13 @@
+Month,ClimateScore,Weather Conditions Outline,table_caption,category,data_type
+Jan,4.01,Low avg -7℃Chance of cloudy day 88%Chance of snow day 80%,Climate By Month in Tallinn,climate,table
+Feb,21.75,Low avg -5℃Chance of cloudy day 87%Chance of rainy day 41%Chance of snow day 72%,Climate By Month in Tallinn,climate,table
+Mar,19.08,Low avg -5℃Chance of cloudy day 54%Chance of snow day 48%,Climate By Month in Tallinn,climate,table
+Apr,56.43,Chance of cloudy day 48%Chance of rainy day 54%,Climate By Month in Tallinn,climate,table
+May,84.93,,Climate By Month in Tallinn,climate,table
+Jun,96.67,Chance of rainy day 57%,Climate By Month in Tallinn,climate,table
+Jul,100.00,Chance of rainy day 49%,Climate By Month in Tallinn,climate,table
+Aug,100.00,Chance of fog day 34%Chance of rainy day 60%,Climate By Month in Tallinn,climate,table
+Sep,97.64,Chance of fog day 47%Chance of rainy day 50%,Climate By Month in Tallinn,climate,table
+Oct,77.39,Chance of cloudy day 60%Chance of rainy day 51%,Climate By Month in Tallinn,climate,table
+Nov,60.20,Chance of cloudy day 83%Chance of rainy day 73%Chance of snow day 37%,Climate By Month in Tallinn,climate,table
+Dec,53.24,Low avg -1℃Chance of cloudy day 80%Chance of rainy day 71%Chance of snow day 49%,Climate By Month in Tallinn,climate,table

@@ -1,0 +1,1614 @@
+{
+  "city": "Tallinn",
+  "country": "DirectURL",
+  "datestamp": "20250709_221200",
+  "climate": [
+    {
+      "Best Months": "May",
+      "table_caption": "Best Months To Visit Tallinn",
+      "category": "climate",
+      "data_type": "list",
+      "Month": null,
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": "June",
+      "table_caption": "Best Months To Visit Tallinn",
+      "category": "climate",
+      "data_type": "list",
+      "Month": null,
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": "July",
+      "table_caption": "Best Months To Visit Tallinn",
+      "category": "climate",
+      "data_type": "list",
+      "Month": null,
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": "August",
+      "table_caption": "Best Months To Visit Tallinn",
+      "category": "climate",
+      "data_type": "list",
+      "Month": null,
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": "September",
+      "table_caption": "Best Months To Visit Tallinn",
+      "category": "climate",
+      "data_type": "list",
+      "Month": null,
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": "October",
+      "table_caption": "Best Months To Visit Tallinn",
+      "category": "climate",
+      "data_type": "list",
+      "Month": null,
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": "May",
+      "table_caption": "Best Months To Visit Tallinn",
+      "category": "climate",
+      "data_type": "list",
+      "Month": null,
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Jan",
+      "ClimateScore": 4.01,
+      "Weather Conditions Outline": "Low avg -7℃Chance of cloudy day 88%Chance of snow day 80%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Feb",
+      "ClimateScore": 21.75,
+      "Weather Conditions Outline": "Low avg -5℃Chance of cloudy day 87%Chance of rainy day 41%Chance of snow day 72%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Mar",
+      "ClimateScore": 19.08,
+      "Weather Conditions Outline": "Low avg -5℃Chance of cloudy day 54%Chance of snow day 48%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Apr",
+      "ClimateScore": 56.43,
+      "Weather Conditions Outline": "Chance of cloudy day 48%Chance of rainy day 54%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "May",
+      "ClimateScore": 84.93,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Jun",
+      "ClimateScore": 96.67,
+      "Weather Conditions Outline": "Chance of rainy day 57%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Jul",
+      "ClimateScore": 100.0,
+      "Weather Conditions Outline": "Chance of rainy day 49%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Aug",
+      "ClimateScore": 100.0,
+      "Weather Conditions Outline": "Chance of fog day 34%Chance of rainy day 60%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Sep",
+      "ClimateScore": 97.64,
+      "Weather Conditions Outline": "Chance of fog day 47%Chance of rainy day 50%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Oct",
+      "ClimateScore": 77.39,
+      "Weather Conditions Outline": "Chance of cloudy day 60%Chance of rainy day 51%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Nov",
+      "ClimateScore": 60.2,
+      "Weather Conditions Outline": "Chance of cloudy day 83%Chance of rainy day 73%Chance of snow day 37%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Climate By Month in Tallinn",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Dec",
+      "ClimateScore": 53.24,
+      "Weather Conditions Outline": "Low avg -1℃Chance of cloudy day 80%Chance of rainy day 71%Chance of snow day 49%",
+      "TempLow Avg": null,
+      "TempHigh Avg": null
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Jan",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "-7℃",
+      "TempHigh Avg": "-2℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Feb",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "-5℃",
+      "TempHigh Avg": "0℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Mar",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "-5℃",
+      "TempHigh Avg": "3℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Apr",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "0℃",
+      "TempHigh Avg": "9℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "May",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "5℃",
+      "TempHigh Avg": "16℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Jun",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "10℃",
+      "TempHigh Avg": "19℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Jul",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "13℃",
+      "TempHigh Avg": "22℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Aug",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "12℃",
+      "TempHigh Avg": "21℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Sep",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "8℃",
+      "TempHigh Avg": "16℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Oct",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "3℃",
+      "TempHigh Avg": "9℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Nov",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "0℃",
+      "TempHigh Avg": "4℃"
+    },
+    {
+      "Best Months": null,
+      "table_caption": "Temperatures (table)",
+      "category": "climate",
+      "data_type": "table",
+      "Month": "Dec",
+      "ClimateScore": null,
+      "Weather Conditions Outline": null,
+      "TempLow Avg": "-1℃",
+      "TempHigh Avg": "3℃"
+    }
+  ],
+  "cost-of-living": [
+    {
+      "Restaurants": "Meal, Inexpensive Restaurant",
+      "Edit": "13.00 €",
+      "Range": "8.00-25.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Meal for 2 People, Mid-range Restaurant, Three-course",
+      "Edit": "75.00 €",
+      "Range": "50.00-120.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "McMeal at McDonalds (or Equivalent Combo Meal)",
+      "Edit": "10.00 €",
+      "Range": "9.00-11.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Domestic Beer (0.5 liter draught)",
+      "Edit": "5.50 €",
+      "Range": "3.50-7.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Imported Beer (0.33 liter bottle)",
+      "Edit": "5.50 €",
+      "Range": "4.50-8.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Cappuccino (regular)",
+      "Edit": "3.76 €",
+      "Range": "2.00-5.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Coke/Pepsi (0.33 liter bottle)",
+      "Edit": "2.53 €",
+      "Range": "1.50-4.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Water (0.33 liter bottle)",
+      "Edit": "2.21 €",
+      "Range": "1.50-3.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Markets",
+      "Edit": "Edit",
+      "Range": null,
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Milk (regular), (1 liter)",
+      "Edit": "1.10 €",
+      "Range": "0.59-1.40",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Loaf of Fresh White Bread (500g)",
+      "Edit": "1.24 €",
+      "Range": "0.90-2.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Rice (white), (1kg)",
+      "Edit": "2.54 €",
+      "Range": "1.00-3.24",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Eggs (regular) (12)",
+      "Edit": "2.49 €",
+      "Range": "1.74-3.11",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Local Cheese (1kg)",
+      "Edit": "11.64 €",
+      "Range": "7.00-15.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Chicken Fillets (1kg)",
+      "Edit": "8.24 €",
+      "Range": "5.99-11.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Beef Round (1kg) (or Equivalent Back Leg Red Meat)",
+      "Edit": "20.01 €",
+      "Range": "10.00-32.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Apples (1kg)",
+      "Edit": "1.95 €",
+      "Range": "0.49-3.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Banana (1kg)",
+      "Edit": "1.35 €",
+      "Range": "1.20-2.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Oranges (1kg)",
+      "Edit": "2.35 €",
+      "Range": "1.13-3.50",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Tomato (1kg)",
+      "Edit": "3.19 €",
+      "Range": "1.10-6.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Potato (1kg)",
+      "Edit": "1.19 €",
+      "Range": "0.29-2.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Onion (1kg)",
+      "Edit": "0.82 €",
+      "Range": "0.37-1.30",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Lettuce (1 head)",
+      "Edit": "1.76 €",
+      "Range": "1.00-2.50",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Water (1.5 liter bottle)",
+      "Edit": "0.94 €",
+      "Range": "0.50-1.50",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Bottle of Wine (Mid-Range)",
+      "Edit": "9.00 €",
+      "Range": "7.00-15.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Domestic Beer (0.5 liter bottle)",
+      "Edit": "1.66 €",
+      "Range": "1.20-2.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Imported Beer (0.33 liter bottle)",
+      "Edit": "2.16 €",
+      "Range": "1.55-3.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Cigarettes 20 Pack (Marlboro)",
+      "Edit": "5.80 €",
+      "Range": "5.30-6.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Transportation",
+      "Edit": "Edit",
+      "Range": null,
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "One-way Ticket (Local Transport)",
+      "Edit": "2.00 €",
+      "Range": "1.50-2.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Monthly Pass (Regular Price)",
+      "Edit": "30.00 €",
+      "Range": "25.00-33.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Taxi Start (Normal Tariff)",
+      "Edit": "3.35 €",
+      "Range": "2.50-5.50",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Taxi 1km (Normal Tariff)",
+      "Edit": "0.86 €",
+      "Range": "0.50-1.50",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Taxi 1hour Waiting (Normal Tariff)",
+      "Edit": "15.00 €",
+      "Range": "10.00-23.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Gasoline (1 liter)",
+      "Edit": "1.67 €",
+      "Range": "1.55-1.80",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car)",
+      "Edit": "27,850.00 €",
+      "Range": "26,141.00-31,303.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car)",
+      "Edit": "29,350.00 €",
+      "Range": "28,100.00-30,500.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Utilities (Monthly)",
+      "Edit": "Edit",
+      "Range": null,
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment",
+      "Edit": "289.85 €",
+      "Range": "206.00-392.31",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Mobile Phone Monthly Plan with Calls and 10GB+ Data",
+      "Edit": "16.77 €",
+      "Range": "10.00-32.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",
+      "Edit": "30.48 €",
+      "Range": "25.00-40.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Sports And Leisure",
+      "Edit": "Edit",
+      "Range": null,
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Fitness Club, Monthly Fee for 1 Adult",
+      "Edit": "49.77 €",
+      "Range": "19.00-73.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Tennis Court Rent (1 Hour on Weekend)",
+      "Edit": "34.06 €",
+      "Range": "25.00-50.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Cinema, International Release, 1 Seat",
+      "Edit": "11.50 €",
+      "Range": "9.00-15.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Childcare",
+      "Edit": "Edit",
+      "Range": null,
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child",
+      "Edit": "482.23 €",
+      "Range": "300.00-625.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "International Primary School, Yearly for 1 Child",
+      "Edit": "6,647.11 €",
+      "Range": "4,000.00-10,000.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Clothing And Shoes",
+      "Edit": "Edit",
+      "Range": null,
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "1 Pair of Jeans (Levis 501 Or Similar)",
+      "Edit": "96.90 €",
+      "Range": "60.00-120.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "1 Summer Dress in a Chain Store (Zara, H&M, ...)",
+      "Edit": "41.35 €",
+      "Range": "25.00-60.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "1 Pair of Nike Running Shoes (Mid-Range)",
+      "Edit": "92.08 €",
+      "Range": "65.00-120.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "1 Pair of Men Leather Business Shoes",
+      "Edit": "124.29 €",
+      "Range": "80.00-180.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Rent Per Month",
+      "Edit": "Edit",
+      "Range": null,
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Apartment (1 bedroom) in City Centre",
+      "Edit": "686.92 €",
+      "Range": "600.00-830.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Apartment (1 bedroom) Outside of Centre",
+      "Edit": "510.43 €",
+      "Range": "450.00-650.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Apartment (3 bedrooms) in City Centre",
+      "Edit": "1,268.42 €",
+      "Range": "900.00-1,700.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Apartment (3 bedrooms) Outside of Centre",
+      "Edit": "910.38 €",
+      "Range": "690.00-1,100.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Buy Apartment Price",
+      "Edit": "Edit",
+      "Range": null,
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Price per Square Meter to Buy Apartment in City Centre",
+      "Edit": "4,555.88 €",
+      "Range": "3,500.00-6,000.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Price per Square Meter to Buy Apartment Outside of Centre",
+      "Edit": "3,045.86 €",
+      "Range": "2,500.00-4,100.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Salaries And Financing",
+      "Edit": "Edit",
+      "Range": null,
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Average Monthly Net Salary (After Tax)",
+      "Edit": "1,643.28 €",
+      "Range": null,
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    },
+    {
+      "Restaurants": "Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",
+      "Edit": "5.04",
+      "Range": "3.00-6.00",
+      "table_caption": "Table1",
+      "category": "cost_of_living"
+    }
+  ],
+  "crime": [
+    {
+      "Category": "Level of crime",
+      "Value": "18.96Very Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Crime increasing in the past 5 years",
+      "Value": "36.85Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Worries home broken and things stolen",
+      "Value": "16.95Very Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Worries being mugged or robbed",
+      "Value": "17.11Very Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Worries car stolen",
+      "Value": "14.33Very Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Worries things from car stolen",
+      "Value": "27.48Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Worries attacked",
+      "Value": "21.06Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Worries being insulted",
+      "Value": "20.78Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Worries being subject to a physical attack because of your skin color, ethnic origin, gender or religion",
+      "Value": "19.62Very Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Problem people using or dealing drugs",
+      "Value": "33.21Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Problem property crimes such as vandalism and theft",
+      "Value": "29.16Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Problem violent crimes such as assault and armed robbery",
+      "Value": "13.46Very Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Problem corruption and bribery",
+      "Value": "26.78Low",
+      "table_caption": "Crime Details Table 1",
+      "category": "crime"
+    },
+    {
+      "Category": "Safety walking alone during daylight",
+      "Value": "90.77Very High",
+      "table_caption": "Crime Details Table 2",
+      "category": "crime"
+    },
+    {
+      "Category": "Safety walking alone during night",
+      "Value": "72.11High",
+      "table_caption": "Crime Details Table 2",
+      "category": "crime"
+    },
+    {
+      "Category": "Crime Index:",
+      "Value": 21.81,
+      "table_caption": "Crime Indices",
+      "category": "crime"
+    },
+    {
+      "Category": "Safety Index:",
+      "Value": 78.19,
+      "table_caption": "Crime Indices",
+      "category": "crime"
+    }
+  ],
+  "health-care": [
+    {
+      "Category": "Skill and competency of medical staff",
+      "Value": "73.88High",
+      "table_caption": "Health Care Details Table 1",
+      "category": "health_care"
+    },
+    {
+      "Category": "Speed in completing examinations and reports",
+      "Value": "70.32High",
+      "table_caption": "Health Care Details Table 1",
+      "category": "health_care"
+    },
+    {
+      "Category": "Equipment for modern diagnosis and treatment",
+      "Value": "85.78Very High",
+      "table_caption": "Health Care Details Table 1",
+      "category": "health_care"
+    },
+    {
+      "Category": "Accuracy and completeness in filling out reports",
+      "Value": "76.85High",
+      "table_caption": "Health Care Details Table 1",
+      "category": "health_care"
+    },
+    {
+      "Category": "Friendliness and courtesy of the staff",
+      "Value": "65.81High",
+      "table_caption": "Health Care Details Table 1",
+      "category": "health_care"
+    },
+    {
+      "Category": "Satisfaction with responsiveness (waitings) in medical institutions",
+      "Value": "49.52Moderate",
+      "table_caption": "Health Care Details Table 1",
+      "category": "health_care"
+    },
+    {
+      "Category": "Satisfaction with cost to you",
+      "Value": "79.17High",
+      "table_caption": "Health Care Details Table 1",
+      "category": "health_care"
+    },
+    {
+      "Category": "Convenience of location for you",
+      "Value": "82.31Very High",
+      "table_caption": "Health Care Details Table 1",
+      "category": "health_care"
+    },
+    {
+      "Category": "Health Care System Index:",
+      "Value": 73.64,
+      "table_caption": "Health Care Indices",
+      "category": "health_care"
+    }
+  ],
+  "pollution": [
+    {
+      "Category": "Air Pollution",
+      "Value": "14.70Very Low",
+      "table_caption": "Pollution Details Table 1",
+      "category": "pollution"
+    },
+    {
+      "Category": "Drinking Water Pollution and Inaccessibility",
+      "Value": "11.19Very Low",
+      "table_caption": "Pollution Details Table 1",
+      "category": "pollution"
+    },
+    {
+      "Category": "Dissatisfaction with Garbage Disposal",
+      "Value": "22.14Low",
+      "table_caption": "Pollution Details Table 1",
+      "category": "pollution"
+    },
+    {
+      "Category": "Dirty and Untidy",
+      "Value": "21.35Low",
+      "table_caption": "Pollution Details Table 1",
+      "category": "pollution"
+    },
+    {
+      "Category": "Noise and Light Pollution",
+      "Value": "31.51Low",
+      "table_caption": "Pollution Details Table 1",
+      "category": "pollution"
+    },
+    {
+      "Category": "Water Pollution",
+      "Value": "14.51Very Low",
+      "table_caption": "Pollution Details Table 1",
+      "category": "pollution"
+    },
+    {
+      "Category": "Dissatisfaction with Spending Time in the City",
+      "Value": "9.66Very Low",
+      "table_caption": "Pollution Details Table 1",
+      "category": "pollution"
+    },
+    {
+      "Category": "Dissatisfaction with Green and Parks in the City",
+      "Value": "21.85Low",
+      "table_caption": "Pollution Details Table 1",
+      "category": "pollution"
+    },
+    {
+      "Category": "Air quality",
+      "Value": "85.30Very High",
+      "table_caption": "Pollution Details Table 2",
+      "category": "pollution"
+    },
+    {
+      "Category": "Drinking Water Quality and Accessibility",
+      "Value": "88.81Very High",
+      "table_caption": "Pollution Details Table 2",
+      "category": "pollution"
+    },
+    {
+      "Category": "Garbage Disposal Satisfaction",
+      "Value": "77.86High",
+      "table_caption": "Pollution Details Table 2",
+      "category": "pollution"
+    },
+    {
+      "Category": "Clean and Tidy",
+      "Value": "78.65High",
+      "table_caption": "Pollution Details Table 2",
+      "category": "pollution"
+    },
+    {
+      "Category": "Quiet and No Problem with Night Lights",
+      "Value": "68.49High",
+      "table_caption": "Pollution Details Table 2",
+      "category": "pollution"
+    },
+    {
+      "Category": "Water Quality",
+      "Value": "85.49Very High",
+      "table_caption": "Pollution Details Table 2",
+      "category": "pollution"
+    },
+    {
+      "Category": "Comfortable to Spend Time in the City",
+      "Value": "90.34Very High",
+      "table_caption": "Pollution Details Table 2",
+      "category": "pollution"
+    },
+    {
+      "Category": "Quality of Green and Parks",
+      "Value": "78.15High",
+      "table_caption": "Pollution Details Table 2",
+      "category": "pollution"
+    },
+    {
+      "Category": "Pollution Index:",
+      "Value": 18.65,
+      "table_caption": "Pollution Indices",
+      "category": "pollution"
+    },
+    {
+      "Category": "Pollution Exp Scale:",
+      "Value": 29.86,
+      "table_caption": "Pollution Indices",
+      "category": "pollution"
+    }
+  ],
+  "property-investment": [
+    {
+      "section": "Rent Per Month",
+      "sub_section": "Apartment (1 bedroom) in City Centre",
+      "Value": "686.92 €",
+      "price_min": "600.00",
+      "price_max": "830.00",
+      "table_caption": "Property Investment Details Table 1",
+      "category": "property_investment",
+      "Category": null
+    },
+    {
+      "section": "Rent Per Month",
+      "sub_section": "Apartment (1 bedroom) Outside of Centre",
+      "Value": "510.43 €",
+      "price_min": "450.00",
+      "price_max": "650.00",
+      "table_caption": "Property Investment Details Table 1",
+      "category": "property_investment",
+      "Category": null
+    },
+    {
+      "section": "Rent Per Month",
+      "sub_section": "Apartment (3 bedrooms) in City Centre",
+      "Value": "1,268.42 €",
+      "price_min": "900.00",
+      "price_max": "1,700.00",
+      "table_caption": "Property Investment Details Table 1",
+      "category": "property_investment",
+      "Category": null
+    },
+    {
+      "section": "Rent Per Month",
+      "sub_section": "Apartment (3 bedrooms) Outside of Centre",
+      "Value": "910.38 €",
+      "price_min": "690.00",
+      "price_max": "1,100.00",
+      "table_caption": "Property Investment Details Table 1",
+      "category": "property_investment",
+      "Category": null
+    },
+    {
+      "section": "Buy Apartment Price",
+      "sub_section": "Price per Square Meter to Buy Apartment in City Centre",
+      "Value": "4,555.88 €",
+      "price_min": "3,500.00",
+      "price_max": "6,000.00",
+      "table_caption": "Property Investment Details Table 1",
+      "category": "property_investment",
+      "Category": null
+    },
+    {
+      "section": "Buy Apartment Price",
+      "sub_section": "Price per Square Meter to Buy Apartment Outside of Centre",
+      "Value": "3,045.86 €",
+      "price_min": "2,500.00",
+      "price_max": "4,100.00",
+      "table_caption": "Property Investment Details Table 1",
+      "category": "property_investment",
+      "Category": null
+    },
+    {
+      "section": "Salaries And Financing",
+      "sub_section": "Average Monthly Net Salary (After Tax)",
+      "Value": "1,643.28 €",
+      "price_min": null,
+      "price_max": null,
+      "table_caption": "Property Investment Details Table 1",
+      "category": "property_investment",
+      "Category": null
+    },
+    {
+      "section": "Salaries And Financing",
+      "sub_section": "Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",
+      "Value": "5.04",
+      "price_min": "3.00",
+      "price_max": "6.00",
+      "table_caption": "Property Investment Details Table 1",
+      "category": "property_investment",
+      "Category": null
+    },
+    {
+      "section": null,
+      "sub_section": null,
+      "Value": "11.56",
+      "price_min": null,
+      "price_max": null,
+      "table_caption": "Property Investment Indices",
+      "category": "property_investment",
+      "Category": "Price to Income Ratio:"
+    },
+    {
+      "section": null,
+      "sub_section": null,
+      "Value": "91.86%",
+      "price_min": null,
+      "price_max": null,
+      "table_caption": "Property Investment Indices",
+      "category": "property_investment",
+      "Category": "Mortgage as Percentage of Income:"
+    },
+    {
+      "section": null,
+      "sub_section": null,
+      "Value": "1.09",
+      "price_min": null,
+      "price_max": null,
+      "table_caption": "Property Investment Indices",
+      "category": "property_investment",
+      "Category": "Loan Affordability Index:"
+    },
+    {
+      "section": null,
+      "sub_section": null,
+      "Value": "30.05",
+      "price_min": null,
+      "price_max": null,
+      "table_caption": "Property Investment Indices",
+      "category": "property_investment",
+      "Category": "Price to Rent Ratio - City Centre:"
+    },
+    {
+      "section": null,
+      "sub_section": null,
+      "Value": "27.46",
+      "price_min": null,
+      "price_max": null,
+      "table_caption": "Property Investment Indices",
+      "category": "property_investment",
+      "Category": "Price to Rent Ratio - Outside of Centre:"
+    },
+    {
+      "section": null,
+      "sub_section": null,
+      "Value": "3.33%",
+      "price_min": null,
+      "price_max": null,
+      "table_caption": "Property Investment Indices",
+      "category": "property_investment",
+      "Category": "Gross Rental Yield (City Centre):"
+    },
+    {
+      "section": null,
+      "sub_section": null,
+      "Value": "3.64%",
+      "price_min": null,
+      "price_max": null,
+      "table_caption": "Property Investment Indices",
+      "category": "property_investment",
+      "Category": "Gross Rental Yield (Outside of Centre):"
+    }
+  ],
+  "quality-of-life": [
+    {
+      "Categories": "Purchasing Power Index",
+      "Values": 90.27,
+      "table_caption": "Quality of Life Indices",
+      "category": "quality_of_life"
+    },
+    {
+      "Categories": "Safety Index",
+      "Values": 78.19,
+      "table_caption": "Quality of Life Indices",
+      "category": "quality_of_life"
+    },
+    {
+      "Categories": "Health Care Index",
+      "Values": 73.64,
+      "table_caption": "Quality of Life Indices",
+      "category": "quality_of_life"
+    },
+    {
+      "Categories": "Climate Index",
+      "Values": 64.28,
+      "table_caption": "Quality of Life Indices",
+      "category": "quality_of_life"
+    },
+    {
+      "Categories": "Cost of Living Index",
+      "Values": 62.16,
+      "table_caption": "Quality of Life Indices",
+      "category": "quality_of_life"
+    },
+    {
+      "Categories": "Property Price to Income Ratio",
+      "Values": 11.56,
+      "table_caption": "Quality of Life Indices",
+      "category": "quality_of_life"
+    },
+    {
+      "Categories": "Traffic Commute Time Index",
+      "Values": 24.71,
+      "table_caption": "Quality of Life Indices",
+      "category": "quality_of_life"
+    },
+    {
+      "Categories": "Pollution Index",
+      "Values": 18.65,
+      "table_caption": "Quality of Life Indices",
+      "category": "quality_of_life"
+    },
+    {
+      "Categories": "Quality of Life Index",
+      "Values": 183.52,
+      "table_caption": "Quality of Life Indices",
+      "category": "quality_of_life"
+    }
+  ],
+  "traffic": [
+    {
+      "0": "Distance",
+      "1": "3.37 km",
+      "table_caption": "Average when primarily using Bicycle",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Walking",
+      "1": "0.33 min",
+      "table_caption": "Average when primarily using Bicycle",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Bicycle",
+      "1": "8.22 min",
+      "table_caption": "Average when primarily using Bicycle",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Overall",
+      "1": "8.56 min",
+      "table_caption": "Average when primarily using Bicycle",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Distance",
+      "1": "7.21 km",
+      "table_caption": "Average when primarily using Bus/Trolleybus",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Walking",
+      "1": "5.71 min",
+      "table_caption": "Average when primarily using Bus/Trolleybus",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Waiting",
+      "1": "4.42 min",
+      "table_caption": "Average when primarily using Bus/Trolleybus",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Bus/Trolleybus Ride",
+      "1": "20.98 min",
+      "table_caption": "Average when primarily using Bus/Trolleybus",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Overall",
+      "1": "31.11 min",
+      "table_caption": "Average when primarily using Bus/Trolleybus",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Distance",
+      "1": "11.28 km",
+      "table_caption": "Average when primarily using Car",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Walking",
+      "1": "1.16 min",
+      "table_caption": "Average when primarily using Car",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Driving Car",
+      "1": "21.54 min",
+      "table_caption": "Average when primarily using Car",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Overall",
+      "1": "22.70 min",
+      "table_caption": "Average when primarily using Car",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Distance",
+      "1": "61.00 km",
+      "table_caption": "Average when primarily using Train/Metro",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Walking",
+      "1": "17.50 min",
+      "table_caption": "Average when primarily using Train/Metro",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Waiting",
+      "1": "6.00 min",
+      "table_caption": "Average when primarily using Train/Metro",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Train/Metro Ride",
+      "1": "66.00 min",
+      "table_caption": "Average when primarily using Train/Metro",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Overall",
+      "1": "89.50 min",
+      "table_caption": "Average when primarily using Train/Metro",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Distance",
+      "1": "4.62 km",
+      "table_caption": "Average when primarily using Tram/Streetcar",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Walking",
+      "1": "5.25 min",
+      "table_caption": "Average when primarily using Tram/Streetcar",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Waiting",
+      "1": "6.00 min",
+      "table_caption": "Average when primarily using Tram/Streetcar",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Tram/Streetcat Ride",
+      "1": "17.00 min",
+      "table_caption": "Average when primarily using Tram/Streetcar",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Overall",
+      "1": "28.25 min",
+      "table_caption": "Average when primarily using Tram/Streetcar",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Distance",
+      "1": "1.88 km",
+      "table_caption": "Average when primarily using Walking",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Walking",
+      "1": "14.14 min",
+      "table_caption": "Average when primarily using Walking",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Waiting",
+      "1": "0.52 min",
+      "table_caption": "Average when primarily using Walking",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Driving Car",
+      "1": "1.76 min",
+      "table_caption": "Average when primarily using Walking",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Bus/Trolleybus Ride",
+      "1": "0.79 min",
+      "table_caption": "Average when primarily using Walking",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Overall",
+      "1": "17.38 min",
+      "table_caption": "Average when primarily using Walking",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Working from Home",
+      "1": "5.26%",
+      "table_caption": "Main Means of Transportation to Work or School",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Walking",
+      "1": "21.80%",
+      "table_caption": "Main Means of Transportation to Work or School",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Car",
+      "1": "27.82%",
+      "table_caption": "Main Means of Transportation to Work or School",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Bicycle",
+      "1": "6.77%",
+      "table_caption": "Main Means of Transportation to Work or School",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Motorcycle",
+      "1": "0.00%",
+      "table_caption": "Main Means of Transportation to Work or School",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Bus/Trolleybus",
+      "1": "33.83%",
+      "table_caption": "Main Means of Transportation to Work or School",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Tram/Streetcar",
+      "1": "3.01%",
+      "table_caption": "Main Means of Transportation to Work or School",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": "Train/Metro",
+      "1": "1.50%",
+      "table_caption": "Main Means of Transportation to Work or School",
+      "category": "traffic",
+      "Index": null,
+      "Unnamed: 1": null
+    },
+    {
+      "0": null,
+      "1": null,
+      "table_caption": "Traffic Indices",
+      "category": "traffic",
+      "Index": "Traffic Index:",
+      "Unnamed: 1": 85.7
+    },
+    {
+      "0": null,
+      "1": null,
+      "table_caption": "Traffic Indices",
+      "category": "traffic",
+      "Index": "Time Index (in minutes):",
+      "Unnamed: 1": 24.71
+    },
+    {
+      "0": null,
+      "1": null,
+      "table_caption": "Traffic Indices",
+      "category": "traffic",
+      "Index": "Time Exp. Index:",
+      "Unnamed: 1": 24.71
+    },
+    {
+      "0": null,
+      "1": null,
+      "table_caption": "Traffic Indices",
+      "category": "traffic",
+      "Index": "Inefficiency Index:",
+      "Unnamed: 1": 96.43
+    },
+    {
+      "0": null,
+      "1": null,
+      "table_caption": "Traffic Indices",
+      "category": "traffic",
+      "Index": "CO2 Emission Index:",
+      "Unnamed: 1": 2135.14
+    }
+  ]
+}
