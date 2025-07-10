@@ -12,34 +12,6 @@ from pathlib import Path
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root))
 
-# Configuration pour o2switch
-os.environ['STREAMLIT_SERVER_PORT'] = '8501'
-os.environ['STREAMLIT_SERVER_ADDRESS'] = '127.0.0.1'
-os.environ['STREAMLIT_SERVER_HEADLESS'] = 'true'
-os.environ['STREAMLIT_SERVER_ENABLE_CORS'] = 'false'
-os.environ['STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION'] = 'false'
-
-def start_streamlit():
-    """Démarrer Streamlit en arrière-plan"""
-    try:
-        subprocess.Popen([
-            sys.executable, '-m', 'streamlit', 'run', 
-            'upload_cities_app.py',
-            '--server.port=8501',
-            '--server.address=127.0.0.1',
-            '--server.headless=true'
-        ])
-        print("Streamlit démarré sur le port 8501")
-    except Exception as e:
-        print(f"Erreur démarrage Streamlit: {e}")
-
-# Démarrer Streamlit au chargement du module
-streamlit_thread = threading.Thread(target=start_streamlit, daemon=True)
-streamlit_thread.start()
-
-# Attendre que Streamlit démarre
-time.sleep(3)
-
 # Application WSGI simple qui redirige vers Streamlit
 def application(environ, start_response):
     """Application WSGI qui redirige vers Streamlit"""

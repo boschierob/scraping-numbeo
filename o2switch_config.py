@@ -28,16 +28,6 @@ MYSQL_CONFIG = {
     'charset': 'utf8mb4'
 }
 
-# Configuration Streamlit pour o2switch
-STREAMLIT_CONFIG = {
-    'server.port': 8501,
-    'server.address': '0.0.0.0',
-    'server.headless': True,
-    'server.enableCORS': False,
-    'server.enableXsrfProtection': False,
-    'browser.gatherUsageStats': False
-}
-
 # Configuration des chemins de fichiers
 FILES_CONFIG = {
     'users_file': DATA_DIR / "users.json",

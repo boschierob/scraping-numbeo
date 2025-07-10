@@ -6,6 +6,13 @@ from datetime import datetime
 from dotenv import load_dotenv
 import psycopg2
 import sys
+import socket
+
+# Patch socket.getaddrinfo to prefer IPv4 for psycopg2 connections
+orig_getaddrinfo = socket.getaddrinfo
+def getaddrinfo_ipv4(*args, **kwargs):
+    return [ai for ai in orig_getaddrinfo(*args, **kwargs) if ai[0] == socket.AF_INET]
+socket.getaddrinfo = getaddrinfo_ipv4
 
 # --- CONFIGURATION ---
 TABLE_NAME = "cities_scraped"
@@ -65,7 +72,11 @@ def collect_city_data(city_folder, city, country, datestamp, region=None):
                 print(f"[DEBUG] Erreur lecture {file} : {e}")
         if dfs:
             merged = pd.concat(dfs, ignore_index=True)
-            city_data[category] = json.loads(merged.to_json(orient='records', force_ascii=False))
+            json_str = merged.to_json(orient='records', force_ascii=False)
+            if json_str is not None:
+                city_data[category] = json.loads(json_str)
+            else:
+                city_data[category] = []
         else:
             print(f"[DEBUG] Aucun DataFrame valide pour la catégorie {category}")
     return city_data
